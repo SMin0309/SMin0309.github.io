@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>News | 윤석민</title>
+<meta name="description" content="개발/AI 트렌드 큐레이션 — GeekNews · GitHub Trending · AI Papers" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%239f7aea'/%3E%3Cstop offset='100%25' stop-color='%23d6bcfa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='65' font-family='Arial,sans-serif' font-size='52' font-weight='700' text-anchor='middle' fill='white'%3ESM%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #0d0a1a;
+    --card: #1a1530;
+    --card-hover: #221a3d;
+    --border: #2d2451;
+    --border-glow: #4a3a8a;
+    --text: #f0ebff;
+    --muted: #a89cd1;
+    --accent: #b794f6;
+    --accent2: #d6bcfa;
+    --accent3: #9f7aea;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaff;
+    --card: #ffffff;
+    --card-hover: #faf6ff;
+    --border: #e4d7ff;
+    --border-glow: #a78bfa;
+    --text: #1e1338;
+    --muted: #5b4b7e;
+    --accent: #7c3aed;
+    --accent2: #6d28d9;
+    --accent3: #5b21b6;
+  }
+  :root[data-theme="light"] body {
+    background-image:
+      radial-gradient(ellipse at top left, rgba(124, 58, 237, 0.08), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(167, 139, 250, 0.10), transparent 50%);
+  }
+  :root[data-theme="light"] nav.topnav {
+    background: rgba(251, 250, 255, 0.85);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse at top left, rgba(159, 122, 234, 0.15), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(183, 148, 246, 0.12), transparent 50%);
+    background-attachment: fixed;
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .container { max-width: 800px; margin: 0 auto; padding: 60px 24px; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    gap: 48px;
+  }
+  .archive-side {
+    position: sticky;
+    top: 80px;
+    align-self: start;
+    height: fit-content;
+  }
+  .archive-side h3 {
+    font-size: 0.78rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .archive-side h3::before { content: "// "; color: var(--accent); }
+  .archive-side ul {
+    list-style: none;
+    border-left: 1px solid var(--border);
+  }
+  .archive-side ul li a {
+    display: block;
+    padding: 8px 0 8px 16px;
+    margin-left: -1px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: ui-monospace, monospace;
+    border-left: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  .archive-side ul li a:hover {
+    color: var(--accent2);
+    border-left-color: var(--border-glow);
+  }
+  .archive-side ul li a.current {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 600;
+  }
+  .archive-side .count {
+    color: var(--muted);
+    font-size: 0.7rem;
+    opacity: 0.6;
+    margin-left: 6px;
+  }
+
+  nav.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(13, 10, 26, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  nav.topnav .nav-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav.topnav .logo {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text);
+    text-decoration: none;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  nav.topnav .logo::before { content: "> "; color: var(--accent); }
+  nav.topnav ul { display: flex; gap: 24px; list-style: none; align-items: center; }
+  nav.topnav ul a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  nav.topnav ul a:hover { color: var(--accent2); }
+  nav.topnav ul a.active { color: var(--accent); font-weight: 600; }
+  .theme-btn {
+    background: rgba(183, 148, 246, 0.1);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+  }
+  .theme-btn:hover { background: rgba(183, 148, 246, 0.25); }
+
+  header.page-head {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  header.page-head h1 {
+    font-size: 2rem;
+    color: var(--text);
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  header.page-head h1 .accent { color: var(--accent); }
+  header.page-head .desc {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .brief {
+    margin-bottom: 64px;
+  }
+  .brief-date {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+  .brief-date .date {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--accent);
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .brief-date .label {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .brief-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 14px 0 24px;
+  }
+
+  .source {
+    margin-bottom: 32px;
+  }
+  .source h2 {
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    font-weight: 600;
+  }
+  .source h2::before { content: "// "; color: var(--accent); opacity: 0.7; }
+
+  .item {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 12px;
+  }
+  .item:last-child { border-bottom: none; }
+  .item .num {
+    color: var(--accent);
+    font-family: ui-monospace, monospace;
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding-top: 2px;
+  }
+  .item .body { min-width: 0; }
+  .item .title {
+    color: var(--text);
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .item .title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline;
+  }
+  .item .title a:hover { color: var(--accent2); }
+  .item .title a::after {
+    content: " ↗";
+    font-size: 0.78rem;
+    color: var(--accent);
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-weight: 400;
+  }
+  .item .title a:hover::after { opacity: 1; }
+  .item .star { color: var(--accent2); margin-right: 4px; }
+  .item .summary {
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  .item .lang {
+    display: inline-block;
+    font-size: 0.72rem;
+    color: var(--accent);
+    background: rgba(183, 148, 246, 0.12);
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-right: 6px;
+    font-family: ui-monospace, monospace;
+  }
+  .item .cat {
+    display: inline-block;
+    font-size: 0.66rem;
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border: 1px solid transparent;
+    opacity: 0.85;
+  }
+  .cat-ai       { color: #c4b5fd; background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
+  .cat-backend  { color: #93c5fd; background: rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.3); }
+  .cat-cloud    { color: #67e8f9; background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.3); }
+  .cat-security { color: #fca5a5; background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.3); }
+  .cat-mobile   { color: #86efac; background: rgba(34, 197, 94, 0.15); border-color: rgba(34, 197, 94, 0.3); }
+  .cat-hardware { color: #fdba74; background: rgba(249, 115, 22, 0.15); border-color: rgba(249, 115, 22, 0.3); }
+  .cat-industry { color: #fcd34d; background: rgba(234, 179, 8, 0.15); border-color: rgba(234, 179, 8, 0.3); }
+  .cat-etc      { color: var(--muted); background: rgba(168, 156, 209, 0.1); border-color: var(--border); }
+
+  .cat-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 18px 0 24px;
+    padding: 14px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    align-items: center;
+  }
+  .cat-filter .label {
+    color: var(--muted);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 4px;
+    font-family: ui-monospace, monospace;
+  }
+  .cat-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 4px 12px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .cat-btn:hover { border-color: var(--accent); color: var(--accent2); }
+  .cat-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .item.hidden { display: none; }
+  .source.hidden-empty { display: none; }
+
+  .pick-box {
+    background: var(--card);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-top: 24px;
+  }
+  .pick-box .pick-label {
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .pick-box .pick-text {
+    color: var(--text);
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+  .pick-box strong { color: var(--accent2); }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+    margin-top: 64px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; gap: 24px; padding: 40px 20px; }
+    .archive-side {
+      position: static;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    .archive-side ul {
+      border-left: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .archive-side ul li a {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin-left: 0;
+    }
+    .archive-side ul li a:hover, .archive-side ul li a.current {
+      border-color: var(--accent);
+      border-left-color: var(--accent);
+    }
+  }
+  @media (max-width: 600px) {
+    nav.topnav ul { gap: 14px; }
+    nav.topnav ul a { font-size: 0.82rem; }
+    header.page-head h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">SMin0309</a>
+    <ul>
+      <li><a href="../portfolio/index.html">Portfolio</a></li>
+      <li><a href="index.html" class="active">News</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><button class="theme-btn" onclick="toggleTheme()" id="theme-btn">🌙</button></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="layout">
+
+  <aside class="archive-side">
+    <h3>Archive</h3>
+    <ul>
+      
+      
+      
+      
+      
+      <li><a href="#brief-2026-05-14" class="current">2026.05.14<span class="count">22</span></a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+  <header class="page-head">
+    <h1>Daily Tech Brief<span class="accent">.</span></h1>
+    <div class="desc">매일 가져오는 개발 / AI 트렌드 큐레이션 — GeekNews · GitHub Trending · Hugging Face Papers</div>
+  </header>
+
+
+
+
+
+
+  <article class="brief" id="brief-2026-05-14">
+    <div class="brief-date">
+      <span class="date">2026.05.14</span>
+      <span class="label">오늘의 브리프</span>
+    </div>
+    <div class="brief-divider"></div>
+
+    <div class="cat-filter" data-brief="2026-05-14">
+      <span class="label">// filter</span>
+      <button class="cat-btn active" onclick="filterCat(this,'2026-05-14','all')">All</button>
+      <button class="cat-btn" onclick="filterCat(this,'2026-05-14','AI')">AI</button>
+      <button class="cat-btn" onclick="filterCat(this,'2026-05-14','Backend')">Backend</button>
+      <button class="cat-btn" onclick="filterCat(this,'2026-05-14','Mobile')">Mobile</button>
+      <button class="cat-btn" onclick="filterCat(this,'2026-05-14','Industry')">Industry</button>
+      <button class="cat-btn" onclick="filterCat(this,'2026-05-14','Etc')">Etc</button>
+    </div>
+
+    <div class="source">
+      <h2>GeekNews 인기글</h2>
+      <div class="item" data-cat="AI"><div class="num">01</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29486" target="_blank">AI 분야의 다음 최대 해자는 &quot;조직&quot;이다</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">AI 업계에서 제품, 워크플로, 기술적 우위가 빠르게 수렴하고 복제 가능해지면서, 기업의 조직 구조 자체가 가장 강력한 경쟁 해자로 부상 위대한</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">02</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29493" target="_blank">Code w/ Claude에서 발표한 모든 것들</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">Anthropic의 개발자 컨퍼런스: 온라인과 오프라인으로 진행되며, 오프라인 행사는 샌프란시스코 5/6, 런던 5/19, 도쿄 6/10에 열림. 샌프란 행사에</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">03</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29487" target="_blank">중국 AI 연구소 내부에서 얻은 교훈</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">중국 주요 AI 연구소들을 직접 방문하고 연구자들과 대화한 경험을 바탕으로, 중미 AI 생태계의 문화적 차이와 그것이 모델 개발에 미치는 영향을</div>
+      </div></div>
+      <div class="item" data-cat="Etc"><div class="num">04</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29452" target="_blank">소프트웨어 아키텍처 배우기</a> <span class="cat cat-etc">Etc</span></div>
+        <div class="summary">소프트웨어 설계는 강의보다 실제 프로젝트에서 책임을 맡고 문제가 자기 일이 될 때 더 깊게 배워짐 Conway’s Law는 소프트웨어가 조직의 사회적</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">05</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29494" target="_blank">Claude, 프로그래밍 방식 사용을 &quot;월간 크레딧&quot; 구조로 변경</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">6월 15일부터 Claude 유료 플랜 사용자는 Agent SDK 등 프로그램 방식 사용량에 쓸 월간 전용 크레딧을 청구할 수 있음 대상은 Claude Agent SDK,</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">06</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29459" target="_blank">시니어 개발자가 전문성을 전달하지 못하는 이유</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">시니어 개발자와 비개발자는 AI 에이전트가 개발자를 대체한다는 같은 문장을, 안정성과 시장 학습이라는 서로 다른 기준으로 받아들임 비즈니스</div>
+      </div></div>
+      <div class="item" data-cat="Backend"><div class="num">07</div><div class="body">
+        <div class="title"><a href="https://news.hada.io/topic?id=29433" target="_blank">Rust 백엔드 DB 라이브러리 4종 비교</a> <span class="cat cat-backend">Backend</span></div>
+        <div class="summary">Rust로 백엔드를 제대로 만들어본 사람이라면 한 번쯤 이 벽에 부딪혔을 것이다. 데이터베이스가 필요한 순간, 네 개의 라이브러리가 각자의 철학</div>
+      </div></div>
+    </div>
+
+    <div class="source">
+      <h2>요즘IT</h2>
+      <div class="item" data-cat="AI"><div class="num">01</div><div class="body">
+        <div class="title"><a href="https://yozm.wishket.com/magazine/detail/3754" target="_blank">GEO 성과 측정법: 최종 KPI 말고 &#x27;전조 증상&#x27;을 봐야 하는 이유</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">GEO 시대, AI 가시성 한 줄로 KPI를 잡아도 괜찮을까요? 서치나인 양용준 대표가 7년의 SEO·GEO 컨설팅 경험을 바탕으로, 최종 성과가 아닌 &#x27;전조 증상&#x27;을 읽는 법을 제안합니다. 인용률을 전조 KPI로…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">02</div><div class="body">
+        <div class="title"><a href="https://yozm.wishket.com/magazine/detail/3753" target="_blank">조언은 쉽고 행동은 어려운 이유, AI로 극복하기</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">솔로지옥, 나는 솔로, 하트시그널, 환승연애 등 연애 리얼리티 프로그램을 보며 우리가 가장 많이 하는 말 중 하나는 ‘왜 저러지?’가 아닐까 싶다. 일상생활에서도 우리는 비슷한 상황을 자주 경험한다. 연애 문제로 힘…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">03</div><div class="body">
+        <div class="title"><a href="https://yozm.wishket.com/magazine/detail/3752" target="_blank">에이전틱 엔지니어링 시대에서 살아남기</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">에이전트는 단순한 챗봇이 아니다. 문서를 읽고, 코드를 바꾸고, 툴을 호출하고, 결과를 다시 평가해 다음 행동을 선택하는 실행 주체다. 이 말은 곧, AI를 잘 쓴다는 것이 “질문을 잘하는 사람”에 머무르지 않는다는…</div>
+      </div></div>
+      <div class="item" data-cat="Mobile"><div class="num">04</div><div class="body">
+        <div class="title"><a href="https://yozm.wishket.com/magazine/detail/3751" target="_blank">개발자가 써본 클로드 디자인 실전 후기</a> <span class="cat cat-mobile">Mobile</span></div>
+        <div class="summary">개발자로서 웹이나 앱 서비스를 개발할 때면 항상 디자인을 어떻게 할 것인지 고민이었습니다. 외주를 맡기자니 비용이 부담스러워 직접 화면을 그리거나, 부족한 디자인 감각으로 그럴듯한 템플릿을 어색하게 끼워 맞추는 경우…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">05</div><div class="body">
+        <div class="title"><a href="https://yozm.wishket.com/magazine/detail/3750" target="_blank">AI 오피스: 24시간 깨어 있는 에이전트에게 영혼 불어넣기</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">다들 &#x27;심즈(The Sims)&#x27;를 아시나요? 나를 닮은, 혹은 내가 원하는 페르소나를 가진 캐릭터들이 자율적으로 행동하는 것을 지켜보는 것만으로도 묘한 도파민이 뿜어져 나오는 그 게임 말입니다. 제가 만든 ‘My O…</div>
+      </div></div>
+    </div>
+
+    <div class="source">
+      <h2>AI타임스</h2>
+      <div class="item" data-cat="AI"><div class="num">01</div><div class="body">
+        <div class="title"><a href="https://www.aitimes.com/news/articleView.html?idxno=210515" target="_blank">세명소프트, 국산 NPU 기반 ‘AI 모델 허브 플랫폼’ 구축한다</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">세명소프트(대표 황바울)는 과학기술정보통신부 및 정보통신기획평가원이 추진하는 ‘AI 반도체 특화 클라우드 네이티브 SW 스택 및 모델 허브 기술 개발’ 과제에 선정됐다고 14일 밝혔다.이번 과제는 오케스트로가 주관하…</div>
+      </div></div>
+      <div class="item" data-cat="Mobile"><div class="num">02</div><div class="body">
+        <div class="title"><a href="https://www.aitimes.com/news/articleView.html?idxno=210464" target="_blank">&#x27;시리&#x27;의 대변신... 애플, iOS 27서 &#x27;AI 에이전트&#x27;로 전면 재설계</a> <span class="cat cat-mobile">Mobile</span></div>
+        <div class="summary">애플이 차세대 모바일 운영체제인 iOS 27에서 &#x27;시리&#x27;와 카메라 앱을 중심으로 한 대규모 사용자 인터페이스 개편을 준비 중인 것으로 전해졌다. 이는 최근 안드로이드 기기를 중심으로 AI 기능을 확대하고 있는 구글과…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">03</div><div class="body">
+        <div class="title"><a href="https://www.aitimes.com/news/articleView.html?idxno=210484" target="_blank">&#x27;메타 AI&#x27; 1년 만에 국내 출시...&#x27;뮤즈 스파크&#x27; 기반</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">&#x27;메타 AI(Meta AI)&#x27;가 국내 출시됐다. 21025년 4월 미국에서 출시된 뒤 약 1년여 만이다.메타는 13일부터 국내 이용자들이 메타 AI 앱과 웹사이트에서 메타 AI를 이용할 수 있다고 밝혔다. 앱은 구글…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">04</div><div class="body">
+        <div class="title"><a href="https://www.aitimes.com/news/articleView.html?idxno=210467" target="_blank">앤트로픽, 연봉 4.7억 &#x27;클로드 전도사&#x27; 채용 중...&quot;AI 생태계 장악 나선다&quot;</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">앤트로픽이 ‘클로드(Claude)’ 확산을 위한 이색 직군 채용에 나섰다. 앤트로픽은 12일(현지시간) 단순한 기술 지원을 넘어 스타트업과 개발자 커뮤니티에서 클로드 생태계를 적극 전파할 ‘응용 AI 클로드 전도사(…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">05</div><div class="body">
+        <div class="title"><a href="https://www.aitimes.com/news/articleView.html?idxno=210522" target="_blank">MS, 오픈AI 누적 투자 비용 첫 공개…“인프라 포함 150조 넘어”</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">마이크로소프트(MS)가 오픈AI와의 파트너십에 1000억달러(약 149조3500억원) 이상을 투자했다고 밝혔다. 기존에 알려진 투자금은 130억달러(약 19조4000억원)였지만, 인프라 구축과 컴퓨팅 지원에 추가로…</div>
+      </div></div>
+    </div>
+
+    <div class="source">
+      <h2>ZDNet Korea</h2>
+      <div class="item" data-cat="AI"><div class="num">01</div><div class="body">
+        <div class="title"><a href="https://zdnet.co.kr/view/?no=20260514143900" target="_blank">티맥스티베로-이슬림코리아, 국산 DB 인프라 생태계 활성화 &#x27;맞손&#x27;</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">[지디넷코리아]국내 대표 데이터베이스관리시스템(DBMS) 기업 티맥스티베로와 서버·스토리지 전문기업 이슬림코리아가 손잡고 국산 데이터 인프라 생태계 활성화에 나선다. 인공지능(AI)·클라우드 확산으로 데이터 처리량과…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">02</div><div class="body">
+        <div class="title"><a href="https://zdnet.co.kr/view/?no=20260514132749" target="_blank">[현장] &quot;에이전트 범람, 메가존클라우드가 해결&quot;…&#x27;AI 오케스트레이터&#x27; 출사표</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">[지디넷코리아]메가존클라우드가 인공지능(AI) 시대 기업들의 핵심 과제로 떠오른 &#x27;멀티 에이전트&#x27; 운영 혼란 해결에 나선다. 기존 클라우드 구축·운영 관리를 넘어 기업별 AI 모델과 데이터·보안·거버넌스를 통합 관리…</div>
+      </div></div>
+      <div class="item" data-cat="Industry"><div class="num">03</div><div class="body">
+        <div class="title"><a href="https://zdnet.co.kr/view/?no=20260514144944" target="_blank">&quot;회계 검토도 AI로&quot;…핑거-삼일PwC, ERP 기반 서비스 출시</a> <span class="cat cat-industry">Industry</span></div>
+        <div class="summary">[지디넷코리아]회계 기준 변화 속도가 빨라지고 기업공개(IPO)와 투자 유치 과정에서 회계 검토 중요성이 커지는 가운데, 핑거와 삼일PwC가 기업 회계 실무를 지원하는 인공지능(AI) 서비스를 선보인다.핑거는 삼일P…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">04</div><div class="body">
+        <div class="title"><a href="https://zdnet.co.kr/view/?no=20260514143847" target="_blank">아이즈엔터 &#x27;AI 메신저 플랫폼&#x27; 4분기 국내 출시…남궁훈 대표 &quot;새로운 소셜 경험 도전&quot;</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">[지디넷코리아]남궁훈 아이즈엔터테인먼트 대표가 인간이 아닌 인공지능(AI) 봇과의 연결에 초점을 맞춘 신규 메신저 플랫폼의 개발 현황과 향후 일정을 공개하며 새로운 소셜 경험 창출에 나선다.남궁훈 아이즈엔터테인먼트…</div>
+      </div></div>
+      <div class="item" data-cat="AI"><div class="num">05</div><div class="body">
+        <div class="title"><a href="https://zdnet.co.kr/view/?no=20260514143817" target="_blank">뉴튠, DDEX 가입…AI 음악 데이터 표준 논의 참여</a> <span class="cat cat-ai">AI</span></div>
+        <div class="summary">[지디넷코리아]AI 음악 기술 스타트업 뉴튠이 글로벌 디지털 음악 데이터 표준화 기구 DDEX에 가입했다고 14일 밝혔다. 뉴튠에 따르면 DDEX에 한국 기업 가입은 이번이 처음이다.뉴튠은 AI 생성 음악의 유통과…</div>
+      </div></div>
+    </div>
+
+  </article>
+
+
+
+
+
+
+  <footer>
+    Curated daily · Source: <a href="https://news.hada.io" target="_blank">GeekNews</a> · <a href="https://github.com/trending" target="_blank">GitHub Trending</a> · <a href="https://huggingface.co/papers" target="_blank">HF Papers</a>
+  </footer>
+
+  </main>
+</div>
+
+<script>
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  if (savedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById('theme-btn').textContent = '☀';
+  }
+  function toggleTheme() {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const next = cur === 'light' ? 'dark' : 'light';
+    if (next === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById('theme-btn').textContent = '☀';
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      document.getElementById('theme-btn').textContent = '🌙';
+    }
+    localStorage.setItem('theme', next);
+  }
+
+  // 카테고리 필터
+  function filterCat(btn, briefDate, cat) {
+    const brief = document.getElementById('brief-' + briefDate);
+    if (!brief) return;
+    // 버튼 active 토글
+    brief.previousElementSibling; // not used
+    btn.parentElement.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    // 아이템 표시/숨김
+    brief.querySelectorAll('.item').forEach(it => {
+      const c = it.dataset.cat || '';
+      it.classList.toggle('hidden', cat !== 'all' && c !== cat);
+    });
+    // 비어버린 source 섹션 숨김
+    brief.querySelectorAll('.source').forEach(src => {
+      const visible = src.querySelectorAll('.item:not(.hidden)').length;
+      src.classList.toggle('hidden-empty', visible === 0);
+    });
+  }
+
+  // 스크롤 시 현재 보이는 브리프를 사이드바에서 강조
+  const briefs = document.querySelectorAll('.brief');
+  const navLinks = document.querySelectorAll('.archive-side a');
+  const briefObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navLinks.forEach(a => a.classList.toggle('current', a.getAttribute('href') === '#' + id));
+      }
+    });
+  }, { rootMargin: '-30% 0px -50% 0px' });
+  briefs.forEach(b => briefObserver.observe(b));
+</script>
+</body>
+</html>

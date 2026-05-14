@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>윤석민 | Backend Developer Portfolio</title>
+<meta name="description" content="Java/Spring 백엔드 개발자 윤석민의 포트폴리오. LLM과 Graph DB 기반 GraphRAG 프로젝트, SI 경력 2년+." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="윤석민 | Backend Developer Portfolio" />
+<meta property="og:description" content="Java/Spring · LLM · Graph DB. WelfareGraph(GraphRAG) 프로젝트와 SI 경력을 소개합니다." />
+<meta property="og:image" content="https://smin0309.github.io/welfare-demo-1.png" />
+<meta property="og:url" content="https://smin0309.github.io" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="윤석민 | Backend Developer Portfolio" />
+<meta name="twitter:description" content="Java/Spring · LLM · Graph DB Backend Developer" />
+<meta name="twitter:image" content="https://smin0309.github.io/welfare-demo-1.png" />
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%239f7aea'/%3E%3Cstop offset='100%25' stop-color='%23d6bcfa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='65' font-family='Arial,sans-serif' font-size='52' font-weight='700' text-anchor='middle' fill='white'%3ESM%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #0d0a1a;
+    --bg-2: #14102a;
+    --card: #1a1530;
+    --card-hover: #221a3d;
+    --border: #2d2451;
+    --border-glow: #4a3a8a;
+    --text: #f0ebff;
+    --muted: #a89cd1;
+    --accent: #b794f6;
+    --accent2: #d6bcfa;
+    --accent3: #9f7aea;
+    --tag: #2d2451;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaff;
+    --bg-2: #f5f0ff;
+    --card: #ffffff;
+    --card-hover: #faf6ff;
+    --border: #e4d7ff;
+    --border-glow: #a78bfa;
+    --text: #1e1338;
+    --muted: #5b4b7e;
+    --accent: #7c3aed;
+    --accent2: #6d28d9;
+    --accent3: #5b21b6;
+    --tag: #f0e9ff;
+  }
+  :root[data-theme="light"] body {
+    background-image:
+      radial-gradient(ellipse at top left, rgba(124, 58, 237, 0.08), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(167, 139, 250, 0.10), transparent 50%);
+  }
+  :root[data-theme="light"] nav.topnav {
+    background: rgba(251, 250, 255, 0.85);
+    border-bottom: 1px solid #e4d7ff;
+  }
+  :root[data-theme="light"] .card {
+    box-shadow: 0 1px 3px rgba(124, 58, 237, 0.04), 0 4px 12px rgba(124, 58, 237, 0.04);
+  }
+  :root[data-theme="light"] .card:hover {
+    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+    border-color: var(--accent);
+  }
+  :root[data-theme="light"] .featured {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.06), rgba(167, 139, 250, 0.03));
+    border: 1px solid #c4a8f5;
+    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.08);
+  }
+  :root[data-theme="light"] .stat {
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(124, 58, 237, 0.06);
+  }
+  :root[data-theme="light"] .tech-item {
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(124, 58, 237, 0.04);
+  }
+  :root[data-theme="light"] .tag {
+    background: rgba(124, 58, 237, 0.08);
+    color: var(--accent3);
+    border: 1px solid rgba(124, 58, 237, 0.15);
+  }
+  :root[data-theme="light"] header .profile-img {
+    filter: drop-shadow(0 0 24px rgba(124, 58, 237, 0.3));
+  }
+  :root[data-theme="light"] .stack-grid {
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(124, 58, 237, 0.06);
+  }
+  :root[data-theme="light"] .copy-btn img {
+    filter: invert(28%) sepia(85%) saturate(2200%) hue-rotate(258deg) brightness(95%);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse at top left, rgba(159, 122, 234, 0.15), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(183, 148, 246, 0.12), transparent 50%),
+      radial-gradient(ellipse at center, rgba(45, 36, 81, 0.3), transparent 70%);
+    background-attachment: fixed;
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 60px 24px; }
+
+  .scroll-progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent3), var(--accent), var(--accent2));
+    z-index: 200;
+    transition: width 0.1s ease-out;
+    box-shadow: 0 0 10px rgba(183, 148, 246, 0.6);
+  }
+
+  .fade-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  nav.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(13, 10, 26, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  nav.topnav .nav-inner {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav.topnav .logo {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text);
+    text-decoration: none;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  nav.topnav .logo::before { content: "> "; color: var(--accent); }
+  nav.topnav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+  nav.topnav ul a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    position: relative;
+  }
+  nav.topnav ul a:hover { color: var(--accent2); }
+  nav.topnav ul a::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -4px;
+    width: 0; height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transition: width 0.25s;
+  }
+  nav.topnav ul a:hover::after { width: 100%; }
+  .theme-btn {
+    background: rgba(183, 148, 246, 0.1);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+    line-height: 1;
+  }
+  .theme-btn:hover {
+    background: rgba(183, 148, 246, 0.25);
+    transform: rotate(20deg);
+  }
+  @media (max-width: 600px) {
+    nav.topnav ul { gap: 14px; }
+    nav.topnav ul a { font-size: 0.82rem; }
+    nav.topnav .nav-inner { padding: 12px 18px; }
+  }
+
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tech-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+  .tech-item:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    background: var(--card-hover);
+  }
+  .tech-item img {
+    width: 18px;
+    height: 18px;
+  }
+  .tech-category {
+    margin-bottom: 18px;
+  }
+  .tech-category .cat-label {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 40px;
+    margin-bottom: 56px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+  }
+  header .profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    flex-shrink: 0;
+    filter: drop-shadow(0 0 24px rgba(159, 122, 234, 0.5));
+    transition: transform 0.3s, filter 0.3s;
+  }
+  header .profile-img:hover {
+    transform: scale(1.05) translateY(-2px);
+    filter: drop-shadow(0 0 36px rgba(183, 148, 246, 0.7));
+  }
+  header .info { flex: 1; min-width: 0; }
+  header h1 {
+    font-size: 2.4rem;
+    color: var(--text);
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+  header h1 .accent { color: var(--accent); }
+  header .role {
+    color: var(--muted);
+    font-size: 1rem;
+    margin-bottom: 22px;
+  }
+  header .contact { display: flex; flex-wrap: wrap; gap: 18px; font-size: 0.92rem; color: var(--muted); }
+  header .contact a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+  header .contact a:hover { color: var(--accent2); }
+  .email-wrap { display: inline-flex; align-items: center; gap: 6px; }
+  .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent) !important;
+  }
+  .github-link svg { transition: transform 0.3s; }
+  .github-link:hover svg { transform: rotate(360deg); }
+  .copy-btn {
+    background: rgba(183, 148, 246, 0.1);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  .copy-btn img {
+    width: 14px;
+    height: 14px;
+    filter: invert(78%) sepia(28%) saturate(1500%) hue-rotate(220deg) brightness(95%);
+    display: block;
+  }
+  .copy-btn:hover {
+    background: rgba(183, 148, 246, 0.25);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+
+  section { margin-bottom: 60px; }
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 22px;
+    color: var(--text);
+    letter-spacing: -0.3px;
+    font-weight: 600;
+  }
+  h2::before {
+    content: "# ";
+    color: var(--accent);
+    font-weight: 400;
+  }
+  h3 { font-size: 1.08rem; margin-bottom: 6px; color: var(--text); }
+
+  .about p { color: var(--muted); font-size: 0.96rem; }
+  .about strong { color: var(--accent2); }
+
+  .stack-grid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 14px 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+  }
+  .stack-grid .label { color: var(--accent); font-weight: 600; font-size: 0.92rem; }
+  .stack-grid .value { color: var(--text); font-size: 0.92rem; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .tag {
+    background: rgba(183, 148, 246, 0.12);
+    color: var(--accent2);
+    font-size: 0.78rem;
+    padding: 4px 11px;
+    border-radius: 12px;
+    border: 1px solid rgba(183, 148, 246, 0.2);
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 26px;
+    margin-bottom: 16px;
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 0;
+    background: linear-gradient(180deg, var(--accent), var(--accent3));
+    transition: height 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--border-glow);
+    background: var(--card-hover);
+    box-shadow: 0 8px 32px rgba(159, 122, 234, 0.15);
+  }
+  .card:hover::before { height: 100%; }
+  .card .meta { color: var(--accent2); font-size: 0.85rem; margin-bottom: 14px; opacity: 0.85; }
+  .card ul { list-style: none; padding-left: 0; }
+  .card ul li {
+    color: var(--text);
+    font-size: 0.93rem;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  .card ul li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+
+  .featured {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 28px 30px;
+    margin-bottom: 24px;
+  }
+  .featured h3 {
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+    color: var(--text);
+  }
+  .featured .subtitle {
+    color: var(--accent2);
+    font-size: 0.92rem;
+    margin-bottom: 18px;
+    opacity: 0.9;
+  }
+  .featured .desc {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 18px;
+    line-height: 1.7;
+  }
+  .featured .desc strong { color: var(--accent2); }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat {
+    background: rgba(13, 10, 26, 0.5);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 12px;
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .stat .lbl {
+    color: var(--muted);
+    font-size: 0.75rem;
+    margin-top: 4px;
+  }
+  .screenshots {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 18px 0;
+  }
+  .screenshots img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    transition: transform 0.3s, border-color 0.3s;
+    cursor: pointer;
+  }
+  .screenshots img:hover {
+    transform: scale(1.02);
+    border-color: var(--accent);
+  }
+  .featured ul { list-style: none; padding-left: 0; margin-bottom: 18px; }
+  .featured ul li {
+    color: var(--text);
+    font-size: 0.92rem;
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 6px;
+  }
+  .featured ul li::before {
+    content: "✦";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+  .links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent3), var(--accent));
+    color: #fff;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(159, 122, 234, 0.4); }
+  .btn-secondary {
+    background: transparent;
+    color: var(--accent2);
+    border: 1px solid var(--border-glow);
+  }
+  .btn-secondary:hover { background: rgba(183, 148, 246, 0.1); }
+
+  .sub-project {
+    padding: 14px 0;
+    border-top: 1px dashed var(--border);
+    margin-top: 4px;
+  }
+  .sub-project:first-of-type { margin-top: 14px; }
+  .sub-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .sub-meta {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-bottom: 10px;
+  }
+  .sub-project ul { margin-bottom: 0; }
+  .badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-weight: 500;
+  }
+  .badge-new {
+    color: var(--accent);
+    background: rgba(183, 148, 246, 0.15);
+  }
+  .badge-maint {
+    color: var(--muted);
+    background: rgba(168, 156, 209, 0.12);
+  }
+
+  .career-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.93rem;
+  }
+  .career-row:last-child { border-bottom: none; }
+  .career-row .period { color: var(--muted); font-size: 0.85rem; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 600px) {
+    .two-col { grid-template-columns: 1fr; }
+    .stack-grid { grid-template-columns: 1fr; gap: 4px 0; padding: 18px 20px; }
+    .stack-grid .label { margin-top: 8px; }
+    .tech-item { font-size: 0.82rem; padding: 6px 11px; }
+    header { flex-direction: column; text-align: center; gap: 16px; }
+    header .profile-img { width: 140px; height: 140px; }
+    header h1 { font-size: 1.8rem; }
+    header .contact { justify-content: center; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .screenshots { grid-template-columns: 1fr; }
+    .featured { padding: 22px 20px; }
+    .featured h3 { font-size: 1.2rem; }
+  }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.82rem;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(13, 10, 26, 0.92);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    cursor: zoom-out;
+    animation: fadeIn 0.2s ease;
+  }
+  .lightbox.show { display: flex; }
+  .lightbox img {
+    max-width: 95%;
+    max-height: 95vh;
+    border-radius: 8px;
+    border: 1px solid var(--border-glow);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 24px; right: 32px;
+    color: var(--text);
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  .lightbox-close:hover { opacity: 1; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: linear-gradient(135deg, var(--accent3), var(--accent));
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 8px 32px rgba(159, 122, 234, 0.4);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 10000;
+    pointer-events: none;
+  }
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  footer span {
+    color: var(--accent);
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<div class="scroll-progress" id="scroll-progress"></div>
+
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">SMin0309</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#personal">Project</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="../news/index.html" class="nav-news">News</a></li>
+      <li><a href="../index.html" class="nav-news">Home</a></li>
+      <li><button class="theme-btn" onclick="toggleTheme()" title="테마 전환" id="theme-btn">🌙</button></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" id="top">
+
+  <header>
+    <img src="../profile.png" alt="윤석민" class="profile-img" />
+    <div class="info">
+      <h1>윤석민<span class="accent">.</span></h1>
+      <div class="role">Backend Developer · Java/Spring · LLM & Graph DB Enthusiast</div>
+      <div class="contact">
+        <span class="email-wrap">
+          <a href="mailto:jung401500@gmail.com">jung401500@gmail.com</a>
+          <button class="copy-btn" onclick="copyEmail(event)" title="이메일 복사">
+            <img src="../copy-icon.png" alt="copy" />
+          </button>
+        </span>
+        <a href="https://github.com/SMin0309" target="_blank" class="github-link">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          SMin0309
+        </a>
+        <span>서울 · 경력 2년+</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="fade-section" class="about" id="about">
+    <h2>About</h2>
+    <p>Java/Spring 기반 SI 개발 경력 약 2년을 보유하고 있으며, 국방 인사정보 시스템과 대학교 행정 시스템 고도화 프로젝트를 통해 대규모 Oracle DB 설계, PL/SQL 최적화, REST API 개발 역량을 쌓았습니다. 현재는 <strong>LLM과 Graph DB</strong>를 활용한 지능형 시스템 구축에 깊은 관심을 갖고 있으며, AI 파이프라인과 지식 그래프를 결합한 엔터프라이즈 솔루션 개발에 기여하고자 합니다.</p>
+  </section>
+
+  <section class="fade-section" id="stack">
+    <h2>Tech Stack</h2>
+
+    <div class="tech-category">
+      <div class="cat-label">Language</div>
+      <div class="tech-stack">
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>Java</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>JavaScript</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>Python</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/>TypeScript</span>
+      </div>
+    </div>
+
+    <div class="tech-category">
+      <div class="cat-label">Backend</div>
+      <div class="tech-stack">
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"/>Spring</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"/>Spring Boot</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"/>FastAPI</span>
+        <span class="tech-item">MyBatis</span>
+        <span class="tech-item">REST API</span>
+      </div>
+    </div>
+
+    <div class="tech-category">
+      <div class="cat-label">Frontend</div>
+      <div class="tech-stack">
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/>Next.js</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"/>Vue.js</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>HTML5</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"/>jQuery</span>
+        <span class="tech-item">WebSquare5</span>
+        <span class="tech-item">Nexacro</span>
+      </div>
+    </div>
+
+    <div class="tech-category">
+      <div class="cat-label">Database</div>
+      <div class="tech-stack">
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"/>Oracle</span>
+        <span class="tech-item">PL/SQL</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg"/>Neo4j</span>
+      </div>
+    </div>
+
+    <div class="tech-category">
+      <div class="cat-label">AI / LLM</div>
+      <div class="tech-stack">
+        <span class="tech-item">LLM API</span>
+        <span class="tech-item">GraphRAG</span>
+        <span class="tech-item">Text-to-Cypher</span>
+        <span class="tech-item">Ollama</span>
+      </div>
+    </div>
+
+    <div class="tech-category">
+      <div class="cat-label">Infra / DevOps</div>
+      <div class="tech-stack">
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>Docker</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>Git</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"/>GitLab</span>
+        <span class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"/>Jenkins</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="fade-section" id="personal">
+    <h2>Personal Project</h2>
+
+    <div class="featured">
+      <h3>복지나침반 (WelfareGraph)</h3>
+      <div class="subtitle">복지 공공데이터 기반 GraphRAG Q&A 시스템 · 풀스택 개인 프로젝트</div>
+      <div class="desc">
+        LLM이 자연어 질문을 <strong>Cypher 쿼리</strong>로 변환하고, Neo4j의 복지·지역·법령·의료 통합 지식그래프에서 답을 찾아 자연어로 설명합니다. 일반 RAG가 텍스트 검색에 머무르는 반면, GraphRAG는 정형 관계 탐색과 결합해 <strong>"받고 있는 복지 기준 다음 단계 추천"</strong> 같은 추론까지 가능합니다.
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat"><div class="num">109K+</div><div class="lbl">노드</div></div>
+        <div class="stat"><div class="num">137K+</div><div class="lbl">관계</div></div>
+        <div class="stat"><div class="num">5</div><div class="lbl">공공API 통합</div></div>
+        <div class="stat"><div class="num">4,139</div><div class="lbl">LLM 추론 엣지</div></div>
+      </div>
+
+      <div class="screenshots">
+        <img src="../welfare-demo-2.png" alt="WelfareGraph 데모 화면 1" onclick="openLightbox(this.src)" />
+        <img src="../welfare-demo-1.png" alt="WelfareGraph 데모 화면 2" onclick="openLightbox(this.src)" />
+      </div>
+
+      <ul>
+        <li>자연어 → 의도 분류 + Cypher 자동 생성 (5가지 뷰: 카드/그룹/네트워크/표/텍스트)</li>
+        <li>LLM 기반 서비스 연계 추론 — 자격조건 텍스트 분석으로 LINKED_TO 엣지 자동 생성</li>
+        <li>SSE 스트리밍 응답으로 체감 속도 약 70% 단축</li>
+        <li>지역·법령·의료기관까지 단일 그래프에서 통합 검색</li>
+      </ul>
+
+      <div class="tags" style="margin-bottom: 18px;">
+        <span class="tag">Neo4j 5</span><span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">Next.js 15</span><span class="tag">TypeScript</span><span class="tag">Ollama</span><span class="tag">GraphRAG</span><span class="tag">Text-to-Cypher</span><span class="tag">Docker</span><span class="tag">SSE</span>
+      </div>
+
+      <div class="links">
+        <a href="https://sufficient-conversation-provisions-additionally.trycloudflare.com" target="_blank" class="btn btn-primary">Live Demo →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="fade-section" id="work">
+    <h2>Work Projects</h2>
+
+    <div class="card">
+      <h3>전북과학대학교 시스템 고도화 <span style="font-size:0.75rem;color:var(--accent);background:rgba(183,148,246,0.15);padding:3px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;">신규 구축</span></h3>
+      <div class="meta">2026.03 ~ 진행 중 · 백엔드 단독 담당 · 7인팀 · 네오테크벨류</div>
+      <ul>
+        <li>공통 구매 관리 도메인 신규 설계 — 요청 → 승인 → 처리 전체 흐름 백엔드 풀스택 구현</li>
+        <li>구매-자산 통합 라이프사이클 신규 설계 (등록/취득/변동 처리 로직)</li>
+        <li>다중 테이블 조인 기반 PL/SQL 프로시저 신규 개발 및 데이터 정합성 보장 트랜잭션 설계</li>
+        <li>임상실습 / 국제교육원 행정 기능 신규 개발 (요건 정의 → 설계 → 구현)</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring</span><span class="tag">Nexacro</span><span class="tag">Oracle</span><span class="tag">PL/SQL</span><span class="tag">Jenkins</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>가톨릭대학교 산학협력단 고도화 <span style="font-size:0.75rem;color:var(--accent);background:rgba(183,148,246,0.15);padding:3px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;">신규 구축</span></h3>
+      <div class="meta">2025.05 ~ 2026.02 (10개월) · 백엔드 단독 담당 · 5인팀 · 시우컴퍼니</div>
+      <ul>
+        <li>Zeus 장비 연동 API 신규 설계 및 연동 검증 자동화 로직 구현</li>
+        <li>구매-자산 통합관리 도메인 신규 설계 (라이프사이클 + 정합성 검증)</li>
+        <li>결의서·재무·연구비 행정 백엔드 풀스택 구축 (요청 → 결재 → 정산)</li>
+        <li>다중 테이블 조인·분기 처리 복합 PL/SQL 프로시저 신규 개발</li>
+        <li>Git-flow 브랜치 전략 도입 및 코드 리뷰 문화 정착 기여</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">REST API</span><span class="tag">Oracle</span><span class="tag">PL/SQL</span><span class="tag">WebSquare5</span><span class="tag">Gradle</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>국방인사정보체계 (국방부)</h3>
+      <div class="meta">2024.03 ~ 2025.04 · 백엔드 개발 · 네오위드넷</div>
+
+      <div class="sub-project">
+        <div class="sub-title">성능개선 사업 <span class="badge badge-new">신규 구축</span></div>
+        <div class="sub-meta">2024.04 ~ 2024.11 (7개월) · 3인팀</div>
+        <ul>
+          <li>NCS 기반 직무능력-직책 매핑 도메인 신규 설계 및 구현</li>
+          <li>부대별 직무 정보 검색·조회 기능 신규 개발</li>
+          <li>NCS 인사관리 체계 정착을 위한 데이터 모델 설계 참여</li>
+        </ul>
+      </div>
+
+      <div class="sub-project">
+        <div class="sub-title">유지보수 사업 <span class="badge badge-maint">유지보수</span></div>
+        <div class="sub-meta">2024.03 ~ 2025.04 · 26인팀 · 행정/진급 부서</div>
+        <ul>
+          <li>증명서 발급 / 주거 대출 / NCS 관련 기능 유지보수 및 오류 대응</li>
+          <li>육군 장기복무 / 관용 여권 기능 유지관리</li>
+          <li>대규모 운영 시스템에서 도메인 빠르게 파악하고 대응하는 역량 확보</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring</span><span class="tag">MyBatis</span><span class="tag">Oracle</span><span class="tag">PL/SQL</span><span class="tag">WebSquare5</span><span class="tag">SVN</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 <span>윤석민</span> · Built with HTML & hosted on GitHub Pages
+  </footer>
+</div>
+
+<div class="toast" id="toast">✓ 이메일이 복사되었습니다</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">×</button>
+  <img id="lightbox-img" src="" alt="확대 이미지" />
+</div>
+
+<script>
+  function openLightbox(src) {
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox').classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('show');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // 스크롤 진행 바
+  const progress = document.getElementById('scroll-progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    progress.style.width = pct + '%';
+  });
+
+  // 섹션 페이드인
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.fade-section').forEach(el => observer.observe(el));
+
+  // 다크/라이트 테마 토글
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  if (savedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById('theme-btn').textContent = '☀';
+  }
+  function toggleTheme() {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const next = cur === 'light' ? 'dark' : 'light';
+    if (next === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById('theme-btn').textContent = '☀';
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      document.getElementById('theme-btn').textContent = '🌙';
+    }
+    localStorage.setItem('theme', next);
+  }
+
+  function copyEmail(e) {
+    e.preventDefault();
+    const email = 'jung401500@gmail.com';
+    navigator.clipboard.writeText(email).then(() => {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2000);
+    }).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = email;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2000);
+    });
+  }
+</script>
+</body>
+</html>
