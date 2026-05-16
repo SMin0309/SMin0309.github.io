@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-16",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": [
+        {
+          "title": "git-sync - 로컬 체크아웃 없이 Git 리모트 간 ref를 직접 미러링하는 CLI 도구",
+          "url": "https://news.hada.io/topic?id=29547",
+          "external_url": "https://github.com/entireio/git-sync",
+          "summary": "로컬 클론 필요없이 소스 리모트에서 타겟 리모트로 ref와 오브젝트를 직접 스트리밍하며, 로컬 디스크에 저장소를 체크아웃하지 않음 Relay 전송",
+          "category": "Etc"
+        },
+        {
+          "title": "지금 많은 기업이 AI 집단 광기에 빠져 있다고 믿는다",
+          "url": "https://news.hada.io/topic?id=29549",
+          "external_url": "https://twitter.com/mitchellh/status/2055380239711457578",
+          "summary": "미첼 하시모토: &quot;지금 많은 기업이 심각한 AI 집단 광기에 빠져 있으며, 그들과 이성적인 대화를 나누는 것은 불가능하다&quot; 클라우드 인프라 자동화",
+          "category": "AI"
+        },
+        {
+          "title": "경험은 이제 세금이다",
+          "url": "https://news.hada.io/topic?id=29515",
+          "external_url": "https://x.com/JayaGup10/status/2047508230813917600",
+          "summary": "AI 도구를 실제로 사용해본 적 없는 시니어 의사결정자들이 조직의 AI 도입을 좌우하는 반면, 22세 주니어는 오후 만에 프로덕션 코드를 작성하고",
+          "category": "AI"
+        },
+        {
+          "title": "DeerFlow 2.0 — ByteDance의 장기 실행 SuperAgent 하네스",
+          "url": "https://news.hada.io/topic?id=29518",
+          "external_url": "https://github.com/bytedance/deer-flow",
+          "summary": "Sub-Agent 오케스트레이션으로 리서치, 코딩, 콘텐츠 생성 등 수 분~수 시간 걸리는 복합 작업을 자동 분해·병렬 처리하는 올인원 에이전트 하네스",
+          "category": "AI"
+        },
+        {
+          "title": "소프트웨어 아키텍처 배우기",
+          "url": "https://news.hada.io/topic?id=29452",
+          "external_url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+          "summary": "소프트웨어 설계는 강의보다 실제 프로젝트에서 책임을 맡고 문제가 자기 일이 될 때 더 깊게 배워짐 Conway’s Law는 소프트웨어가 조직의 사회적",
+          "category": "Etc"
+        },
+        {
+          "title": "브라우저는 대형 사이트를 다르게 취급한다",
+          "url": "https://news.hada.io/topic?id=29513",
+          "external_url": "https://denodell.com/blog/browsers-treat-big-sites-differently",
+          "summary": "Safari와 Firefox는 TikTok, Netflix, Instagram 같은 특정 도메인에서 렌더링과 API 동작을 바꾸는 코드를 배포함 Firefox의 about:compat는 사이",
+          "category": "Backend"
+        },
+        {
+          "title": "OpenAI, Codex를 ChatGPT 모바일 앱에 통합 공개",
+          "url": "https://news.hada.io/topic?id=29514",
+          "external_url": "https://chatgpt.com/codex/mobile/",
+          "summary": "소개 글 : OpenAI가 Codex를 ChatGPT 모바일 앱(iOS / Android)에 통합하면서, 이제 스마트폰에서도 원격으로 에이전틱 코딩 작업을 이어갈 수 있",
+          "category": "Mobile"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "오픈AI '코덱스', 모바일 챗GPT에 통합...\"스마트폰으로 원격 코딩 제어\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210558",
+          "summary": "오픈AI가 AI 코딩 도구 ‘코덱스(Codex)’를 모바일 환경으로 확장하며 AI 개발 에이전트 시장 경쟁에 속도를 내고 있다. 이제 개발자들은 스마트폰만으로도 원격 개발 환경에서 실행 중인 코덱스 작업을 실시간으로…",
+          "category": "AI"
+        },
+        {
+          "title": "메가존클라우드, 사우디 아람코서 국산 NPU 인프라 실증 나선다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210552",
+          "summary": "메가존클라우드(대표 염동훈)는 과학기술정보통신부·정보통신산업진흥원(NIPA)이 주관하는 '2026년 AI-반도체 해외실증 지원 사업(서버형)'에 주관사업자로 선정됐다고 15일 밝혔다.메가존클라우드는 퓨리오사AI·NC…",
+          "category": "Hardware"
+        },
+        {
+          "title": "딥엑스, 울트라리틱스와 파트너십…”글로벌 소프트웨어에 국산 반도체 통합”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210581",
+          "summary": "AI 반도체 전문 딥엑스(대표 김녹원)는 객체 인식 AI 모델 ‘YOLO’를 개발한 울트라리틱스와 전략적 기술 및 시장 진출 파트너십을 체결했다고 15일 밝혔다.울트라리틱스는 컴퓨터 비전 개발자들이 가장 널리 사용하…",
+          "category": "AI"
+        },
+        {
+          "title": "[5월15일] 'AI 해고'는 어떻게 진화하나…투자형과 부인형, 그리고 교체형",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210562",
+          "summary": "이제 미국에서 AI를 이유로 한 구조조정은 일상적인 풍경이 됐습니다. 지난해 5월 마이크로소프트가 개발자 40%를 포함해 6000여명을 해고한다고 발표할 때만 해도 꽤 충격적이었지만, 이제는 거의 매주 관련 소식이…",
+          "category": "AI"
+        },
+        {
+          "title": "애플이 5년 공들인 맥OS 보안 체계, '미소스'로 5일 만에 무너져",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210563",
+          "summary": "미국 보안 연구진이 애플의 최첨단 맥OS 보안 기술을 우회하는 새로운 공격 기법을 발견했는데, 이 과정에서 앤트로픽의 AI 모델 ‘미소스(Mythos)’가 활용된 것으로 알려졌다. 애플이 5년간 개발했다고 자랑한 기…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "더 크게보다 더 가볍게…AI 인프라 경량화 시대 부상",
+          "url": "https://zdnet.co.kr/view/?no=20260516093702",
+          "summary": "[지디넷코리아]생성형 인공지능(AI) 경쟁 구도가 빠르게 바뀌고 있다. 단순히 더 큰 그래픽처리장치(GPU)와 더 많은 연산 성능을 확보하는 경쟁을 넘어 데이터 이동과 메모리 병목을 얼마나 줄이고 실제 서비스 환경에…",
+          "category": "AI"
+        },
+        {
+          "title": "IPO 대박 난 세라브라스, 엔비디아 대항마 될까",
+          "url": "https://zdnet.co.kr/view/?no=20260516070746",
+          "summary": "[지디넷코리아]엔비디아의 대항마로 꼽히는 인공지능(AI) 칩 제조사 세레브라스가 최근 성공적인 기업공개(IPO)를 마치며 시장의 주목을 받고 있다.하지만 기업공개 이후 첫 거래 이틀째인 15일(현지시간) 뉴욕 증시에…",
+          "category": "AI"
+        },
+        {
+          "title": "해고된 해커 쌍둥이, MS 팀즈 녹화 끄지 않아 범죄 증거 남겼다",
+          "url": "https://zdnet.co.kr/view/?no=20260516095100",
+          "summary": "[지디넷코리아]본인들이 직접 카메라를 켜 두는 바람에 범죄가 그대로 잡혔다. 미국 연방정부 계약업체에서 해고된 직후 96개 정부 데이터베이스를 통째로 삭제한 쌍둥이 형제가, 사건 당일 마이크로소프트 팀즈(Micros…",
+          "category": "Backend"
+        },
+        {
+          "title": "SK하이닉스가 불붙인 성과급 논쟁…HD현대·한화 등 확산",
+          "url": "https://zdnet.co.kr/view/?no=20260515163816",
+          "summary": "[지디넷코리아]SK하이닉스가 성과급 상한제를 폐지한 이후 삼성전자를 중심으로 불거진 노사 간 성과급 갈등이 산업 전반으로 확산되는 모양새다. 반도체에 이어 조선, 전력기기, 방산 등 호실적을 낸 주요 업종을 중심으로…",
+          "category": "Hardware"
+        },
+        {
+          "title": "\"아이폰18 프로, 카메라·배터리·디자인 싹 바뀐다\"",
+          "url": "https://zdnet.co.kr/view/?no=20260515230532",
+          "summary": "[지디넷코리아]올 가을 출시될 애플의 플래그십 스마트폰 ‘아이폰18 프로’에 어떤 새로운 기능이 추가될까.IT매체 나인투파이브맥은 지금까지 나온 전망들을 종합해 애플이 차세대 ‘아이폰18 프로’에 차별화된 기능을 대…",
+          "category": "Mobile"
+        }
+      ]
+    }
+  ]
+}
