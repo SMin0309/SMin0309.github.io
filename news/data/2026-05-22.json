@@ -1,0 +1,116 @@
+{
+  "date": "2026-05-22",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "안드레 카파시는, 왜 지금 엔트로픽에 갔나",
+          "url": "https://yozm.wishket.com/magazine/detail/3769",
+          "summary": "안드레 카파시가 엔트로픽에 합류했습니다. 그가 들어간 자리는 단순한 사전학습 팀이 아니라 Claude로 Claude를 더 잘 만드는 방법을 연구하는 신설 팀입니다. 잭 클락이 \"2028년까지 AI가 자기 후속 모델을…",
+          "category": "AI"
+        },
+        {
+          "title": "[클코나잇 2] 발표자에게 직접 물어보세요! 사전 질문 오픈",
+          "url": "https://yozm.wishket.com/magazine/detail/3768",
+          "summary": "다가오는 5월 27일 수요일 저녁 7시 30분, 클코나잇 시즌 2의 첫 번째 웨비나가 열립니다. 이번 클코나잇 시즌 2의 첫 번째 주제는 ‘클로드 코드를 내 방식으로 길들인 사람들’입니다. 클로드 코드를 단순한 코딩…",
+          "category": "Etc"
+        },
+        {
+          "title": "Anthropic 엔지니어가 정리한 AI와 일하는 5가지 원칙",
+          "url": "https://yozm.wishket.com/magazine/detail/3767",
+          "summary": "명령어 한 줄로 내 컴퓨터에 맞는 로컬 LLM을 찾아주는 whichllm, 마이크로소프트가 깃허브에 공개한 무료 AI 에이전트 강좌, 그리고 앤트로픽 엔지니어 유진 얀이 정리한 AI와 일하며 결과를 누적시키는 5가지…",
+          "category": "AI"
+        },
+        {
+          "title": "Gemini가 구글을 먹어치우는 중입니다: 구글 I/O 2026 총정리",
+          "url": "https://yozm.wishket.com/magazine/detail/3765",
+          "summary": "Gemini가 구글의 모든 것을 먹어치우는 중입니다. 이번 I/O 2026에서는 Gemini 3.5 Flash·Omni 라인업, 코딩 에이전트 Antigravity 2.0, 자율 에이전트 Spark, 25년 만의 검…",
+          "category": "AI"
+        },
+        {
+          "title": "이커머스 플랫폼의 수익성은 상품 데이터 구조에서 갈린다",
+          "url": "https://yozm.wishket.com/magazine/detail/3764",
+          "summary": "많은 이커머스 플랫폼이 매출 성장을 경험하면서 다음과 같은 핵심 질문에 답을 찾기 원합니다. 어떤 상품이 실제로 돈을 벌고 있는가? 어떤 광고가 적자를 만들고 있는가? 어떤 옵션이 재고를 썩게 만들고 있는가? 실무에…",
+          "category": "Industry"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "포티투닷, 차량용 음성 AI 에이전트 ‘글레오 AI’ 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210813",
+          "summary": "포티투닷(대표 박민우)은 사람처럼 자연스러운 대화가 가능한 대형언어모델(LLM) 기반 차량용 음성 AI 에이전트 ‘글레오 AI(Gleo AI)’ 개발을 완료했다고 21일 밝혔다.글레오 AI는 현대자동차그룹의 글로벌…",
+          "category": "AI"
+        },
+        {
+          "title": "\"현금 대신 30억 토큰 제공\"...알트먼, 스타트업 지분 맞교환 제안",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210786",
+          "summary": "샘 알트먼 오픈AI CEO가 스타트업 액셀러레이터 와이콤비네이터(YC) 참가 기업들에 최대 200만달러(약 30억원) 규모의 AI 토큰(API 크레딧) 투자를 제안했다. 현금 대신 AI 사용량 자체를 투자 수단으로…",
+          "category": "Industry"
+        },
+        {
+          "title": "무엇이든 해냅니다…구글의 진정한 멀티모델 ‘제미나이 옴니’",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210808",
+          "summary": "AI타임스 조예주 기자 joyejuoffice@aitimes.com",
+          "category": "AI"
+        },
+        {
+          "title": "백악관, 첨단 모델 '90일 사전심사' 추진...업계는 14일 단축 요청",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210791",
+          "summary": "백악관이 첨단 AI 모델 공개 전 정부 검토 체계를 도입하는 행정명령을 준비 중인 것으로 알려졌다. 미국 정부는 국가안보와 사이버보안 위험을 이유로 AI 기업들과 사전 협의 체계를 구축하려 하고 있으며, 이르면 도널…",
+          "category": "AI"
+        },
+        {
+          "title": "알리바바, 학습·추론 통합 '젠우 M890' 칩으로 앤비디아에 도전장",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210789",
+          "summary": "알리바바가 엔비디아를 겨냥한 차세대 AI 칩을 공개하며 수익화에 속도를 내고 있다. 알리바바는 20일 중국 항저우에서 열린 ‘알리바바 클라우드 서밋’에서 차세대 AI 가속기 ‘젠우(Zhenwu) M890’을 공개했다…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "두나무, 가상자산 바이브코딩 지침 '업비트 스킬' 출시",
+          "url": "https://zdnet.co.kr/view/?no=20260522085724",
+          "summary": "[지디넷코리아]업비트를 운영하는 두나무는 인공지능(AI)에 자연어로 명령해 업비트 애플리케이션 프로그래밍 인터페이스(API) 기반 CLI(텍스트로 하는 명령줄 인터페이스) 기능을 사용할 수 있는 ‘업비트 스킬’을 출…",
+          "category": "AI"
+        },
+        {
+          "title": "\"설계 오류 한 번에 수백억 날린다\"…반도체 리스크 '특화 AI' 해결",
+          "url": "https://zdnet.co.kr/view/?no=20260521184430",
+          "summary": "[지디넷코리아]설계 도면 정합성이 조금만 어긋나도 수백억원대의 치명적인 양산 불량과 납기 지연 손실로 이어지는 반도체 장비 산업 리스크를 인공지능(AI)과 단일 플랫폼 기술로 돌파하는 가이드라인이 제시됐다.김정호 다…",
+          "category": "AI"
+        },
+        {
+          "title": "\"사이버보안서 AI 활용때 오버피팅 허용 불가피\"",
+          "url": "https://zdnet.co.kr/view/?no=20260521194635",
+          "summary": "[지디넷코리아]\"당연하지만, 사이버 보안 분야에서 공격자들은 누구도 악성코드를 만들 때 '이 코드가 악성코드입니다'하고 공개하지 않습니다. 탐지 우회를 위해 정상 코드로 위장하는 것이 일반적인데, 인공지능(AI) 모…",
+          "category": "Security"
+        },
+        {
+          "title": "[AI는 지금] 美 정부, 프론티어 AI 통제 시동…오픈AI·앤트로픽 모델 출시 전 검토 추진",
+          "url": "https://zdnet.co.kr/view/?no=20260521181124",
+          "summary": "[지디넷코리아]미국 백악관이 첨단 인공지능(AI) 모델을 기업이 공개 출시하기 전 정부가 사전에 검토하는 방안을 추진하고 있다. AI 모델 성능 경쟁이 고도화되는 가운데 사이버 안보 위험이 커지자 미국 정부가 프론티…",
+          "category": "AI"
+        },
+        {
+          "title": "구자균 LS일렉 회장, 청주 사업장 점검…\"압도적 품질로 초격차\"",
+          "url": "https://zdnet.co.kr/view/?no=20260522091205",
+          "summary": "[지디넷코리아]“이제 고객의 눈높이를 맞추는 데 그쳐선 안 됩니다. 철저히 압도해야 합니다.”구자균 LS일렉트릭 회장이 빅테크 데이터센터 배전 솔루션 핵심 생산 거점인 자사 청주사업장을 찾아 던진 화두다. 폭발적으로…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
