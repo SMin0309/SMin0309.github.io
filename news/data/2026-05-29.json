@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-29",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "메타, AI 챗봇 유료 구독제 ‘메타 원’ 출시…월 7.99달러부터",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211004",
+          "summary": "메타가 AI 챗봇 ‘메타 AI(Meta AI)’의 첫 유료 구독 서비스 테스트를 시작한다. 막대한 AI 인프라 투자 비용을 회수하고 광고 의존도를 낮추기 위한 새로운 수익화 전략에 따른 것이다.메타는 27일(현지시간…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] 퓨리오사AI, 브로드컴과 차세대 AI 추론 플랫폼 공동 개발 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211061",
+          "summary": "■ 퓨리오사AI(대표 백준호)는 글로벌 반도체 전문 브로드컴과 차세대 AI 가속기 공동 개발을 위한 전략적 파트너십을 체결했다고 밝혔다. 퓨리오사AI의 AI 아키텍처 기술과 브로드컴의 AI 네트워킹 및 고대역폭 이더…",
+          "category": "AI"
+        },
+        {
+          "title": "[AI&빅데이터쇼] 비아이매트릭스 ”트리니티 프리즘으로 데이터 분석 혁신\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211049",
+          "summary": "비아이매트릭스는 6월10~12일 서울 코엑스에서 열리는 ‘2026 AI&빅데이터쇼’에 참가해 차세대 데이터 분석 및 AI 에이전트 개발 기술을 선보이며, AI 기반 업무환경 구축을 통한 업무 생산성 극대화 방안을 제…",
+          "category": "AI"
+        },
+        {
+          "title": "미니맥스, 차세대 모델 'M3' 출시 예고…장문 추론 속도 15.6배 향상",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211042",
+          "summary": "미니맥스가 초장문 문맥 처리와 AI 에이전트 추론 속도를 대폭 개선한 차세대 ‘희소 어텐션(Sparse Attention)’ 기술을 공개하며 새로운 대형언어모델(LLM) ‘M3’ 시리즈 출시를 예고했다.미니맥스는 2…",
+          "category": "AI"
+        },
+        {
+          "title": "\"1년 새 매출 10배\"...코그니션, 39조 가치로 대규모 투자 유치",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211034",
+          "summary": "AI 코딩 스타트업 코그니션이 10억달러(약 1조6000억원) 이상의 신규 투자를 유치하며 기업 가치 260억달러(약 39조원)를 인정받았다. 코그니션은 27일(현지시간) 공식 블로그를 통해 신규 투자 라운드를 완료…",
+          "category": "Industry"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "IPO 앞둔 앤트로픽, 기업가치 9650억 달러…오픈AI 넘어",
+          "url": "https://zdnet.co.kr/view/?no=20260529101206",
+          "summary": "[지디넷코리아]연내 기업공개(IPO)를 목표로 하는 클로드 개발사 앤트로픽 기업가치가 오픈AI를 넘어섰다. 삼성전자와 SK하이닉스 등 국내 메모리 반도체 기업도 이번 투자에 전략적 파트너로 이름을 올렸다.28일(현지…",
+          "category": "Hardware"
+        },
+        {
+          "title": "LGU+, 삼성전자와 6G 기술 연구 협력",
+          "url": "https://zdnet.co.kr/view/?no=20260529084902",
+          "summary": "[지디넷코리아]LG유플러스가 삼성전자와 손잡고 6G 기술 실증에 나선다.LG유플러스는 삼성전자와 통신, 센싱 융합 기술 연구개발 협력을 위한 양해각서를 체결했다고 29일 밝혔다.양사는 협약을 통해 통신, 센싱 융합,…",
+          "category": "Hardware"
+        },
+        {
+          "title": "SK에코플랜트, 구성원이 직접 AI 에이전트 만든다",
+          "url": "https://zdnet.co.kr/view/?no=20260529092038",
+          "summary": "[지디넷코리아]SK에코플랜트가 구성원이 직접 업무용 인공지능(AI) 에이전트를 기획·개발할 수 있는 사내 AI 확산 체계를 구축했다. AI 활용 교육과 역량 인증을 거쳐 현업 데이터를 기반으로 한 AI 에이전트 개발…",
+          "category": "AI"
+        },
+        {
+          "title": "세미파이브, 삼성 SAFE 포럼서 AI 반도체용 '3D-IC·빅다이' 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260529094613",
+          "summary": "[지디넷코리아]국내 맞춤형 반도체(ASIC) 설계 기업 세미파이브가 삼성 파운드리 생태계에서 차세대 인공지능(AI) 반도체 패키징 기술력을 선보였다. 세미파이브는 28일(현지시각) 미국 산호세에서 열린 '삼성 파운드…",
+          "category": "AI"
+        },
+        {
+          "title": "코아시아세미, 삼성 SAFE 포럼서 차세대 칩렛 플랫폼 'CoCs' 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260529095741",
+          "summary": "[지디넷코리아]국내 디자인하우스 코아시아세미가 인공지능(AI)과 고성능컴퓨팅(HPC) 반도체 대형화에 따른 제조 한계를 극복할 차세대 칩렛 솔루션을 공개했다. 글로벌 선단 공정 시장 공략이 목표다. 코아시아세미는 미…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
