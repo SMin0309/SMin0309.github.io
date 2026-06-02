@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-02",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
+          "url": "https://yozm.wishket.com/magazine/detail/3780",
+          "summary": "Opus 4.8이 나왔습니다. 4.7이 나온지 42일만이죠. 전에 없던 빠른 업그레이드입니다. GPT-5.5와 Codex에 주도권을 내준 한 달, 클로드의 반격 턴이죠. 가격은 그대로 둔 채 코딩·장기 에이전트 벤치…",
+          "category": "AI"
+        },
+        {
+          "title": "데이터가 없으면 디자인을 어떻게 개선하나요?",
+          "url": "https://yozm.wishket.com/magazine/detail/3779",
+          "summary": "UX/UI 디자이너로 일하다 보면 한 번쯤은 이런 순간이 옵니다. “이 구조는 사용자가 불편해할 것 같습니다”라고 이야기했는데, 곧바로 “근거 있나요?”라는 질문이 돌아오는 순간입니다. 문제는 그 다음입니다. 막상…",
+          "category": "Etc"
+        },
+        {
+          "title": "[클코나잇 2] 웨비나 OPEN! 클로드 코드의 한계 확장",
+          "url": "https://yozm.wishket.com/magazine/detail/3778",
+          "summary": "지난 5월 27일, 클코나잇 시즌 2 1회차 웨비나가 열렸습니다. 1회차 웨비나가 끝난 후, “좋은 인사이트를 쉽게 이해할 수 있는 배움의 장”, “생활의 달인처럼 주변의 고수님들을 만난 시간”, “나와 비슷한 고민…",
+          "category": "Etc"
+        },
+        {
+          "title": "1년 전 클로드 코드가 뜰 거라고 예측했던 Dan Shipper의 새 예측",
+          "url": "https://yozm.wishket.com/magazine/detail/3776",
+          "summary": "도구 118개를 한 번에 연결하는 오픈소스 개인 AI 에이전트 OpenHuman, 1년 전 클로드 코드의 부상을 적중시킨 Dan Shipper의 새 AI 예측 12가지, 코딩 도구를 넘어 PM·디자인·재무·영업까지…",
+          "category": "AI"
+        },
+        {
+          "title": "AI는 왜 자꾸 틀리는가",
+          "url": "https://yozm.wishket.com/magazine/detail/3775",
+          "summary": "AI 챗봇은 거짓말을 하지 않습니다. 그저 '가장 그럴듯한 답변'을 생성할 뿐입니다. 그런데 그 답으로 회사가 법정에 가야 하는 문제가 생기기도 합니다. 같은 입력에 같은 출력이 나오는 결정론적 소프트웨어와 달리,…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "'클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5'",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211211",
+          "summary": "앤트로픽의 최신 모델 '클로드 오퍼스 4.8'이 새로운 코딩 벤치마크에 처음 포함됐지만, 'GPT-5.5'를 제치지는 못했다.스타트업 데이터커브는 30일(현지시간) AI 코딩 평가 시스템 ‘딥SWE(DeepSWE)’…",
+          "category": "AI"
+        },
+        {
+          "title": "\"LLM 비용 90% 줄인다\"…넷플릭스 엔지니어가 개발한 '토큰 다이어트' 도구 화제",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211214",
+          "summary": "넷플릭스의 한 엔지니어가 개발한 오픈소스 프로젝트가 AI 운영 비용을 획기적으로 줄이는 해법으로 주목받고 있다.30일(현지시간) 더 레지스터에 따르면, 넷플릭스 수석 엔지니어인 테자스 초프라는 최근 오픈소스 서밋(O…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] 메디아나, 퓨리오사AI와 병원형 의료 ‘소버린 AI’ 플랫폼 구축 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211221",
+          "summary": "■ 메디아나, 퓨리오사AI, 셀바스AI, 에이티센스, 하트비트분석의원은 병원 내 바이탈 및 바이오시그널 데이터를 바탕으로 하는 ‘의료 소버린 AI 플랫폼’ 구축을 위한 공동기술개발 협약을 체결했다고 밝혔다. 핵심은…",
+          "category": "AI"
+        },
+        {
+          "title": "\"이젠 바이브 코딩까지\"…구글, 노트북LM에 '캔버스' 도입 예정",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211179",
+          "summary": "구글이 인기 AI 도구인 '노트북LM(NotebookLM)'의 기능을 대폭 확장할 것으로 알려졌다. 개인 맞춤형 인텔리전스 기능부터 외부 데이터 연동, 바이브 코딩(Vibe Coding) 방식의 결과물 생성 기능까지…",
+          "category": "AI"
+        },
+        {
+          "title": "어센트AI, 환각 없는 마케팅 에이전트 '리스닝마인드.AI' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211184",
+          "summary": "마케팅 AI 전문 어센트 AI(대표 박세용)는 잠재고객 행동 데이터를 바탕으로 마케터 핵심 업무를 자동화하는 AI 에이전트 플랫폼 ‘리스닝마인드.AI(ListeningMind.AI)’를 정식 출시했다고 1일 밝혔다.…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[AI는 지금] \"오픈AI만으론 부족했나\"…MS, 미스트랄 품고 유럽 AI 에이전트 시장 정조준",
+          "url": "https://zdnet.co.kr/view/?no=20260529175711",
+          "summary": "[지디넷코리아]마이크로소프트(MS)가 자사 인공지능(AI) 에이전트 개발 플랫폼에 유럽 대표 AI 기업의 모델을 수용하며 글로벌 엔터프라이즈 시장 공략을 가속화한다. 날로 엄격해지는 글로벌 데이터 규제에 대응해 기업…",
+          "category": "AI"
+        },
+        {
+          "title": "\"비개발자가 AI로 직접 만들었다\"…넥써쓰, 공홈 개편…AI·블록체인 게임 풀스택 전략 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260529165145",
+          "summary": "[지디넷코리아]넥써쓰(대표 장현국)가 공식 홈페이지를 전면 개편하고 인공지능(AI)·블록체인 게임 플랫폼으로서의 전략 방향을 공개했다고 29일 밝혔다.이번 홈페이지는 넥써쓰의 사업을 게임체인, 게임허브, 에이전트게이…",
+          "category": "AI"
+        },
+        {
+          "title": "[ZD SW 투데이] 슈퍼브에이아이, 'GTC 타이베이 2026' 참가 外",
+          "url": "https://zdnet.co.kr/view/?no=20260529174920",
+          "summary": "[지디넷코리아]지디넷코리아가 소프트웨어(SW) 업계의 다양한 소식을 한 눈에 볼 수 있는 'ZD SW 투데이'를 새롭게 마련했습니다. SW뿐 아니라 클라우드, 보안, 인공지능(AI) 등 여러 분야에서 활발히 활동하고…",
+          "category": "AI"
+        },
+        {
+          "title": "[현장] 오픈AI \"챗GPT 엔터프라이즈, 챗봇 넘어 에이전트 플랫폼으로 진화\"",
+          "url": "https://zdnet.co.kr/view/?no=20260529172101",
+          "summary": "[지디넷코리아]\"이제 기업 인공지능(AI) 경쟁력은 그저 대답을 잘하는 것이 아니라 주어진 업무를 안전하게 끝까지 실행하는 능력에 있습니다.\"이동재 오픈AI 코리아 디렉터는 29일 서울 서초구 삼성SDS 사옥에서 열…",
+          "category": "AI"
+        },
+        {
+          "title": "클라우드 '슈퍼사이클' 오나…AI 열풍에 194조원 몰렸다",
+          "url": "https://zdnet.co.kr/view/?no=20260529165326",
+          "summary": "[지디넷코리아]생성형 인공지능(AI) 확산에 힘입어 글로벌 클라우드 시장이 가파른 성장세를 보이고 있다. 기업들이 AI 학습·추론에 필요한 인프라 확보에 나서면서 클라우드 투자도 빠르게 늘어나는 모습이다.29일 스태…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
