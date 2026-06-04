@@ -9,13 +9,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="윤석민 | Backend Developer Portfolio" />
 <meta property="og:description" content="Java/Spring · LLM · Graph DB. WelfareGraph(GraphRAG) 프로젝트와 SI 경력을 소개합니다." />
-<meta property="og:image" content="https://smin0309.github.io/welfare-demo-1.png" />
+<meta property="og:image" content="https://smin0309.github.io/images/welfare-1.png" />
 <meta property="og:url" content="https://smin0309.github.io" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="윤석민 | Backend Developer Portfolio" />
 <meta name="twitter:description" content="Java/Spring · LLM · Graph DB Backend Developer" />
-<meta name="twitter:image" content="https://smin0309.github.io/welfare-demo-1.png" />
+<meta name="twitter:image" content="https://smin0309.github.io/images/welfare-1.png" />
 
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%239f7aea'/%3E%3Cstop offset='100%25' stop-color='%23d6bcfa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='65' font-family='Arial,sans-serif' font-size='52' font-weight='700' text-anchor='middle' fill='white'%3ESM%3C/text%3E%3C/svg%3E" />
 <style>
@@ -442,6 +442,9 @@
     gap: 12px;
     margin: 18px 0;
   }
+  .screenshots-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .screenshots img {
     width: 100%;
     border-radius: 8px;
@@ -551,7 +554,7 @@
     header h1 { font-size: 1.8rem; }
     header .contact { justify-content: center; }
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .screenshots { grid-template-columns: 1fr; }
+    .screenshots, .screenshots-4 { grid-template-columns: 1fr 1fr; }
     .featured { padding: 22px 20px; }
     .featured h3 { font-size: 1.2rem; }
   }
@@ -648,7 +651,7 @@
 <div class="container" id="top">
 
   <header>
-    <img src="../profile.png" alt="윤석민" class="profile-img" />
+    <img src="../images/profile.png" alt="윤석민" class="profile-img" />
     <div class="info">
       <h1>윤석민<span class="accent">.</span></h1>
       <div class="role">Backend Developer · Java/Spring · LLM & Graph DB Enthusiast</div>
@@ -656,7 +659,7 @@
         <span class="email-wrap">
           <a href="mailto:jung401500@gmail.com">jung401500@gmail.com</a>
           <button class="copy-btn" onclick="copyEmail(event)" title="이메일 복사">
-            <img src="../copy-icon.png" alt="copy" />
+            <img src="../images/copy-icon.png" alt="copy" />
           </button>
         </span>
         <a href="https://github.com/SMin0309" target="_blank" class="github-link">
@@ -757,8 +760,8 @@
       </div>
 
       <div class="screenshots">
-        <img src="../welfare-demo-2.png" alt="WelfareGraph 데모 화면 1" onclick="openLightbox(this.src)" />
-        <img src="../welfare-demo-1.png" alt="WelfareGraph 데모 화면 2" onclick="openLightbox(this.src)" />
+        <img src="../images/welfare-2.png" alt="WelfareGraph 데모 화면 1" onclick="openLightbox(this.src)" />
+        <img src="../images/welfare-1.png" alt="WelfareGraph 데모 화면 2" onclick="openLightbox(this.src)" />
       </div>
 
       <ul>
@@ -808,7 +811,7 @@
     </div>
 
     <div class="featured">
-      <h3>떡상각 (TteokSangGak) <span style="font-size:0.72rem;color:var(--accent2);background:rgba(167,139,250,0.18);padding:3px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;font-weight:500;">Vibe Coding</span></h3>
+      <h3>증시한입 (StockBite) <span style="font-size:0.72rem;color:var(--accent2);background:rgba(167,139,250,0.18);padding:3px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;font-weight:500;">Vibe Coding</span></h3>
       <div class="subtitle">MZ 투자자를 위한 AI 증시 브리핑 PWA · 풀스택 사이드 프로젝트</div>
       <div class="desc">
         미국/한국 <strong>15,000+ 전종목</strong> 검색, 캔들차트, 종목별 뉴스 자동 수집, <strong>LLM 기반 호재/중립/악재 태깅</strong>, 매일 AI 시장 브리핑까지. Gemini가 RSS·매크로·주가 데이터를 받아 요약·분석·작성만 수행 (웹 검색 없음)하는 안전한 파이프라인 설계. <strong>Claude Code 기반 바이브 코딩</strong>으로 짧은 시간 안에 풀스택 PWA + 인증 + 배포까지 출시.
@@ -819,6 +822,13 @@
         <div class="stat"><div class="num">5</div><div class="lbl">cron 스케줄</div></div>
         <div class="stat"><div class="num">PWA</div><div class="lbl">모바일 최적화</div></div>
         <div class="stat"><div class="num">Freemium</div><div class="lbl">비즈니스 모델</div></div>
+      </div>
+
+      <div class="screenshots screenshots-4">
+        <img src="../images/tteok/dashboard.png" alt="증시한입대시보드" onclick="openLightbox(this.src)" />
+        <img src="../images/tteok/search.png" alt="증시한입종목 검색" onclick="openLightbox(this.src)" />
+        <img src="../images/tteok/news.png" alt="증시한입뉴스 감성 분석" onclick="openLightbox(this.src)" />
+        <img src="../images/tteok/chart.png" alt="증시한입캔들 차트" onclick="openLightbox(this.src)" />
       </div>
 
       <ul>
