@@ -599,6 +599,53 @@
     transition: opacity 0.2s;
   }
   .lightbox-close:hover { opacity: 1; }
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(26, 21, 48, 0.75);
+    border: 1px solid var(--border-glow);
+    color: var(--text);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+    transition: all 0.2s;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+  }
+  .lightbox-nav:hover {
+    opacity: 1;
+    background: var(--accent3);
+    transform: translateY(-50%) scale(1.1);
+  }
+  .lightbox-nav.prev { left: 24px; }
+  .lightbox-nav.next { right: 24px; }
+  .lightbox-nav.hidden { display: none; }
+  .lightbox-counter {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-family: ui-monospace, monospace;
+    background: rgba(26, 21, 48, 0.75);
+    padding: 6px 14px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+  }
+  @media (max-width: 600px) {
+    .lightbox-nav { width: 42px; height: 42px; font-size: 1.2rem; }
+    .lightbox-nav.prev { left: 8px; }
+    .lightbox-nav.next { right: 8px; }
+  }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
   .toast {
@@ -915,23 +962,62 @@
 
 <div class="toast" id="toast">✓ 이메일이 복사되었습니다</div>
 
-<div class="lightbox" id="lightbox" onclick="closeLightbox()">
-  <button class="lightbox-close" onclick="closeLightbox()">×</button>
-  <img id="lightbox-img" src="" alt="확대 이미지" />
+<div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="닫기">×</button>
+  <button class="lightbox-nav prev" id="lightbox-prev" onclick="event.stopPropagation();navLightbox(-1)" aria-label="이전">‹</button>
+  <img id="lightbox-img" src="" alt="확대 이미지" onclick="event.stopPropagation()" />
+  <button class="lightbox-nav next" id="lightbox-next" onclick="event.stopPropagation();navLightbox(1)" aria-label="다음">›</button>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
 </div>
 
 <script>
+  let lbGallery = [];
+  let lbIndex = 0;
+
   function openLightbox(src) {
-    document.getElementById('lightbox-img').src = src;
+    // 클릭한 이미지가 속한 갤러리(.screenshots) 안의 모든 이미지를 수집
+    const target = event && event.target;
+    const gallery = target && target.closest ? target.closest('.screenshots') : null;
+    if (gallery) {
+      lbGallery = Array.from(gallery.querySelectorAll('img')).map(i => i.src);
+      lbIndex = lbGallery.indexOf(src);
+      if (lbIndex < 0) lbIndex = 0;
+    } else {
+      lbGallery = [src];
+      lbIndex = 0;
+    }
+    renderLightbox();
     document.getElementById('lightbox').classList.add('show');
     document.body.style.overflow = 'hidden';
+  }
+  function renderLightbox() {
+    document.getElementById('lightbox-img').src = lbGallery[lbIndex];
+    const total = lbGallery.length;
+    document.getElementById('lightbox-counter').textContent = total > 1 ? `${lbIndex + 1} / ${total}` : '';
+    const prev = document.getElementById('lightbox-prev');
+    const next = document.getElementById('lightbox-next');
+    if (total <= 1) {
+      prev.classList.add('hidden');
+      next.classList.add('hidden');
+    } else {
+      prev.classList.remove('hidden');
+      next.classList.remove('hidden');
+    }
+  }
+  function navLightbox(delta) {
+    if (!lbGallery.length) return;
+    lbIndex = (lbIndex + delta + lbGallery.length) % lbGallery.length;
+    renderLightbox();
   }
   function closeLightbox() {
     document.getElementById('lightbox').classList.remove('show');
     document.body.style.overflow = '';
   }
   document.addEventListener('keydown', (e) => {
+    if (!document.getElementById('lightbox').classList.contains('show')) return;
     if (e.key === 'Escape') closeLightbox();
+    else if (e.key === 'ArrowLeft') navLightbox(-1);
+    else if (e.key === 'ArrowRight') navLightbox(1);
   });
 
   // 스크롤 진행 바
