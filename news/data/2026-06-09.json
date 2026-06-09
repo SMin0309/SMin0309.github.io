@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-09",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "[6월8일] '코딩 의도 DB'가 등장할 것이라는 예측…AI 시대의 새로운 '종속' 전략",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211469",
+          "summary": "AI 개발에서 가장 널리 사용되는 프레임워크 중 하나를 개발한 회사인 파이던틱(Pydantic)의 사무엘 콜빈 CEO는 5일(현지시간) 비즈니스 인사이더와의 인터뷰를 통해 '코딩 의도 데이터베이스(Databases…",
+          "category": "AI"
+        },
+        {
+          "title": "\"IT 시스템 구축도 뚝딱\"...LG CNS, 에이전틱 AI 개발 플랫폼 'AIND' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211471",
+          "summary": "LG CNS(대표 현신균)는 대규모 IT 시스템의 구축부터 운영까지 전 과정을 자동화하는 에이전틱 AI 기반 개발 플랫폼 '데브온 에이전틱 AIND'를 출시했다고 8일 밝혔다.AIND는 미국의 오픈소스 AI 코딩 기…",
+          "category": "Industry"
+        },
+        {
+          "title": "깃허브 코파일럿 요금 개편에 '토큰 재앙' 비명...\"월 29달러가 750달러로\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211449",
+          "summary": "마이크로소프트(MS) 깃허브가 AI 코딩 도우미 '깃허브 코파일럿(GitHub Copilot)'의 요금 체계를 전면 개편하며 커뮤니티에 적지 않은 파장을 일으키고 있다. 기존의 정액제 중심 구조를 폐기하고 실제 AI…",
+          "category": "AI"
+        },
+        {
+          "title": "젠슨 황, 방한 마지막 일정서 국내 AI 기업 독려...\"GPU 우선 공급”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211497",
+          "summary": "젠슨 황 엔비디아 CEO가 8일 저녁 방한 마지막 일정으로 서울 신라호텔 영빈관에서 열린 ‘엔비디아 코리아 AI 에코시스템 리셉션’에 참석해 정부 및 국내 AI 기업, 스타트업을 독려하고 최신 GPU 우선 공급을 약…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, '스스로 판단하고 재검색'하는 차세대 에이전틱 RAG 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211484",
+          "summary": "구글이 복잡한 기업용 질문에 답하기 위해 필요한 정보를 스스로 찾아나가는 차세대 검색·추론 기술인 ‘에이전틱 RAG(Agentic RAG)’를 공개했다. 구글은 5일(현지시간) 복잡한 기업용 질문에 답하기 위해 필요…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "애플, 구글과 함께 새 AI 아키텍처 공개…'적과의 동침' 통할까",
+          "url": "https://zdnet.co.kr/view/?no=20260609101414",
+          "summary": "[지디넷코리아]애플이 자사 핵심 인공지능(AI) 기능 '애플 인텔리전스' 경쟁력 강화를 위해 '적과의 동침'이란 카드를 꺼내 들었다. 애플이 8일(현지시간) 미국 캘리포니아 애플파크에서 열린 세계개발자회의(WWDC)…",
+          "category": "AI"
+        },
+        {
+          "title": "코지마 히데오 \"생성형 AI 아트에 관심 없다”",
+          "url": "https://zdnet.co.kr/view/?no=20260609094348",
+          "summary": "[지디넷코리아]일본 게임 개발자 코지마 히데오가 생성형 인공지능(AI)을 예술 창작에 활용하는 데 관심이 없다 말했다고 미국 게임산업 매체 Wccf테크가 8일(현지시간) 보도했다.코지마 프로덕션을 이끌고 있는 코지마…",
+          "category": "AI"
+        },
+        {
+          "title": "중고나라, 공자윤 CTO 선임…AI 네이티브 조직 전환 가속",
+          "url": "https://zdnet.co.kr/view/?no=20260609101125",
+          "summary": "[지디넷코리아]중고나라가 플랫폼 경쟁력 강화와 인공지능(AI) 전환 가속화를 위해 공자윤 최고기술책임자(CTO)를 선임했다. AI 전담 조직과 데이터 조직을 신설하고 AI 기반 서비스 고도화에 나서면서 'AI 네이티…",
+          "category": "AI"
+        },
+        {
+          "title": "[유미's 픽] 젠슨 황 만난 LG·SKT·업스테이지…독자 AI 2차전 변수될까",
+          "url": "https://zdnet.co.kr/view/?no=20260608170714",
+          "summary": "[지디넷코리아]젠슨 황 엔비디아 최고경영자(CEO)의 방한을 계기로 국내 독자 인공지능(AI) 파운데이션 모델 경쟁 구도에도 변화가 감지된다. LG AI연구원과 SK텔레콤이 엔비디아와 기술 협력 접점을 넓히고 업스테…",
+          "category": "AI"
+        },
+        {
+          "title": "인텔, 구글 칩도 만드나…주가 11% 급등",
+          "url": "https://zdnet.co.kr/view/?no=20260609085928",
+          "summary": "[지디넷코리아]인텔이 인공지능(AI) 전용 칩을 구글에 공급할 것이라는 보도가 나오면서 인텔 주가가 한 달 만에 최대 상승폭을 기록했다고 블룸버그 등 외신이 8일(현지시간) 이 같은 소식을 전했다.IT매체 디인포메이…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
