@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-21",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "KAIST, AI 환각 줄이고 속도 20배 높인 차세대 '옴니 RAG' 기술 개발",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211929",
+          "summary": "한국과학기술원(KAIST, 총장 이광형)은 김민수 전산학부 교수 연구팀이 교원창업기업인 그래파이와 협력해 차세대 데이터베이스 기술 ‘아카식DB(AkasicDB)’와 이를 바탕으로 하는 새로운 검색증강생성(RAG) 기…",
+          "category": "AI"
+        },
+        {
+          "title": "구글·MS, AI 에이전트 연결 표준 'ARD' 발표…오픈AI·앤트로픽 견제 나서",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211930",
+          "summary": "구글과 마이크로소프트(MS), 세일즈포스, 스노우플레이크, 서비스나우 등 주요 기업용 소프트웨어 업체들이 새로운 AI 표준인 '에이전틱 리소스 디스커버리(ARD)'를 공동 추진하며 AI 시장 주도권 경쟁에 나섰다.…",
+          "category": "AI"
+        },
+        {
+          "title": "헤르메스, 신규 기여자 수에서 오픈클로 역전...'하네스' 최적화의 승리",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211931",
+          "summary": "누스 리서치의 오픈소스 AI 에이전트 '헤르메스(Hermes)'이 사용량에서 '오픈클로'를 앞지른 데 이어, 개발자 관심도 측면에서 1위에도 오른 것으로 확인됐다.디 인포메이션은 18일(현지시간) 오픈소스 AI 에이…",
+          "category": "AI"
+        },
+        {
+          "title": "MS, 중국 기업에 오픈AI API 판매로 수익 올려…’증류’ 위험 경고",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211936",
+          "summary": "마이크로소프트(MS)가 중국 주요 기술 기업들에 오픈AI 모델을 제공하며 상당한 규모의 AI 사업을 구축한 것으로 나타났다. 그러나 이 과정에서 중국 기업들이 AI 모델을 모방·학습하는 ‘증류(distillation…",
+          "category": "AI"
+        },
+        {
+          "title": "아마존, 자체 AI 칩 외부 공급 추진…엔비디아 독주에 '가장 실질적 도전'",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211938",
+          "summary": "아마존이 자체 개발 AI 칩 '트레이니엄(Trainium)'을 외부 데이터센터에 직접 판매하는 방안을 추진하고 있다. 그동안 클라우드 서비스 내부에서만 활용하던 자체 AI 칩을 독립 사업으로 확대하려는 움직임으로,…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "KT, 미래 네트워크 보안 구상 ‘E2E 퀀텀 시큐리티’ 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260621092655",
+          "summary": "[지디넷코리아]KT가 한국통신학회 하계종합학술발표회 특별 세션에서 AI와 양자 기술 환경 변화에 대응하기 위한 미래 네트워크 보안 구상 ‘E2E 퀀텀 시큐리티’를 공개했다고 21일 밝혔다.KT는 AI 기술이 취약점…",
+          "category": "Security"
+        },
+        {
+          "title": "SKT, 전액 국비 지원 AI 보안·네트워크 교육생 모집",
+          "url": "https://zdnet.co.kr/view/?no=20260621092120",
+          "summary": "[지디넷코리아]SK텔레콤이 보안 네트워크 분야 인재 양성에 나선다. SK텔레콤은 코리아IT아카데미와 함께 고용노동부 K-뉴딜 아카데미 사업의 일환으로 AI 보안 네트워크 분야 실무 인재 양성을 위한 ‘알레프(ALEP…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI 수요, 2군 OSAT로 확산…시거드·하나마이크론 수혜 기대\"",
+          "url": "https://zdnet.co.kr/view/?no=20260620160653",
+          "summary": "[지디넷코리아]인공지능(AI) 낙수효과로 2군 반도체 후공정 업체(OSAT)가 수혜를 입고 있다. 그동안 첨단 반도체 패키징은 TSMC와 ASE가 장악했으나, 수요 폭증으로 대만 시거드와 한국 하나마이크론 등 2선…",
+          "category": "AI"
+        },
+        {
+          "title": "\"삼성 등 사용 미국 포티넷 보안장비 해킹당했다\"",
+          "url": "https://zdnet.co.kr/view/?no=20260620201326",
+          "summary": "[지디넷코리아]우리나라 삼성을 포함해 세계 주요 기업들이 사용하는 미국 대형 보안기업 포티넷(Fortinet)의 방화벽과 VPN 장비 수만 대가 해킹당한 것으로 나타났다.IT 전문매체 테크크런치 등 외신은 19일(현…",
+          "category": "Security"
+        },
+        {
+          "title": "메모리 시장, 올해 4배 성장 전망...AI 수요가 견인",
+          "url": "https://zdnet.co.kr/view/?no=20260619204511",
+          "summary": "[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다. 20일 시장조사업…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
