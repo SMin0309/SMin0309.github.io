@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-27",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글 핵심 AI 인재 연쇄 이탈은 \"IPO 지분 대박 유혹 때문\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212124",
+          "summary": "구글의 생성 AI 개발을 이끌던 핵심 연구진이 잇달아 경쟁사로 이탈하자, 상장을 앞둔 AI 스타트업이 제시하는 막대한 '기업공개 전 지분(Pre-IPO Equity)' 보상이 핵심 요인으로 작용했다는 분석이 나왔다.…",
+          "category": "Industry"
+        },
+        {
+          "title": "‘뇌’ 신호로 로봇 제어하는 플랫폼 개발 나선 카이스트",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212174",
+          "summary": "AI타임스 조예주 기자 joyejuoffice@aitimes.com",
+          "category": "AI"
+        },
+        {
+          "title": "\"앤트로픽·커서 모델, 정답 도출 대신 '검색'했다\"…'보상 해킹' 실태 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212173",
+          "summary": "AI 모델의 성능이 고도화될수록, 벤치마크 시스템의 허점을 파고들어 정답을 찾아내는 '보상 해킹(Reward Hacking)' 현상이 심화하고 있다는 조사 결과가 나왔다. 첨단 코딩 에이전트들이 복잡한 코딩 과제를…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, '제미나이 3.5 플래시'에 컴퓨터 유즈 탑재...기업용 에이전트 시장 조준",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212160",
+          "summary": "구글이 '제미나이 3.5 플래시(Gemini 3.5 Flash)'에 컴퓨터를 직접 조작하는 '컴퓨터 유즈(Computer Use)' 기능을 기본 탑재하며 기업용 AI 에이전트 시장 공략을 강화했다. 기존에는 별도의…",
+          "category": "AI"
+        },
+        {
+          "title": "메타, ‘AI 강제 징집’ 논란에 결국 백기…엔지니어 자율 복귀 허용",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212147",
+          "summary": "메타가 AI 모델 개발을 위해 엔지니어들을 강제로 투입했던 'AI 태스크포스' 운영 방침을 철회했다. 직원들의 거센 반발과 사기 저하가 이어지자 회사가 결국 개인의 선택을 존중하는 방향으로 정책을 바꾸면서, 이른바…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "글로벌 기술 전환: 튠톡, 앱 수준 한계를 우회하는 세계 최초의 네트워크 기반 아동 안전 모바일 요금제 출시",
+          "url": "https://zdnet.co.kr/view/?no=20260627101013",
+          "summary": "[지디넷코리아]페탈링자야, 말레이시아 2026년 6월 27일 /PRNewswire/ -- 말레이시아 이동통신 사업자 튠톡(Tune Talk)이 아동 온라인 안전을 시행하는 방식의 표준을 새롭게 정의했다. 각국 정부가…",
+          "category": "Mobile"
+        },
+        {
+          "title": "퀄컴, 텐스토렌트 인수 타진…설계부터 연결까지 '탈 Arm' 가속",
+          "url": "https://zdnet.co.kr/view/?no=20260626171646",
+          "summary": "[지디넷코리아]퀄컴이 짐 켈러가 이끄는 인공지능(AI) 반도체 스타트업 텐스토렌트 인수를 추진 중이다. 엔비디아가 장악한 AI 반도체 시장 내 경쟁력 강화로 읽히지만, 업계는 텐스토렌트의 'RISC-V(리스크파이브)…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 제미나이 통합 API '인터랙션스' 정식 출시…모델·에이전트를 하나로",
+          "url": "https://zdnet.co.kr/view/?no=20260626213355",
+          "summary": "[지디넷코리아]구글이 제미나이(Gemini) 모델과 AI 에이전트를 하나의 창구로 다루는 통합 인터페이스 '인터랙션스 API(Interactions API)'를 정식 출시(GA)했다고 6월 22일 밝혔다. 2025년…",
+          "category": "AI"
+        },
+        {
+          "title": "“초등생도 안 할 비약”...한성숙 청문회, 플랫폼 정책·헐값 임대 의혹 공방",
+          "url": "https://zdnet.co.kr/view/?no=20260626173607",
+          "summary": "[지디넷코리아]한성숙 국무총리 후보자가 인사청문회 이틀째 플랫폼 규제와 소상공인 보호, 반도체 산업 지원, 인공지능(AI) 데이터센터 전력 대책 등 주요 정책 현안에 대해 \"적극 검토하겠다\"는 입장을 밝혔다. 반면…",
+          "category": "AI"
+        },
+        {
+          "title": "이재명 대통령 \"K-팔란티어 키운다\"…신안보 혁신기업 육성 시동",
+          "url": "https://zdnet.co.kr/view/?no=20260626172622",
+          "summary": "[지디넷코리아]정부가 인공지능(AI), 드론, 사이버 안보, 우주 항공 등 첨단 독점 기술을 보유하는 신안보 혁신기업을 육성해 글로벌 신안보 강국 도약에 나선다.이재명 대통령은 26일 청와대에서 '미래 신안보 혁신기…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
