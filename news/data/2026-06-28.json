@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-28",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "AI 메모리 폭등의 역설…마이크론·삼성·SK하이닉스 동반 하락",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212176",
+          "summary": "AI 인프라 투자 확대의 최대 수혜주로 꼽혀온 메모리 반도체 업계가 예상치 못한 조정 국면에 들어섰다. 미국 마이크론 테크놀로지가 사상 최대 수준의 실적을 발표했음에도 주가가 급락한 데 이어, 삼성전자와 SK하이닉스…",
+          "category": "Hardware"
+        },
+        {
+          "title": "엔비디아, 'GLM-5.2' 4비트 양자화 모델 공개...“정확도 유지·용량 70%↓”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212178",
+          "summary": "엔비디아가 지푸 AI의 인기 오픈소스 대형언어모델(LLM) 'GLM-5.2'를 자체 NVFP4(4비트) 양자화 기술로 최적화한 체크포인트를 공개했다.엔비디아는 26일(현지시간) 허깅페이스를 통해 'GLM-5.2 NV…",
+          "category": "AI"
+        },
+        {
+          "title": "애플 '비전 프로' 총괄 부사장, 오픈AI로 이직…AI 하드웨어 개발 주도",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212185",
+          "summary": "애플의 혼합현실(MR) 헤드셋 '비전 프로'와 스마트 안경 개발을 총괄해 온 하드웨어 엔지니어링 부사장이 회사를 떠나 오픈AI로 이직한다.블룸버그는 26일(현지시간) 소식통을 인용, 폴 미드 부사장이 다음 주 중 애…",
+          "category": "AI"
+        },
+        {
+          "title": "‘뇌’ 신호로 로봇 제어하는 플랫폼 개발 나선 카이스트",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212174",
+          "summary": "AI타임스 조예주 기자 joyejuoffice@aitimes.com",
+          "category": "AI"
+        },
+        {
+          "title": "\"앤트로픽·커서 모델, 정답 도출 대신 '검색'했다\"…'보상 해킹' 실태 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212173",
+          "summary": "AI 모델의 성능이 고도화될수록, 벤치마크 시스템의 허점을 파고들어 정답을 찾아내는 '보상 해킹(Reward Hacking)' 현상이 심화하고 있다는 조사 결과가 나왔다. 첨단 코딩 에이전트들이 복잡한 코딩 과제를…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "엑셈, AI 활용 'SQL 서버' 데이터베이스 튜닝 세미나 성료",
+          "url": "https://zdnet.co.kr/view/?no=20260628074356",
+          "summary": "[지디넷코리아]AI기반 IT 통합성능 관리전문 기업 엑셈(대표 조종암, 고평석)이 서울시 강서구 마곡동 소재 사옥에서 25일 진행한 AI 활용 마이크로소프트 ‘SQL 서버’ 데이터베이스 튜닝 세미나가 성료했다.세미나…",
+          "category": "Backend"
+        },
+        {
+          "title": "오픈AI, GPT-5.6 출시…미국 정부 요청에 제한 배포",
+          "url": "https://zdnet.co.kr/view/?no=20260627102728",
+          "summary": "[지디넷코리아]오픈AI가 차세대 인공지능(AI) 모델 'GPT-5.6' 시리즈를 공개하면서 코딩·생물학·사이버 보안 전 영역에서 성능을 끌어올렸다. 다만 미국 정부 요청으로 즉각적인 일반 배포 대신 신뢰 파트너를 대…",
+          "category": "AI"
+        },
+        {
+          "title": "제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에",
+          "url": "https://zdnet.co.kr/view/?no=20260627135408",
+          "summary": "[지디넷코리아]구글이 현지 시각 6월 25일 AI 에이전트가 사람 없이 화면을 보고 클릭·입력·탐색하는 '컴퓨터 유즈(Computer Use)' 기능을 제미나이 3.5 플래시에 기본 도구로 내장한다고 밝혔다. 개발자…",
+          "category": "AI"
+        },
+        {
+          "title": "[SW키트] AI 시대 시뮬레이션, 항공·방산 개발 속도 바꾼다",
+          "url": "https://zdnet.co.kr/view/?no=20260627181343",
+          "summary": "[지디넷코리아]인공지능(AI) 시대 시뮬레이션이 제품 개발 속도를 좌우하는 핵심 도구로 떠오르고 있다. 항공모빌리티(AAM)를 비롯한 방산, 로봇, 타이어 개발 기업은 실물 제작 전 성능과 소음, 진동, 결함을 가상…",
+          "category": "AI"
+        },
+        {
+          "title": "KT, 월드컵 거리 응원 현장서 '5G SA' 기반 네트워크 슬라이싱 실증",
+          "url": "https://zdnet.co.kr/view/?no=20260626172549",
+          "summary": "[지디넷코리아]KT는 대규모 인파 밀집 현장에서 5G 단독모드(SA) 기반 네트워크 슬라이싱 기술 실증을 통해 안정적인 통신 유지 가능성을 검증했다고 28일 밝혔다.KT는 지난 25일 광화문 일대에서 열린 월드컵 거…",
+          "category": "Etc"
+        }
+      ]
+    }
+  ]
+}
