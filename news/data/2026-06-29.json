@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-29",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "AI 쓰는데 왜 생산성은 10%밖에 늘지 않을까?",
+          "url": "https://yozm.wishket.com/magazine/detail/3824",
+          "summary": "AI의 등장 후, 많은 분들이 AI 툴을 사용하고 있습니다. 그런데 어느 날 경영진으로부터 “그래, AI 도입했으니 얼마나 생산성이 높아졌는지 보고해.” 또는 “왜 도입한 만큼 성과가 안 나오는 거야?”라는 질문을…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI 도입하고 싶다\" 한마디가 8억 견적서 되는 이유",
+          "url": "https://yozm.wishket.com/magazine/detail/3823",
+          "summary": "AI 도입과 AX(AI 전환)를 고민하는 기업에 견적이 비싸고 느리게 나오는 이유는 기술이 아니라, 지금 그 회사에 필요한 AX 단계가 무엇인지 진단되지 않았기 때문입니다. 이 글은 매출 1,000억 유통·제조 기업…",
+          "category": "AI"
+        },
+        {
+          "title": "동작하는 사이트와 사용자에게 닿는 사이트는 다른 문제다",
+          "url": "https://yozm.wishket.com/magazine/detail/3822",
+          "summary": "저는 개인적으로 실생활의 불편을 해결해 보려고 작은 서비스를 하나 만들었습니다. 제가 직접 쓸 때는 기능도 잘 동작했고, 만족스러웠습니다. 문제는 그다음이었습니다. 서버는 성공을 뜻하는 200을 응답했지만, 저 말고…",
+          "category": "Backend"
+        },
+        {
+          "title": "Claude Tag, 앤트로픽이 공개한 슬랙에 상주하는 AI 팀원",
+          "url": "https://yozm.wishket.com/magazine/detail/3821",
+          "summary": "디자인하던 화면에서 바로 모션까지 만드는 Figma Motion, 슬랙 채널에 팀원처럼 들어와 함께 일하는, 앤트로픽이 사내 코드의 65%를 맡긴다는 Claude Tag, 그리고 AI한테 한 번 시키고 끝내는 대신…",
+          "category": "AI"
+        },
+        {
+          "title": "시장에서 이기는 AI 프로덕트를 위한 지표와 운영법",
+          "url": "https://yozm.wishket.com/magazine/detail/3820",
+          "summary": "1908년 포드 모델 T의 계기판에는 전류계 하나뿐이었고, 연료는 막대기를 직접 꽂아 쟀습니다. 100년 뒤 테슬라 운전석엔 16인치 화면이 수십 개 지표를 띄우죠. AI 프로덕트의 KPI도 같은 길을 걷습니다. \"…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "MS, 깃허브 코파일럿에 자체 코딩 모델 출시...\"하이쿠보다 빠르고 저렴\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212192",
+          "summary": "마이크로소프트(MS)가 '깃허브 코파일럿(GitHub Copilot)'에 자체 AI 코딩 모델 적용을 확대하며 기업용 AI 코딩 시장 공략에 속도를 내고 있다. MS는 26일(현지시간) 자체 개발한 AI 코딩 모델…",
+          "category": "AI"
+        },
+        {
+          "title": "\"네이버·다음 게 섯거라\"...줌, K-엑사원으로 'AI 검색' 전면 확대",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212213",
+          "summary": "이스트에이드(대표 김남현)는 국가대표 AI 모델 'K-엑사원'을 포털 줌 AI 검색에 전면 적용했다고 29일 밝혔다.과학기술정보통신부의 독자 AI 파운데이션 모델을 포털 검색 전반에 도입한 첫 상용화 사례로, 이스트…",
+          "category": "AI"
+        },
+        {
+          "title": "김준기 래블업 CTO “풀스택 AI 인프라로 GPU 한계 넘는다”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212203",
+          "summary": "최근 국내 AI 시장에서 안정적이고 효율적인 GPU 공급을 내세운 서비스가 급증하고 있다. GPU 가격 상승과 추론 수요 확대로 기업들의 AI 인프라 복잡성이 커진 데다, 저전력 NPU 등 하드웨어 선택지도 다양해졌…",
+          "category": "Hardware"
+        },
+        {
+          "title": "딥시크, LLM 추론 속도 최대 85% 높이는 ‘D스파크’ 오픈소스 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212191",
+          "summary": "딥시크가 기존 모델의 응답 속도와 서비스 효율을 높이기 위한 최적화 기술을 선보였다. 여러 토큰을 먼저 생성한 뒤 문맥에 맞게 차례대로 보완하고, GPU 작업량에 따라 검증하는 토큰 수를 자동으로 조절해 추론 속도와…",
+          "category": "AI"
+        },
+        {
+          "title": "에포크 AI, '장기 개발 능력' 벤치마크 공개...“코드 암기론 통과 못해”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212195",
+          "summary": "에포크 AI가 AI 모델의 장기간 소프트웨어 개발 능력을 평가하는 새로운 벤치마크 '미러코드(MirrorCode)'를 공개했다. 기존 소프트웨어 엔지니어링 벤치마크가 버그 수정이나 단일 기능 구현 등 단기 작업에 초…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "\"올해 D램 절반 이상 데이터센터로 향한다\"",
+          "url": "https://zdnet.co.kr/view/?no=20260629103036",
+          "summary": "[지디넷코리아]글로벌 인공지능(AI) 수요 폭발로 인프라 투자가 본격화하면서 전 세계 D램 시장 중심축이 모바일과 PC에서, 서버와 AI 데이터센터로 완전히 이동했다. 시장조사업체 카운터포인트는 2026년 전체 D램…",
+          "category": "AI"
+        },
+        {
+          "title": "호주 AI 유니콘 퍼머스, 엔비디아와 인도네시아 AI 데이터센터 구축",
+          "url": "https://zdnet.co.kr/view/?no=20260629103319",
+          "summary": "[지디넷코리아]호주 인공지능(AI) 인프라 스타트업 퍼머스가 엔비디아와 손잡고 인도네시아에 첫 AI 데이터센터를 구축한다. 비트코인 채굴 기업에서 AI 인프라 기업으로 전환한 가운데, 이번 프로젝트로 아시아태평양 지…",
+          "category": "AI"
+        },
+        {
+          "title": "[써보고서] 슬라이드부터 리서치까지 한곳에서…실무형 AI 기능 제논 '제나'",
+          "url": "https://zdnet.co.kr/view/?no=20260629092600",
+          "summary": "[지디넷코리아]챗GPT로 기획안을 쓰고 젠스파크에서 슬라이드를 만드는 식으로 여러 생성형 인공지능(AI) 서비스를 오가며 일하는 사용자가 늘고 있다. 서비스마다 강점이 달라 원하는 결과물을 만들려면 여러 플랫폼을 함…",
+          "category": "AI"
+        },
+        {
+          "title": "[이성엽의 IT프리즘] 데이터 정책 거버넌스의 과제",
+          "url": "https://zdnet.co.kr/view/?no=20260629110158",
+          "summary": "[지디넷코리아]인공지능(AI)의 원료인 데이터의 중요성은 아무리 강조해도 지나치지 않는다. 데이터란 부가가치 창출을 위해 관찰·실험·조사·수집으로 취득하거나 정보시스템 등을 통해 생성·처리되는 전자적 자료·정보를 의…",
+          "category": "AI"
+        },
+        {
+          "title": "[유미's 픽] 미·중 AI 패권 틈새 노린 코히어·미스트랄AI…소버린 AI 경쟁 본격화",
+          "url": "https://zdnet.co.kr/view/?no=20260629101651",
+          "summary": "[지디넷코리아]미국과 중국이 인공지능(AI) 패권 경쟁을 벌이는 사이 캐나다 코히어와 프랑스 미스트랄AI가 제3의 AI 모델 공급자로 존재감을 키우고 있다. 각국 정부와 기업이 미국 빅테크와 중국 기술에 대한 의존을…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
