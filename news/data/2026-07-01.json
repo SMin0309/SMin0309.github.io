@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-01",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "커서, iOS 모바일 앱 출시...스마트폰으로 AI 코딩 에이전트 실시간 제어",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212262",
+          "summary": "스페이스X에 인수된 커서가 iOS용 모바일 앱을 공개 베타로 출시하며 AI 코딩 에이전트를 스마트폰에서 직접 제어하는 시대를 열었다. 데스크톱 중심이었던 AI 개발 환경이 모바일로 확장되면서, 개발자는 언제 어디서나…",
+          "category": "Mobile"
+        },
+        {
+          "title": "애플, AI 사이버 위협에 선제 대응…iOS 보안 패치 '조기 배포'로 전환",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212285",
+          "summary": "AI로 인해 사이버 공격 도구 개발 속도가 빨라지는 환경에 대응하기 위해 애플이 iOS 보안 업데이트 배포 방식을 대폭 변경한다. 그동안 새로운 운영체제 버전에 포함해 제공하던 보안 패치를 앞으로는 별도로 먼저 배포…",
+          "category": "Security"
+        },
+        {
+          "title": "'오픈클로' iOS·안드로이드 앱 출시...접근성 높였지만 진입장벽 여전",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212257",
+          "summary": "오픈클로(OpenClaw)가 iOS와 안드로이드용 공식 모바일 앱을 출시했다. 사용자는 스마트폰에서 AI 에이전트와 대화하는 것은 물론 카메라와 위치 정보, 일정, 연락처 등 다양한 기기 기능을 AI에 연결해 활용할…",
+          "category": "Mobile"
+        },
+        {
+          "title": "오픈AI, 개발자 겨냥 ‘코덱스’ 전용 첫 하드웨어 티저 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212261",
+          "summary": "오픈AI가 AI 코딩 에이전트 코덱스(Codex) 사용 경험을 개선하기 위한 첫 번째 전용 하드웨어를 공개했다. 오픈AI는 29일(현지시간) X를 통해 여러 개의 버튼이 배치된 정사각형 형태의 기기를 공개하며 \"당신…",
+          "category": "AI"
+        },
+        {
+          "title": "메타, '클로드·코덱스' 사내 사용 제한…“AI 증류 우려 사전 차단”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212263",
+          "summary": "메타가 앤트로픽의 '클로드 코드'와 오픈AI의 '코덱스' 등 외부 AI 코딩 도구에 대한 사내 사용을 대폭 제한했다. 자체 AI 코딩 플랫폼 메타코드(MetaCode)에 무게를 싣는 동시에, 경쟁사로부터 제기될 수…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[유미's 픽] \"엔비디아 쿠다 장벽 넘자\"…AI 반도체, SW 경쟁 불붙었다",
+          "url": "https://zdnet.co.kr/view/?no=20260701104544",
+          "summary": "[지디넷코리아]인공지능(AI) 반도체 기업들이 잇따라 모델 최적화 소프트웨어 역량 확보에 나서고 있다. 칩 설계만으로는 AI 인프라 경쟁에서 우위를 점하기 어려워지면서 한정된 컴퓨팅·메모리 자원으로 더 많은 연산을…",
+          "category": "AI"
+        },
+        {
+          "title": "아크릴, 글로벌 3대 클라우드서 'GPUBase' 검증…\"AI 학습 최대 24배 향상\"",
+          "url": "https://zdnet.co.kr/view/?no=20260701103706",
+          "summary": "[지디넷코리아]인공지능 전환(AX) 인프라 전문기업 아크릴(대표 박외진)은 자사 AI인프라 운영 플랫폼 ‘GPU베이스(GPUBase)’의 성능을 세계 주요 클라우드 환경에서 대규모로 검증한 결과, AI 학습 속도가…",
+          "category": "AI"
+        },
+        {
+          "title": "\"파운드리 넘어 플랫폼으로\"...삼성, 2나노 앞세워 AI 생태계 키운다",
+          "url": "https://zdnet.co.kr/view/?no=20260701095636",
+          "summary": "[지디넷코리아]삼성전자가 차세대 2nm(나노미터, 10억분의 1m) 공정과 설계·공정 동시 최적화(DTCO) 기술, 고성능 S램 로드맵을 공개했다. 정부 '제조 AI 전환(M.AX) 얼라이언스'와 연계해 온디바이스…",
+          "category": "AI"
+        },
+        {
+          "title": "LGU+, 지속가능경영보고서 발간...정보보안 강화 내용 고도화",
+          "url": "https://zdnet.co.kr/view/?no=20260701101926",
+          "summary": "[지디넷코리아]LG유플러스가 보안, 네트워크 품질 강화, 친환경 에너지 전환, AI 혁신에 대한 내용을 담은 ESG 지속가능경영보고서를 발간했다.LG유플러스는 환경, 사회, 지배구조 성과를 담은 2025 지속가능경영…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽, 가성비 앞세운 '클로드 소넷 5' 출시…\"오퍼스급 성능 구현\"",
+          "url": "https://zdnet.co.kr/view/?no=20260701093550",
+          "summary": "[지디넷코리아]앤트로픽이 기존보다 더 높은 가성비를 갖춘 인공지능(AI) 모델을 공개했다. 1일 테크크런치 등 외신에 따르면 앤트로픽은 '클로드 소넷 5'를 출시했다고 공식 홈페이지에서 밝혔다. 클로드 소넷 5는 이…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
