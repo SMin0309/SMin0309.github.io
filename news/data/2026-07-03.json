@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-03",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "[게시판] AI스페라, '크리미널 IP' 글로벌 플랫폼 연동 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212352",
+          "summary": "■ 사이버 보안 전문 AI스페라(대표 강병탁)는 CTI 솔루션 ‘크리미널 IP'를 글로벌 오픈소스 사이버 위협 인텔리전스 플랫폼 ‘오픈 CTI(OpenCTI)'와 공식 연동했다고 밝혔다. 크리미널 IP는 여러 보안…",
+          "category": "Security"
+        },
+        {
+          "title": "SK·KKR 신재생에너지 10GW 플랫폼 만든다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212334",
+          "summary": "SK가 글로벌 투자사 KKR과 손잡고 국내 최대 신재생에너지 통합법인을 출범시킨다. AI 데이터센터와 반도체 생산라인 등 전력 사용이 큰 산업에서 청정전력 수요가 커지는 가운데, 계열사별로 흩어져 있던 태양광·풍력·…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽, 자체 AI 칩 개발 착수…삼성전자에 제조 맡기나",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212377",
+          "summary": "자체 AI 칩 개발에 착수한 앤트로픽이 생산 파트너로 삼성전자와 협력하는 방안을 검토 중인 것으로 알려졌다. 2일(현지시간) 디 인포메이션에 따르면, 앤트로픽은 현재 자체 AI 서버용 프로세서 개발을 위한 초기 기획…",
+          "category": "Hardware"
+        },
+        {
+          "title": "메타, 스페이스X처럼 남는 AI 컴퓨팅 자원 판매...\"자체 AI 수요 부진 타개\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212338",
+          "summary": "메타가 자체 AI 인프라의 남는 컴퓨팅 자원을 외부에 판매하는 클라우드 사업을 추진한다. AI 모델과 컴퓨팅 서비스를 직접 판매해 막대한 인프라 투자 비용을 회수하려는 전략으로, 자체 AI 서비스의 수요가 기대에 미…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 재학습 번거로움 없앤 표 분석 AI '탭FM' 오픈소스 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212363",
+          "summary": "구글이 표(Tabular) 형식 데이터 분석을 위한 새로운 파운데이션 모델 '탭FM(TabFM)'을 공개했다. 구글은 29일(현지시간) 별도의 데이터셋 학습이나 복잡한 설정 과정 없이도 표 형태의 데이터를 분석해 분…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "딥엑스, 고시다테크와 맞손…日 피지컬 AI 시장 정조준",
+          "url": "https://zdnet.co.kr/view/?no=20260703091104",
+          "summary": "[지디넷코리아]온디바이스 AI 반도체 스타트업 딥엑스가 일본 기술 유통기업과 손잡고 현지 피지컬 AI 및 엣지 AI 시장 공략에 속도를 낸다.딥엑스는 지난 2일 일본 도쿄에 위치한 고시다테크 본사에서 현지 기술 유통…",
+          "category": "Industry"
+        },
+        {
+          "title": "버티브, 조호르에 아태 첫 대형 냉각 라인 가동…\"납기 6~8주 단축\"",
+          "url": "https://zdnet.co.kr/view/?no=20260702161757",
+          "summary": "[지디넷코리아][조호르바루(말레이시아)=이나연 기자] \"버티브는 인공지능(AI) 산업 초기부터 엔비디아와 협력해 액체냉각 기술을 개발해 왔습니다. 이는 지금의 경쟁력으로 이어졌습니다.\"앤드류 월 버티브 아시아 운영·…",
+          "category": "AI"
+        },
+        {
+          "title": "MS, 6천명 규모 AI 구축 전담조직 신설…25억 달러 투입",
+          "url": "https://zdnet.co.kr/view/?no=20260703091017",
+          "summary": "[지디넷코리아]마이크로소프트(MS)가 기업의 인공지능(AI) 도입을 직접 지원하는 '포워드 디플로이드 엔지니어링(FDE)' 전략을 확대해 시장 공략에 나선다.2일(현지시간) CNBC에 따르면 MS는 FDE 조직 '마…",
+          "category": "AI"
+        },
+        {
+          "title": "SKT, T우주 구독으로 구글AI 최대 2100원 할인",
+          "url": "https://zdnet.co.kr/view/?no=20260703084411",
+          "summary": "[지디넷코리아]SK텔레콤이 구독 서비스 플랫폼 T우주에서 제미나이를 비롯한 구글 AI를 구독할 수 있는 ‘구글AI플랜’을 출시했다고 3일 밝혔다.구글 AI 플랜은 제미나이 외에 나노바나나, 노트북LM 등을 제공하고…",
+          "category": "AI"
+        },
+        {
+          "title": "\"아이폰18 프로, 미국만 C2 대신 퀄컴 모뎀\"…이유는",
+          "url": "https://zdnet.co.kr/view/?no=20260703091105",
+          "summary": "[지디넷코리아]애플이 올 가을 출시할 예정인 아이폰18 프로 모델이 출시 국가별로 서로 다른 5G 모뎀 칩을 탑재할 것이라는 전망이 나왔다.맥루머스, 애플인사이더 등 주요 외신은 2일(현지시간) 애플의 제조 협력사인…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
