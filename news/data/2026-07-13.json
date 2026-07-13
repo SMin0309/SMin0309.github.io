@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-13",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "페이블 D-2, 앤트로픽 엔지니어가 알려주는 활용 가이드",
+          "url": "https://yozm.wishket.com/magazine/detail/3848",
+          "summary": "6월 9일 출시된 페이블 5(Fable 5)는 지난 한 달간 롤러코스터 같은 시간을 보냈습니다. 출시 사흘 만인 6월 12일, 미국 상무부의 지시로 서비스가 전면 차단되는 위기를 맞았지만, 6월 30일 규제가 풀리면…",
+          "category": "Industry"
+        },
+        {
+          "title": "AI 답변 복붙이 우리 팀을 피곤하게 만드는 이유",
+          "url": "https://yozm.wishket.com/magazine/detail/3845",
+          "summary": "AI 도구가 일상적인 업무 곳곳에 자리를 잡으면서, 직장 내 소통의 방식도 조용히 달라지고 있습니다. 짧은 질문 하나에도 AI가 생성한 장문의 답변이 돌아오는 일이 점점 흔해졌지만, 그 과정에서 정작 필요했던 판단과…",
+          "category": "AI"
+        },
+        {
+          "title": "990원이 찍혔다: 바이브 코딩이 유료 서비스가 되기까지",
+          "url": "https://yozm.wishket.com/magazine/detail/3844",
+          "summary": "저는 톡시그널을 아이디어부터 웹 제작까지 단 3일 만에 완성했습니다. 그러나 진짜 현실은 웹을 다 만들고, 이 서비스를 '유료'로 전환하겠다고 마음먹은 순간부터였습니다. '990원'을 받기 위해 결제 심사, 복잡한…",
+          "category": "Etc"
+        },
+        {
+          "title": "같은 주에 나온 GPT-5.6과 Grok 4.5, 정부가 먼저 검토한 모델은",
+          "url": "https://yozm.wishket.com/magazine/detail/3843",
+          "summary": "같은 주에 공개된 OpenAI의 GPT-5.6과 SpaceXAI의 Grok 4.5, 그런데 정부 검토를 먼저 거친 건 한쪽뿐이었습니다. Cursor와 함께 만들어 지금 써볼 수 있는 Grok 4.5, 대화는 GPT-…",
+          "category": "AI"
+        },
+        {
+          "title": "담당자 퇴사하면 업무 못 하는 회사를 위한 AX는?",
+          "url": "https://yozm.wishket.com/magazine/detail/3842",
+          "summary": "AI 전환, 이른바 'AX'를 내걸지 않는 IT 기업을 찾기 어렵지만, 정작 성과로 이어지는 곳은 절반이 안 됩니다. 도구는 넘쳐나는데 왜 자꾸 성과 앞에서 멈춰 설까요. 매주 기업 20~30곳을 만나는 위시켓 박우…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "오픈서베이, '합성 소비자' 기능 도입...“비용 줄이고 정밀 타깃 분석”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212677",
+          "summary": "AI 리서치 테크 전문 오픈서베이(대표 황희영)는 컨슈머 인텔리전스 플랫폼 ‘데이터스페이스(Dataspace)’에 AI 기술로 구현한 ‘합성 소비자와 대화 기능’을 도입했다고 12일 밝혔다.실제 소비자의 디지털 트윈…",
+          "category": "AI"
+        },
+        {
+          "title": "AI 에이전트 스타트업, AI 에이전트로 1500억 투자 유치…\"130여 투자자 응대\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212659",
+          "summary": "기업용 AI 에이전트 플랫폼 스타트업 라이저(Lyzr)가 자체 AI 에이전트를 활용해 1억달러(약 1500억원) 규모의 투자 유치를 진행하며 제품의 실효성을 직접 입증했다. AI가 투자자 응대부터 투자 설명 자료 작…",
+          "category": "AI"
+        },
+        {
+          "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212678",
+          "summary": "마이크로소프트(MS)가 오픈AI나 앤트로픽 모델의 의존도를 줄이기 위해 자체 MAI 모델을 제품군에 투입했다는 소식이 전해진 가운데, 오픈AI가 최신 모델 'GPT-5.6'이 MS 365 코파일럿의 권장 모델(Pre…",
+          "category": "AI"
+        },
+        {
+          "title": "세레브라스·업스테이지, 국내에 ‘초당 2000토큰’ 초고속 추론 제공",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212665",
+          "summary": "미국의 AI 반도체 기업 세레브라스(Cerebras)와 국내 대표 AI 기업 업스테이지가 전 세계 개발자와 기업들을 대상으로 초고속 상용 AI 서비스를 제공하기 위해 협력한다.세레브라스는 10일(현지시간) 업스테이지…",
+          "category": "Industry"
+        },
+        {
+          "title": "'추론 칩' 삼바노바, 5개월 만에 몸값 5배 상승…16조 가치로 투자 유치",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212662",
+          "summary": "AI 칩 스타트업 삼바노바 시스템(SambaNova Systems) 기업 가치 110억달러(약 16조원)를 인정받으며 10억달러(약 1조5000억원) 규모의 신규 투자를 유치했다. 지난해 인텔의 인수 제안을 거절한…",
+          "category": "Industry"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[SW키트] 엔타이어, 깃허브에 몰린 AI 트래픽 분산…\"보완재에서 경쟁사로\"",
+          "url": "https://zdnet.co.kr/view/?no=20260713101019",
+          "summary": "[지디넷코리아]전 깃허브 최고경영자(CEO)가 설립한 엔타이어가 인공지능(AI) 코딩 확산으로 커지는 개발 플랫폼 부담을 줄이기 위한 분산형 네트워크를 내놨다. 깃허브에 몰리는 AI 에이전트 코드 읽기 작업을 여러…",
+          "category": "AI"
+        },
+        {
+          "title": "딥엑스, 라즈베리파이 전용 AI 가속 보드 출시…피지컬 AI 생태계 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20260713102445",
+          "summary": "[지디넷코리아]온디바이스 인공지능(AI) 반도체 팹리스(설계전문) 딥엑스가 개방형 컴퓨팅 플랫폼 라즈베리 파이 전용 AI 가속 보드를 출시하고 글로벌 피지컬 AI 개발 생태계 구축에 나선다. 딥엑스는 라즈베리 파이에…",
+          "category": "AI"
+        },
+        {
+          "title": "ICTK, 특허계 노벨상 WIPO 글로벌 어워즈 2026 최종 수상",
+          "url": "https://zdnet.co.kr/view/?no=20260713085533",
+          "summary": "[지디넷코리아]국내 차세대 양자 보안 팹리스(반도체 설계전문) 아이씨티케이(ICTK)가 UN 산하 기구로부터 설계자산(IP) 기술력을 인정받으며 글로벌 보안 시장 영토 확장에 속도를 낸다.아이씨티케이는 세계지식재산권…",
+          "category": "Security"
+        },
+        {
+          "title": "중국 지푸AI 창업자 \"최첨단 AI, 소수가 독점해선 안 된다\"",
+          "url": "https://zdnet.co.kr/view/?no=20260713094912",
+          "summary": "[지디넷코리아]중국 인공지능(AI) 기업 지푸AI가 최첨단 AI 모델을 오픈소스로 공개하며 개방형 AI 전략을 전면에 내세웠다. 단기 수익성보다 기술 고도화에 집중해 글로벌 AI 생태계 확산을 주도하겠다는 목표다.1…",
+          "category": "AI"
+        },
+        {
+          "title": "KT, 챗GPT 등 '생성AI 6종' 구독료 최대 반값 할인...휴대폰 결제 시",
+          "url": "https://zdnet.co.kr/view/?no=20260713092209",
+          "summary": "[지디넷코리아]KT가 7월 휴대폰 결제로 생성형 AI 서비스와 유튜브 프리미엄, 카카오톡 톡서랍플러스 등 서비스를 가입하면 최대 반값 할인한다.KT는 휴대폰결제 프로모션 서비스 ‘KT 콘텐츠페이’를 통해 7월 한 달…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
