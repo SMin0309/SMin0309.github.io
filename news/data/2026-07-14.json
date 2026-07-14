@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-14",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "[게시판] SDT, 양자클라우드 플랫폼 보안 강화 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212721",
+          "summary": "■ 양자기술 전문 SDT(대표 윤지원)는 하이브리드 양자 클라우드 플랫폼 '큐레카(QuREKA)'에 양자내성암호(PQC)를 적용하는 동시에, 엔비디아 CUDA-Q 플랫폼 양자컴퓨팅 교육 자료인 'CUDA-Q 아카데믹…",
+          "category": "AI"
+        },
+        {
+          "title": "메타 CAIO \"코딩은 에이전트의 기본…'뮤즈 스파크' 오픈소스 버전도 준비\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212686",
+          "summary": "메타가 차세대 AI 모델 '뮤즈 스파크(Muse Spark) 1.1'을 공개하며 기업용 시장 경쟁에 속도를 내고 있다. 알렉산드르 왕 메타 최고 AI책임자(CAIO)는 \"진정한 AI 에이전트를 구현하려면 코딩 능력이…",
+          "category": "AI"
+        },
+        {
+          "title": "네이버, 'ICML'서 AI 풀스택 연구 성과 선보여",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212706",
+          "summary": "네이버(대표 최수연)는 '2026 국제머신러닝학회(ICML 2026)'에서 AI 모델 고도화부터 피지컬 AI까지 연구 성과를 발표했다고 13일 밝혔다.네이버는 지난 6일부터 11일까지 서울 코엑스에서 열린 ‘ICML…",
+          "category": "AI"
+        },
+        {
+          "title": "빅테크 AI 대규모 감원으로 재취업 시장 포화 상태…\"엎친 데 덮친 격\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212697",
+          "summary": "AI 투자에 따른 비용 마련과 조직 체질 개선 등으로 인해 사상 최대 규모의 감원을 단행한 기술 업계 퇴사자들이 포화 상태에 이른 고용 시장에서 극심한 침체를 겪는 것으로 나타났다.CNBC는 11일(현지시간) 챌린저…",
+          "category": "AI"
+        },
+        {
+          "title": "딥노이드 “의료 에이전틱 AI로 승부수… 환각률 0.2%로 업무 바꾼다”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212722",
+          "summary": "“챗GPT가 등장한 이래로 AI 고도화를 위한 데이터를 지속적으로 수집한 것은 물론, 인프라를 새로 구축하고, 의료 기기를 새롭게 연구했습니다. 앞으로는 ‘에이전틱AI’에서 본격적인 승부가 시작되는 만큼, 실제 생산…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[AI 고속도로] 메타, 美루이지애나 AI 데이터센터 5GW로 확대…500억 달러 투입",
+          "url": "https://zdnet.co.kr/view/?no=20260714082322",
+          "summary": "[지디넷코리아]메타가 미국 루이지애나주에 건설 중인 인공지능(AI) 데이터센터 규모를 대폭 확대하며 AI 인프라 투자에 속도를 낸다. 데이터센터 연산 능력을 기존 계획보다 크게 늘리는 동시에, 향후 외부 기업을 대상…",
+          "category": "AI"
+        },
+        {
+          "title": "나델라 CEO \"기업, AI 쓰다 업무 노하우 뺏겨…자체 학습 환경 필수\"",
+          "url": "https://zdnet.co.kr/view/?no=20260714082859",
+          "summary": "[지디넷코리아]마이크로소프트가 기업용 인공지능(AI) 도입 과정에서 발생할 수 있는 데이터 유출과 기술 종속 위험을 경고했다. 14일 테크크런치 등 외신에 따르면 사티아 나델라 마이크로소프트 최고경영자(CEO)는 최…",
+          "category": "AI"
+        },
+        {
+          "title": "유럽 방산 AI 스타트업 헬싱, 1조8천억원 투자 유치…기업가치 18조원 평가",
+          "url": "https://zdnet.co.kr/view/?no=20260714083559",
+          "summary": "[지디넷코리아]유럽의 안두릴이라 불리는 방산 인공지능(AI) 스타트업 헬싱(Helsing)이 18억달러(약 2조5천억원) 규모 투자를 유치하며 기업가치 180억달러(약 25조원)를 인정받았다.헬싱은 14일(현지시간)…",
+          "category": "AI"
+        },
+        {
+          "title": "에이비일팔공, 레비뉴캣 국내 독점 파트너십…구독형 앱 수익화 공략",
+          "url": "https://zdnet.co.kr/view/?no=20260714083425",
+          "summary": "[지디넷코리아]에이비일팔공(AB180)이 글로벌 앱 구독 관리 플랫폼 레비뉴캣(RevenueCat)과 국내 독점 파트너십을 체결했다. 국내 구독형 앱 시장을 겨냥해 영업과 기술 지원을 맡으며 모바일 앱 수익화 솔루션…",
+          "category": "Mobile"
+        },
+        {
+          "title": "NHN두레이, 울산시교육청에 협업툴 공급…교육청 첫 SaaS 도입",
+          "url": "https://zdnet.co.kr/view/?no=20260714092103",
+          "summary": "[지디넷코리아]NHN두레이(대표 백창열)가 울산광역시교육청에 협업 플랫폼 '두레이'를 공급했다. 시·도교육청이 SaaS(서비스형 소프트웨어) 기반 협업툴을 도입한 첫 사례로, 교육행정의 디지털 전환과 종이 없는 업무…",
+          "category": "Cloud"
+        }
+      ]
+    }
+  ]
+}
