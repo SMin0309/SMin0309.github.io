@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-15",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "바이브 코딩을 하기 전에 꼭 알아야 할 7가지 개념 정리",
+          "url": "https://yozm.wishket.com/magazine/detail/3850",
+          "summary": "바이브 코딩으로 무언가를 만들다 보면 누구나 한 번쯤 비슷한 순간을 만납니다. \"AI가 자신 있게 알려준 대로 했는데 왜 안 되지?\", \"분명 잘 되던 화면이 수정 한 번에 망가졌는데 되돌릴 방법이 없네?\", \"내…",
+          "category": "AI"
+        },
+        {
+          "title": "클로드 코드에서 스킬을 묶어 워크플로우 자동화하기",
+          "url": "https://yozm.wishket.com/magazine/detail/3849",
+          "summary": "이번 글은 클코나잇 2 웨비나의 세 번째 발표로, 클로드 코드(Claude Code)를 활용해 개발 생산성을 극대화하는 방법을 공유합니다. 반복되는 프롬프트를 '스킬'로 정의하고, 이를 '스킬 크리에이터' 플러그인으…",
+          "category": "AI"
+        },
+        {
+          "title": "페이블, 앤트로픽 엔지니어가 알려주는 활용 가이드",
+          "url": "https://yozm.wishket.com/magazine/detail/3848",
+          "summary": "6월 9일 출시된 페이블 5(Fable 5)는 지난 한 달간 롤러코스터 같은 시간을 보냈습니다. 출시 사흘 만인 6월 12일, 미국 상무부의 지시로 서비스가 전면 차단되는 위기를 맞았지만, 6월 30일 규제가 풀리면…",
+          "category": "Industry"
+        },
+        {
+          "title": "회사에서 아무것도 안 하기",
+          "url": "https://yozm.wishket.com/magazine/detail/3847",
+          "summary": "많은 엔지니어가 지금보다 일을 덜 해야 합니다. 코드를 덜 짜거나, 변경을 줄이라는 뜻이 아닙니다. 말 그대로 하루에 일하는 시간을 줄이라는 이야기입니다. 그리고 일할 때도 좀 더 느긋한 속도로 일하는 게 좋습니다.…",
+          "category": "Etc"
+        },
+        {
+          "title": "중소기업 AI 도입률 23.4%, 왜 나중으로 미룰까?",
+          "url": "https://yozm.wishket.com/magazine/detail/3846",
+          "summary": "\"AI를 이용하면 사원들의 업무 효율이 크게 올라갑니다.\" 영업사원들이 고객사에 흔히 말하는 세일즈 멘트입니다. 하지만 의외로 많은 기업 담당자들은 \"저희는 아직 그런 게 필요한 단계가 아니에요.\", \"일단 급한 것…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글, '엔비디아 우군' 네오클라우드 상대로 TPU 공세 본격화",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212737",
+          "summary": "구글이 엔비디아의 AI 칩 공급망을 정면으로 겨냥하며 자체 AI 칩 TPU 확장 전략에 속도를 내고 있다. 엔비디아 GPU를 임대하는 네오클라우드를 직접 공략하는 것은 물론, 데이터센터 투자 보증과 재임대까지 제안하…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI '코덱스' 활성 사용자 700만 돌파...'GPT-5.6' 출시 효과 톡톡",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212728",
+          "summary": "오픈AI의 AI 코딩 에이전트 '코덱스'와 '챗GPT 워크(ChatGPT Work)'의 활성 사용자가 700만명을 돌파했다. 코덱스는 지난 2월 정식 출시 이후 반년 만에 달성한 성과로, 최근 'GPT-5.6' 출시…",
+          "category": "AI"
+        },
+        {
+          "title": "나델라의 경고 “AI 기업에 노하우 넘겨주는 ‘역정보의 역설’ 막아야”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212736",
+          "summary": "사티아 나델라 마이크로소프트(MS) CEO가 오픈AI와 앤트로픽 등 폐쇄형 AI 모델 업체들의 사업 방식을 정면으로 비판하며 기업들에게 AI 데이터 주권을 확보해야 한다고 촉구했다. AI 서비스를 사용할수록 기업의…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] SKT, 차세대 AI 네트워크 'AI-RAN' 구축사업 선정 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212763",
+          "summary": "■ SK텔레콤(대표 정재헌)은 과학기술정보통신부와 한국지능정보사회진흥원(NIA)이 주관하는 '하이퍼 AI(Hyper-AI) 네트워크 기반조성' 실증사업의 수행기관으로 선정됐다고 밝혔다. SKT는 이번 사업을 통해 '…",
+          "category": "Industry"
+        },
+        {
+          "title": "AI 기본법 개정안 21일 시행…“공공조달 시 AI 제품 우선 적용”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212764",
+          "summary": "과학기술정보통신부(장관 배경훈)는 ‘인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령’ 개정안이 국무회의를 통과했다고 14일 밝혔다. 지난 1월20일 개정된 AI기본법은 5월21일 입법예고를 통해 수정, 보완…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "\"엔비디아 '쿠다' 철벽 깬다\"…K-NPU, 공공 마중물 타고 비상",
+          "url": "https://zdnet.co.kr/view/?no=20260714161639",
+          "summary": "[지디넷코리아]글로벌 인공지능(AI) 패권 경쟁이 격화되는 가운데, 빅테크 소프트웨어 생태계 벽에 막혀 있던 국산 AI 반도체가 공공 부문이라는 '테스트베드'를 발판으로 도약의 날개를 단다. 레퍼런스와 생태계 부재로…",
+          "category": "AI"
+        },
+        {
+          "title": "HCL테크, 사상 최대 24억 달러 수주에 힘입어 견조한 1분기 실적 달성",
+          "url": "https://zdnet.co.kr/view/?no=20260714211002",
+          "summary": "[지디넷코리아] 첨단 AI 매출 62.1% 증가한 1억 7100만 달러…AI 데이터센터 구축에 최대 350억 루피 투자 계획 미국 뉴욕 및 인도 노이다, 2026년 7월 14일 /PRNewswire/ -- 세계적인…",
+          "category": "Industry"
+        },
+        {
+          "title": "IITP, '양자 플래그십' R&D 기술교류회 개최",
+          "url": "https://zdnet.co.kr/view/?no=20260714195230",
+          "summary": "[지디넷코리아]정보통신기획평가원(IITP, 원장 홍진배)이 13일부터 14일까지 이틀간 대전컨벤션센터(DCC)에서 '양자 플래그십(양자통신·센서) R&D 인사이트 교류회'를 개최했다.교류회는 양자통신 및 양자센싱 분…",
+          "category": "Etc"
+        },
+        {
+          "title": "조승래 의원 공들이는 글로벌 아트 앤 테크 허브 밑그림 나와",
+          "url": "https://zdnet.co.kr/view/?no=20260714181357",
+          "summary": "[지디넷코리아]과학과 예술을 결합한 글로벌 아트앤테크 허브 구축이 추진된다.한국과학기술원(KAIST) 문화기술대학원은 14일 조승래 의원(더불어민주당, 유성구갑) 지원을 받아 ‘대전 Art & Tech 센터 건립 타…",
+          "category": "AI"
+        },
+        {
+          "title": "'몰카안경' 논란  메타 AI 글래스, 이통3사도 판다는데",
+          "url": "https://zdnet.co.kr/view/?no=20260714163725",
+          "summary": "[지디넷코리아]SK텔레콤, KT, LG유플러스 등 이동통신 3사가 곧 '메타 AI 글래스' 판매를 시작할 예정인 가운데 불법 촬영이나 시험 부정 행위 악용 사례가 잇따라 우려의 목소리가 커지고 있다.14일 통신 업계…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
