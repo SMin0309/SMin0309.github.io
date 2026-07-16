@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-16",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "중국 모바일 시장, 'AI OS' 경쟁 시작...AI 모델 스타트업도 '에이전트 폰' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212798",
+          "summary": "중국 기술 기업들이 AI 에이전트를 탑재한 단말기 시장 확장에 나섰다. 이른바 ‘AI 에이전트 폰’ 시장의 패권을 잡기 위해 빅테크 기업과 스마트폰 기업, 그리고 AI 스타트업들이 경쟁을 펼치기 시작했다.중국 대표…",
+          "category": "AI"
+        },
+        {
+          "title": "'헤르메스 에이전트' 누스 리서치, 2조 가치로 투자 유치 협상",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212795",
+          "summary": "오픈소스 AI 에이전트 '헤르메스(Hermes)'로 몸값이 상승한 미국 AI 스타트업 누스 리서치가 신규 투자 유치를 위한 막바지 협상을 진행 중인 것으로 알려졌다.14일(현지시간) 테크크런치에 따르면, 누스 리서치…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI ‘GPT-5.6 솔’, 사용자 파일 무단 삭제...'선 넘은 자율성' 논란",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212778",
+          "summary": "오픈AI의 'GPT-5.6 솔(Sol)'이 사용자의 사전 승인 없이 로컬 파일과 운영 중인 프로덕션 데이터베이스(DB)를 삭제했다는 사례가 잇따라 보고되면서 안전성 논란이 커지고 있다. 특히 오픈AI가 모델 출시 전…",
+          "category": "AI"
+        },
+        {
+          "title": "업스테이지·퓨리오사AI \"국산 기술로 '풀스택 AI' 첫 상용화\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212810",
+          "summary": "업스테이지(대표 김성훈)는 포털 ‘다음’ 운영사 AXZ(대표 이건수), AI 반도체 전문 퓨리오사AI(대표 백준호)와 합동 대담을 진행, 하드웨어와 소프트웨어, 서비스를 모두 갖춘 ‘국내 첫 풀스택 소버린 AI 상용…",
+          "category": "AI"
+        },
+        {
+          "title": "'그록 빌드', 소스코드·인증키 무단 수집 논란...머스크 “업로드 데이터 전면 삭제”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212779",
+          "summary": "스페이스XAI의 AI 코딩 도구 '그록 빌드(Grok Build)'가 사용자 동의 없이 전체 코드 저장소(Git Repository)와 민감한 환경설정 파일(.env)을 회사 서버로 업로드한 사실이 드러나면서 개인정…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "\"애플, AI 칩 제조업체 인수 검토 중\"",
+          "url": "https://zdnet.co.kr/view/?no=20260716075617",
+          "summary": "[지디넷코리아]애플이 인공지능(AI) 서버용 반도체 역량 강화를 위해 AI 칩 제조 업체 인수를 추진하고 있다고 IT매체 디인포메이션이 15일(현지시간) 보도했다.보도에 따르면 애플은 고성능 AI 연산에서 엔비디아에…",
+          "category": "AI"
+        },
+        {
+          "title": "애플 인텔리전스, 중국 규제 문턱 넘었다…출시 임박",
+          "url": "https://zdnet.co.kr/view/?no=20260716081308",
+          "summary": "[지디넷코리아]중국 사이버공간관리국(CAC)이 애플의 생성형 인공지능(AI) 서비스 '애플 인텔리전스'를 중국 내 아이폰에서 사용할 수 있도록 등록했다고 로이터통신 등 외신이 15일(현지시간) 보도했다.이번 등록으로…",
+          "category": "AI"
+        },
+        {
+          "title": "티오리, 온디멘드 AI 모의해킹 솔루션 ‘진트 펄스' 선보여",
+          "url": "https://zdnet.co.kr/view/?no=20260715223932",
+          "summary": "[지디넷코리아]공격형(오펜시브) 사이버 보안 기업 티오리(Theori, 대표 박세준)가 자사 AI 기반 취약점 탐지 플랫폼 ‘진트(Xint)’의 온디멘드(On-Demand)형 ‘진트 펄스(Xint Pulse)’를 1…",
+          "category": "Security"
+        },
+        {
+          "title": "AI 음악 생성 개발사 수노, 유튜브 음원 불법 수집 의혹 '일파만파'",
+          "url": "https://zdnet.co.kr/view/?no=20260716090026",
+          "summary": "[지디넷코리아]인공지능(AI) 음악 생성기 개발사 수노가 유튜브 등에서 대규모 음원을 불법으로 수집했다는 외신 보도가 잇따르고 있다. 해킹으로 내부 소스 코드가 유출되면서 AI 학습 데이터를 확보한 경로가 드러난 것…",
+          "category": "AI"
+        },
+        {
+          "title": "\"특가 상품 알려줘\"…롯데면세점, 챗GPT 쇼핑 서비스 출시",
+          "url": "https://zdnet.co.kr/view/?no=20260716085727",
+          "summary": "[지디넷코리아]롯데면세점이 국내 면세업계 중 처음으로 생성형 AI 플랫폼 챗GPT 기반 쇼핑 서비스를 선보인다고 16일 밝혔다.이번 서비스는 롯데그룹이 추진 중인 전사적 인공지능 전환(AX) 전략의 일환이다. 롯데그…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
