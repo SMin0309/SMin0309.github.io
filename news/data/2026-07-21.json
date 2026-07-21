@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-21",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "넘즈에이아이, ‘정형 데이터 파운데이션 모델’로 40억 시드 투자 유치",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212957",
+          "summary": "넘즈에이아이(Nums AI, 대표 유재민)가 정형 데이터 파운데이션 모델(TFM) 기술력을 통해 40억원 규모의 첫 투자를 유치했다고 20일 밝혔다. 이번 투자는 스톤브릿지벤처스가 리드했으며 SBVA, KT인베스트먼…",
+          "category": "AI"
+        },
+        {
+          "title": "\"상반기 반도체 산업 신입 공고 47% 증가\"...SK하이닉스·삼성전자 견인",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212945",
+          "summary": "HR테크 전문 웍스피어(대표 윤현준)는 올해 상반기 반도체 업종 채용공고를 분석한 결과, 신입 공고가 급증한 것으로 나타났다고 20일 밝혔다.웍스피어가 운영하는 잡코리아 플랫폼에 따르면, 올해 상반기 반도체 업종 신…",
+          "category": "Hardware"
+        },
+        {
+          "title": "알리바바, ‘쿠다 독점’에 오픈소스로 도전장… 현실 장벽 여전히 높아",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212933",
+          "summary": "미국의 반도체 수출 규제가 심화하는 가운데, 중국 알리바바가 하드웨어 난제를 넘어 AI 소프트웨어 생태계 주권을 확보하기 위한 오픈소스 카드를 꺼내 들었다. 엔비디아 독점 체제의 핵심인 '쿠다(CUDA)'를 추격하겠…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, 'GPT-5.6 솔' 사용자 후기 1만건 공개…\"워크플로우 중심으로\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212937",
+          "summary": "오픈AI가 'GPT-5.6 솔(sol)' 출시 이후 전 세계 실제 사용자들이 제출한 1만개 이상의 활용 후기를 한데 모은 대규모 데이터베이스를 공개했다. 이번 데이터는 총 100만달러 상당의 크레딧 보상을 내건 대형…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판]  일레븐랩스, LOT 폴란드항공과 음성 AI 에이전트 실증 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212959",
+          "summary": "■ 일레븐랩스는 폴란드의 플래그 캐리어(국적기)인 LOT 폴란드항공과 손잡고 차세대 엔터프라이즈용 대화형 AI 플랫폼 ‘일레븐에이전트(ElevenAgents)’를 활용한 음성 AI 어시스턴트 실증 실험을 개시했다고…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "SKT, AI 기술 스타트업 15개 찾는다",
+          "url": "https://zdnet.co.kr/view/?no=20260721084239",
+          "summary": "[지디넷코리아]SK텔레콤이 AI 분야 스타트업 발굴 육성 프로그램 ‘스케치 위드 AI(SKTCH with AI)’를 선보이고 다음달 18일까지 참여 스타트업을 모집한다.SKTCH는 SK텔레콤과 테크(Tech) 합성어…",
+          "category": "AI"
+        },
+        {
+          "title": "이글루, 보안 AI 에이전트 ‘AiR’ 한국표준협회 'AI+' 인증 획득",
+          "url": "https://zdnet.co.kr/view/?no=20260720214742",
+          "summary": "[지디넷코리아]AI기반 보안 운영·분석 플랫폼 기업 이글루코퍼레이션(대표 이득춘)의 보안 특화 인공지능(AI) 에이전트 ‘에어(AiR, AI Road)’가 한국표준협회(KSA)가 부여하는 AI+(에이아이플러스) 인증…",
+          "category": "AI"
+        },
+        {
+          "title": "지슨 \"AI 해킹 시대…보안 사각 '무선 백도어' 대응 필요\"",
+          "url": "https://zdnet.co.kr/view/?no=20260720173846",
+          "summary": "[지디넷코리아]무선 물리보안 전문 기업 지슨(대표 한동진)이 인공지능(AI)발 사이버 위협에 대응하기 위해 기존 보안 체계는 물론 보안 사각지대인 무선 전파 영역까지 철저히 통제하는 입체적 방어 체계의 필요성이 있다…",
+          "category": "Security"
+        },
+        {
+          "title": "브룩필드 찾는 네이버 이해진·최수연…AI 조단위 투자 유치하나",
+          "url": "https://zdnet.co.kr/view/?no=20260720172121",
+          "summary": "[지디넷코리아]이해진 창업자와 최수연 대표를 포함한 네이버 최고경영진이 글로벌 대체자산 운용사 브룩필드의 캐나다 본사를 방문한다. 이를 통해 네이버는 데이터센터 등 인공지능(AI) 팩토리 구축에 필요한 자금을 수혈할…",
+          "category": "AI"
+        },
+        {
+          "title": "팀스파르타 초경량 언어모델, 'K-AI 리더보드' 초고난도 추론 1위",
+          "url": "https://zdnet.co.kr/view/?no=20260720183030",
+          "summary": "[지디넷코리아]팀스파르타(대표 이범규)가 자체 개발한 초경량 언어모델 ‘K-AX 스파르탄 1.8B’가 과학기술정보통신부와 한국지능정보사회진흥원(NIA)이 운영하는 ‘K-AI 리더보드’의 초고난도 추론 평가인 ‘HLE…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
