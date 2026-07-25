@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-25",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "엔비디아·MS·메타 \"오픈소스 막지 마라\"...미국 정부에 공동 서한",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213165",
+          "summary": "엔비디아와 마이크로소프트(MS), 메타, IBM, 팔란티어 등 미국 주요 기술 기업들이 미국 정부에 오픈웨이트(Open-weight) AI 모델에 대한 규제를 자제해 달라고 공개적으로 촉구했다. 최근 중국 문샷 AI…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, 데스크톱 앱에 'GPT-라이브' 음성 제어 도입",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213129",
+          "summary": "오픈AI가 자연스러운 음성 대화 모델 'GPT-라이브(GPT-Live)'를 맥(Mac)과 윈도우용 챗GPT 데스크톱 앱에 통합하며 음성 기반 AI 개발 환경을 본격화했다. 코딩 에이전트 '코덱스'와 '챗GPT 워크'…",
+          "category": "AI"
+        },
+        {
+          "title": "테크타카, 180억 규모 후속 투자 유치…”AI 물류 운영 솔루션 고도화”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213152",
+          "summary": "글로벌 통합 물류 플랫폼 전문 테크타카(대표 양수영)는 총 180억원 규모 후속 투자 유치를 마무리했다고 24일 밝혔다.이번 라운드에는 기존 투자사인 네이버 D2SF와 알토스벤처스를 비롯해 일본 시장 전략적 교두보가…",
+          "category": "Industry"
+        },
+        {
+          "title": "APEC, AI 공동성명 채택...'안전한 오픈소스 AI' 지원에 미·중 등 21개국 공감대",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213163",
+          "summary": "아시아태평양경제협력체(APEC) 회원국들이 AI의 개방성과 혁신을 유지하는 동시에 보안과 데이터 보호를 강화하는 방향의 공동 원칙을 마련했다. 미국과 중국을 포함한 21개 회원국이 오픈소스 AI 생태계 지원에 뜻을…",
+          "category": "AI"
+        },
+        {
+          "title": "딥시크 창립자 \"수익보다 AGI 우선…첨단  모델도 오픈소스 유지\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213139",
+          "summary": "량원펑 딥시크 창립자가 단기적인 수익보다 AGI 개발을 최우선 목표로 삼겠다는 방침을 밝힌 것으로 알려졌다. 또 회사의 핵심 AI 모델을 앞으로도 오픈소스로 공개할 가능성이 높다며, 개방형 생태계를 중심으로 기술 경…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "미국 5대 빅테크 '숨은 AI 부채' 2442조원…니케이 분석",
+          "url": "https://zdnet.co.kr/view/?no=20260724215525",
+          "summary": "[지디넷코리아]미국 5대 기술 기업의 회계장부 밖 AI 관련 부채가 약 2,442조원(1조 6,500억 달러)에 이른다고 니케이가 7월 23일 분석했다. 대상은 알파벳과 마이크로소프트, 아마존, 메타, 오라클이며,…",
+          "category": "AI"
+        },
+        {
+          "title": "'코드게이트 2026' 성료...일본팀 일반부 우승",
+          "url": "https://zdnet.co.kr/view/?no=20260724173734",
+          "summary": "[지디넷코리아]세계 최정상 해커들이 집결해 실력을 겨루는 국제해킹방어대회 '코드게이트 2026'이 열렸다. 이번 대회에서는 KAIST와 코드게이트보안포럼이 공동 개발한 '인공지능(AI) 해커'도 초청선수로 참가해 '…",
+          "category": "AI"
+        },
+        {
+          "title": "[현장] 한국 상륙한 AI 플랫폼 '젠스파크'…3년간 1억 달러 투자",
+          "url": "https://zdnet.co.kr/view/?no=20260724171937",
+          "summary": "[지디넷코리아]글로벌 인공지능(AI) 워크스페이스 플랫폼 스타트업 젠스파크가 한국 시장에 공식 진출하며 공격적인 투자에 나선다. 향후 3년간 1억 달러(약 1475억원)를 투입해 조직과 파트너 생태계를 확대하는 동시…",
+          "category": "AI"
+        },
+        {
+          "title": "메가존클라우드-아크릴, AI 인프라 사업 맞손…헬스케어·공공 공략",
+          "url": "https://zdnet.co.kr/view/?no=20260724174604",
+          "summary": "[지디넷코리아]메가존클라우드가 아크릴과 손잡고 기업·공공기관 대상 AI 인프라 사업 확대에 나선다. 그래픽처리장치(GPU) 인프라 구축과 운영 최적화 기술을 결합해 산업별 AI 전환(AX) 사업을 공동 추진하고 글로…",
+          "category": "Industry"
+        },
+        {
+          "title": "MiTAC 컴퓨팅, 6세대 AMD EPYC™ 서버 CPU로 에이전틱 AI 인프라 강화",
+          "url": "https://zdnet.co.kr/view/?no=20260724171014",
+          "summary": "[지디넷코리아]샌프란시스코, 2026년 7월 24일 /PRNewswire/ -- 고성능 및 고효율 서버 솔루션 분야의 글로벌 선두주자이자 MiTAC 홀딩스 (MiTAC Holdings Corporation, TWSE…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
