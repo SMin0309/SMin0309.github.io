@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-29",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "MS, 보안 특화 'MAI-사이버-1-플래시' 공개...\"앤트로픽·오픈AI 능가\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213245",
+          "summary": "마이크로소프트(MS)가 사이버 보안에 특화된 자체 AI 모델 'MAI-사이버-1-플래시(MAI-Cyber-1-Flash)'와 다중 에이전트 기반 보안 플랫폼 '프로젝트 퍼셉션(Project Perception)'을…",
+          "category": "AI"
+        },
+        {
+          "title": "설치 수월해진 엔비디아 '베라 루빈', 클라우드 업계 초기 호평",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213262",
+          "summary": "엔비디아의 차세대 AI 서버 플랫폼 '베라 루빈(Vera Rubin)'이 주요 클라우드 사업자들로부터 초기 호평을 받고 있다. 지난해 '그레이스 블랙웰(Grace Blackwell)' 서버 도입 당시 겪었던 설치와…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] 로바이, AI 로봇 제어 기술로 시드 투자 유치 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213277",
+          "summary": "■ 로바이(대표 정원영)는 한국투자액셀러레이터로부터 시드 투자를 유치했다고 밝혔다. 금액은 비공개다. 로바이는 'AI 자가 탐색' 기술을 중심으로 범용 로봇 제어 플랫폼 '로봇 아카데미'를 개발하고 있다. 최근 로봇…",
+          "category": "Industry"
+        },
+        {
+          "title": "\"AI가 뚫고, AI가 막는다\"... 올해 사이버 취약점 2배 폭증 전망",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213268",
+          "summary": "AI의 급격한 발전으로 소프트웨어 보안 취약점 발견 속도가 크게 빨라지면서 올해 공개되는 사이버 보안 취약점이 지난해의 두 배에 이를 것으로 전망됐다. AI가 방어와 공격 양측의 역량을 동시에 끌어올리면서 사이버 보…",
+          "category": "Security"
+        },
+        {
+          "title": "KT, 아모레퍼시픽 70년 연구데이터 AI 플랫폼으로 통합...\"진정한 AX 사례\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213250",
+          "summary": "KT(대표 박윤영)는 아모레퍼시픽(대표 서경배, 김승환)의 기술연구소(R&I센터) 전체 데이터를 통합 및 재설계하는 ‘데이터 하이웨이(Data Highway)’ 프로젝트를 완료하고, AI 연구개발 혁신을 위한 데이터…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "디노티시아-STX엔진, 방산 AIDC 구축 MOU",
+          "url": "https://zdnet.co.kr/view/?no=20260729091110",
+          "summary": "[지디넷코리아]장기기억 인공지능(AI) 및 반도체 솔루션 기업 디노티시아가 STX엔진과 방위 산업에 특화한 인공지능 데이터센터(AIDC) 구축 업무협약(MOU)을 체결했다고 29일 밝혔다. 양사는 ▲STX엔진의 방산…",
+          "category": "AI"
+        },
+        {
+          "title": "애플, '시리AI'로 스마트홈 혁명 이끈다",
+          "url": "https://zdnet.co.kr/view/?no=20260729082957",
+          "summary": "[지디넷코리아]애플이 새로운 인공지능(AI) 음성비서 '시리AI'를 중심으로 한 스마트홈 생태계 강화에 나선다.블룸버그 통신은 28일(현지시간) 익명의 소식통을 인용해 애플이 올해 출시 예정인 새 비서 ‘시리AI’를…",
+          "category": "AI"
+        },
+        {
+          "title": "DXC와 일레븐랩스, 엔터프라이즈 AI 및 음성 혁신 확장을 위한 전략적 파트너십 발표",
+          "url": "https://zdnet.co.kr/view/?no=20260728231002",
+          "summary": "[지디넷코리아]애슈번, 버지니아, 2026년 7월 28일 /PRNewswire/ -- 선도적인 엔터프라이즈 기술 및 혁신 파트너인 DXC 테크놀로지(DXC Technology, NYSE: DXC)가 7월 28일, 오…",
+          "category": "AI"
+        },
+        {
+          "title": "HNS 2026 | 화웨이, 남아프리카 지역을 위한 업그레이드 싱허 AI 캠퍼스 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260728221003",
+          "summary": "[지디넷코리아]요하네스버그, 2026년 7월 28일 /PRNewswire/ -- 화웨이가 2026 화웨이 네트워크 서밋 남아프리카(Huawei Network Summit 2026 South Africa)에서 '안전하…",
+          "category": "AI"
+        },
+        {
+          "title": "엘앤에프, 美 배터리 스타트업에 LFP 양극재 공급",
+          "url": "https://zdnet.co.kr/view/?no=20260729091735",
+          "summary": "[지디넷코리아]엘앤에프는 미국 배터리 기술 기업 코어셸테크놀로지와 리튬인산철(LFP) 양극재 중장기 공급계약을 체결했다고 29일 밝혔다.엘앤에프는 OBBBA를 포함한 미국 공급망·원산지 규제에 대응 가능한 LFP 양…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
