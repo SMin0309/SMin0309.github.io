@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-01",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "\"악성 문서 읽고 파일 유출\"...MS 코파일럿서 보안 허점 발견",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213408",
+          "summary": "AI를 활용한 사이버 보안 경쟁이 본격화하는 가운데, 기업용 AI 서비스의 보안 취약점이 잇따라 드러나고 있다. 최근 허깅페이스 해킹 사태에 이어 마이크로소프트(MS)의 기업용 AI 비서 '코파일럿(Copilot)'…",
+          "category": "Security"
+        },
+        {
+          "title": "구글, 앤트로픽에 초대형 금융 보증...\"21조 데이터센터 세운다\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213404",
+          "summary": "구글이 앤트로픽의 대규모 데이터센터 구축 프로젝트를 지원하기 위해 대규모 금융 보증에 나선다. AI 모델 개발 경쟁이 심화하면서 빅테크 기업과 반도체 업체들이 직접 AI 인프라 투자 위험을 분담하는 새로운 금융 구조…",
+          "category": "AI"
+        },
+        {
+          "title": "TSMC, 인텔 ‘EMIB’ 맞서 차세대 AI 칩 패키징 개발 착수",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213405",
+          "summary": "세계 최대 파운드리 업체 TSMC가 인텔의 첨단 패키징 기술인 'EMIB(Embedded Multi-die Interconnect Bridge)'에 대응하는 새로운 기술 개발에 착수한 것으로 알려졌다. 엔비디아와 구…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽 \"클로드, 격리 테스트 중 인터넷 접속해 실제 기업 3곳 해킹\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213428",
+          "summary": "앤트로픽이 사이버 보안 평가 과정에서 '클로드'가 격리된 테스트 환경을 벗어나 실제 3개 조직의 시스템에 무단 접근하는 사건이 발생했다고 밝혔다. 앞서 발생한 오픈AI의 모의 침투 탈출 사건에 이어 이번 사태는 고도…",
+          "category": "Security"
+        },
+        {
+          "title": "구글, 휴머노이드 전신 제어 AI '제미나이 로보틱스 2' 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213392",
+          "summary": "구글 딥마인드가 AI를 디지털 영역에서 실제 물리 세계로 확장하기 위한 핵심 기술을 공개했다. 새로운 ‘제미나이 로보틱스 2(Gemini Robotics 2)’는 로봇이 주변 환경을 이해하고 스스로 작업 계획을 세우…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[기경학회 AX칼럼] 산업AI 승부처, 플랫폼 엔지니어링",
+          "url": "https://zdnet.co.kr/view/?no=20260801093832",
+          "summary": "[지디넷코리아]어떤 공장이 있다. 생산라인에 품질 예측 AI를 올리는 데 여섯 달이 걸렸고 해보자. 현장 데이터를 정리하고 설비와 MES(제조실행시스템)를 연결했고, 보안팀과 작업자가 결과를 검증했다. 다음 과제는…",
+          "category": "AI"
+        },
+        {
+          "title": "몽타주 테크놀로지, 업계 최초 CXL 3.2 MXC 칩 시범 양산 발표",
+          "url": "https://zdnet.co.kr/view/?no=20260801001014",
+          "summary": "[지디넷코리아]횡친, 중국 2026년 7월 31일 /PRNewswire/ -- 몽타주 테크놀로지(Montage Technology)가 AI와 클라우드 컴퓨팅, 데이터 센터 환경에서 급증하는 메모리 확장과 리소스 풀링…",
+          "category": "Hardware"
+        },
+        {
+          "title": "이노디스크, AI 워크로드 지원하는 고속 DDR5 12800 MT/s MRDIMM 출시",
+          "url": "https://zdnet.co.kr/view/?no=20260731231003",
+          "summary": "[지디넷코리아]타이베이 2026년 7월 31일 /PRNewswire/ -- 글로벌 AI 솔루션 선도 기업 이노디스크(Innodisk)가 생성형 AI, 대규모 언어 모델(LLM), 로보틱스 애플리케이션의 빠른 성장을…",
+          "category": "AI"
+        },
+        {
+          "title": "[유미's 픽] 구글 AI 에이전트 '제미나이 스파크', 韓서 통할까",
+          "url": "https://zdnet.co.kr/view/?no=20260730180250",
+          "summary": "[지디넷코리아]구글이 개인용 인공지능(AI) 에이전트 '제미나이 스파크'를 국내에 선보이며 업무 자동화 시장 공략에 나섰다. 미국 출시 이후 편의성과 정확성에 대한 엇갈린 평가가 나온 만큼 국내 이용자 반응에도 관심…",
+          "category": "AI"
+        },
+        {
+          "title": "DXC, AI 중심 미래를 앞당겨 줄 경영진 인선 발표",
+          "url": "https://zdnet.co.kr/view/?no=20260801001003",
+          "summary": "[지디넷코리아]폴 테일러씨가 DXC 사장으로, 댄 그레이씨는 글로벌 인프라 서비스 총괄 애시번, 버지니아, 2026년 7월 31일 /PRNewswire/ -- 엔터프라이즈 기술과 혁신 파트너 기업 DXC 테크놀로지(…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
