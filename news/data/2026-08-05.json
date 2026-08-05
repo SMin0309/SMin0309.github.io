@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-05",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "AI 코딩 에이전트, 엔비디아 'CUDA' 장벽 넘는다... 10시간 만에 호환 SW 개발",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213508",
+          "summary": "AI 코딩 에이전트가 반도체 업계의 가장 강력한 진입장벽 중 하나로 꼽히는 엔비디아의 소프트웨어 생태계 ‘쿠다(CUDA·Compute Unified Device Architecture)’에 도전장을 내밀고 있다. 수…",
+          "category": "AI"
+        },
+        {
+          "title": "아마존, AI·클라우드 성장 힘입어 사상 첫 '시총 3조달러' 돌파",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213504",
+          "summary": "아마존이 AI 투자 확대와 클라우드 사업 성장에 힘입어 사상 처음으로 시가총액 3조달러(약 4300조원)를 돌파했다. 애플, 마이크로소프트(MS), 구글, 엔비디아에 이어 역대 다섯 번째로 3조달러 기업 대열에 합류…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI 정부사업·모델·GPU 한 곳에\"...과기정통부, 원스톱 포털 AX360° 개설",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213518",
+          "summary": "과학기술정보통신부(장관 배경훈)와 한국인공지능·소프트웨어산업협회(KOSA)는 AI 관련 정부 사업과 AI 모델·솔루션, 협력기업 정보를 한곳에서 탐색할 수 있는 원스톱 지원포털 'AX360°'를 개설했다고 4일 밝혔…",
+          "category": "AI"
+        },
+        {
+          "title": "엘리스그룹, 국내 최초 40도 온수 냉각 'AI 데이터센터' 구축한다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213501",
+          "summary": "엘리스그룹(대표 김재원)은 과학기술정보통신부와 정보통신산업진흥원(NIPA)이 추진하는 'AI 컴퓨팅 자원 활용 기반 강화 사업'의 참여 기업으로 선정됐다고 4일 밝혔다.엘리스그룹은 엔비디아 GPU 'B300' 총 2…",
+          "category": "AI"
+        },
+        {
+          "title": "쿤텍, '알약' 개발 주역 김준섭 부사장 영입...AI 보안 제품군 총괄",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213533",
+          "summary": "쿤텍(대표 방혁준)은 AI 보안 기술 경쟁력 강화를 위해 '알약' 개발 주역인 김준섭 부사장을 영입했다고 4일 밝혔다.김 부사장은 사이버 보안 기술 전략과 연구개발 조직을 총괄하며, 보안 연구개발 과제 선정, 품질관…",
+          "category": "Security"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "아이티센클로잇, 구글클라우드 AI 인증 2종 획득…AX 사업 확대",
+          "url": "https://zdnet.co.kr/view/?no=20260805101513",
+          "summary": "[지디넷코리아]아이티센클로잇이 구글클라우드의 최상위 AI 기술 인증을 확보하며 인공지능 전환(AX) 사업 확대에 나선다. 생성형 AI와 AI 에이전트 구축 등 맞춤형 거대언어모델(LLM)부터 엔터프라이즈 AI 구축까…",
+          "category": "AI"
+        },
+        {
+          "title": "이노그리드, 킨텍스 클라우드 인프라 안정성 높인다…이중화 체계 강화",
+          "url": "https://zdnet.co.kr/view/?no=20260805100046",
+          "summary": "[지디넷코리아]이노그리드가 킨텍스 클라우드 인프라의 스토리지와 데이터베이스관리시스템(DBMS) 이중화 구축에 앞장선다. 클라우드 가상화 환경과 데이터 저장·보호 체계를 통합해 장애 발생 시에도 안정적으로 서비스를 운…",
+          "category": "Backend"
+        },
+        {
+          "title": "마이크로칩, 마이크론과 'PCIe Gen 6 스토리지 아키텍처' 시연",
+          "url": "https://zdnet.co.kr/view/?no=20260805101915",
+          "summary": "[지디넷코리아]반도체 기업 마이크로칩이 마이크론과 협력해 차세대 스토리지 솔루션을 공개한다.마이크로칩테크놀로지는 'Switchtec PCIe Gen 6' 스위치 제품군과 '마이크론 9650 NVMe SSD'를 결합한…",
+          "category": "Hardware"
+        },
+        {
+          "title": "딥엑스, 공군 기지 AI 경계감시체계에 국산 NPU 공급",
+          "url": "https://zdnet.co.kr/view/?no=20260805095753",
+          "summary": "[지디넷코리아]초저전력 온디바이스 AI 반도체 기업 딥엑스가 공군 기지 AI 경계감시체계 구축 사업에 신경망처리장치(NPU)를 공급한다.딥엑스는 자사 NPU가 국방부의 'NPU 기반 지능형 영상감시체계 시범 구축 사…",
+          "category": "Hardware"
+        },
+        {
+          "title": "스페이스X, AI 매출 247% 급증…대규모 투자에 주가는 하락",
+          "url": "https://zdnet.co.kr/view/?no=20260805085734",
+          "summary": "[지디넷코리아]일론 머스크가 이끄는 항공우주·인공지능(AI) 기업 스페이스X가 상장 후 첫 분기 실적에서 AI 사업의 가파른 성장세를 확인했다. AI 매출은 1년 전보다 3배 이상 늘었지만 대규모 인프라 투자에 따른…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
