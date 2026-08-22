@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-22",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "메타, MS '애저' 최대 고객사로 부상...빅테크 ‘AI 순환 의존’ 심화",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214222",
+          "summary": "메타가 자체 컴퓨팅 인프라 외에도 마이크로소프트(MS)의 클라우드 플랫폼 ‘애저(Azure)’를 통해 외부 AI 모델과 컴퓨팅 자원을 대규모로 활용하고 있는 것으로 나타났다. AI 경쟁에서 앞서기 위해 빅테크 기업들…",
+          "category": "AI"
+        },
+        {
+          "title": "커서, 장기 목표 기능 '/goal' 도입...스스로 작업하는 자율 에이전트 진화",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214205",
+          "summary": "AI 코딩 플랫폼 커서(Cursor)가 개발자의 개입을 최소화하고 장시간 스스로 작업을 수행할 수 있도록 클라우드 에이전트 기능을 대폭 강화했다. 커서는 19일(현지시간) 개발자가 일일이 작업 과정을 관리하지 않아도…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI로 사회문제 해결한다\"…과기부, 2026 AI·디지털 챌린지 공모",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214211",
+          "summary": "과학기술정보통신부가 올해부터 민간 클라우드에서 AI 에이전트 개발 도구를 지원하고, 바이브 코딩을 통한 서비스 개발 지원에 나선다. 이러한 개발 환경을 바탕으로 전국민 대상 챌린지도 개최한다.과학기술정보통신부(장관…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, 맥용 챗GPT에 '애플 메시지' 플러그인 탑재...\"아이메시지 읽고 답장까지\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214219",
+          "summary": "오픈AI가 맥(Mac)용 '챗GPT'에서 애플의 메시지 앱을 직접 조작할 수 있는 기능을 선보였다.오픈AI는 20일(현지시간) 맥OS용 챗GPT 데스크톱 앱에 '애플 메시지(Apple Messages)' 플러그인을…",
+          "category": "AI"
+        },
+        {
+          "title": "정부, ‘미래대응기금’ 신설…초과세수로 AI·첨단기술 집중 투자",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214237",
+          "summary": "정부가 반도체 호황 등으로 발생한 추가 세수를 활용해 ‘미래대응기금’을 신설하고, AI 전환과 첨단기술 주도권 확보를 위한 국가적 투자에 나선다. AI 확산에 맞춰 국가 시스템 전반을 재설계하는 향후 2~3년을 경제…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "구글, 마벨에 17조원 지분 옵션…맞춤형 AI 칩 대반격",
+          "url": "https://zdnet.co.kr/view/?no=20260822083738",
+          "summary": "[지디넷코리아]구글(Google)이 맞춤형 AI 반도체 확보에 승부를 걸었다. 야후 파이낸스(Yahoo Finance)에 따르면 8월 20일 구글은 반도체 기업 마벨(Marvell)과 맞춤형 칩 협력을 확대하면서,…",
+          "category": "Hardware"
+        },
+        {
+          "title": "미국 정부, 지멘스 PLC 해킹 경고…AI가 공격 스크립트 짠다",
+          "url": "https://zdnet.co.kr/view/?no=20260822083422",
+          "summary": "[지디넷코리아]미국 사이버보안 당국이 산업 제어 시스템을 겨냥한 해킹 위협에 긴급 경고를 내렸다. 미국 사이버보안인프라보안청(CISA)에 따르면 8월 20일 전해진 이번 경보는, 상수도와 에너지망, 제조 설비 전반에…",
+          "category": "Security"
+        },
+        {
+          "title": "카카오 인적분할 결단...\"호재\" vs \"악재\"",
+          "url": "https://zdnet.co.kr/view/?no=20260821141013",
+          "summary": "[지디넷코리아]카카오가 기업가치 제고를 내걸고 회사를 둘로 나누는 승부수를 던졌지만 시장의 첫 반응은 냉랭했다. 인적분할 발표 직후 주가가 장중 13% 넘게 급락하면서다. 카카오는 인공지능(AI) 사업과 투자·자회사…",
+          "category": "AI"
+        },
+        {
+          "title": "[영상] \"보고서에만 AI 쓰는 기업, 결국 뒤처진다\"…포티투마루의 AX 생존법",
+          "url": "https://zdnet.co.kr/view/?no=20260821164652",
+          "summary": "[지디넷코리아]\"보고서 쓸 때, 자료 정리할 때만 인공지능(AI)을 쓰는 게 아닙니다. 이제 AI는 모든 활동에서 자연스럽게 활용하는 '반려 기술'이라고 생각해야 합니다.\"김동환 포티투마루 대표는 21일 영상 인터뷰…",
+          "category": "AI"
+        },
+        {
+          "title": "[인사]과학기술정보통신부",
+          "url": "https://zdnet.co.kr/view/?no=20260821180247",
+          "summary": "[지디넷코리아]<과장급 전보>▲바이오융합혁신팀장 전승윤▲연구개발타당성심사팀장 윤지영",
+          "category": "Etc"
+        }
+      ]
+    }
+  ]
+}
