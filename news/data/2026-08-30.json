@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-30",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "오픈AI, 스페이스X 인수 '커서'에 모델 제공 중단...머스크와 갈등 격화",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214610",
+          "summary": "오픈AI가 일론 머스크 CEO의 스페이스X에 인수된 AI 코딩 스타트업 커서에 대한 AI 모델 제공을 중단하기로 했다. 샘 알트먼 오픈AI CEO와 머스크 CEO 간의 오랜 갈등이 기술 파트너십 영역으로까지 확대되는…",
+          "category": "Industry"
+        },
+        {
+          "title": "[AI 이슈트렌드] 엔비디아 호재 안 통한 삼전·하이닉스…박위 사고·제주 실종 파장",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214606",
+          "summary": "AI타임스와 이스트에이드의 8월 넷째 주(8월21일~27일) 이슈 분석 결과, 반도체 주요 소식과 유튜버 박위 KTX 낙상 사고, 자연재해 이슈들이 상위권을 차지했다.이번 주 검색량 1위는 '삼성전자 주주환원 주가(…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, '제미나이 라이브'에 에이전트 탑재…음성으로 일정·이메일 제어",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214599",
+          "summary": "구글이 음성 기반 AI 서비스 '제미나이 라이브(Gemini Live)'를 실제 업무까지 대신 처리하는 에이전트형 비서로 한 단계 끌어올렸다.구글은 28일(현지시간) 제미나이 라이브에 에이전트 기능을 대폭 강화했다고…",
+          "category": "AI"
+        },
+        {
+          "title": "메타, 8B 모델로 ‘오퍼스 4.5’ 성능 구현한 ‘에보하네스-RL’ 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214593",
+          "summary": "장시간에 걸쳐 복잡한 업무를 수행하는 AI 에이전트의 핵심 과제로 꼽혀온 외부 실행 환경, 즉 ‘하네스(harness)’ 관리 능력 자체를 AI가 학습하도록 하는 새로운 기술이 등장했다. 메타와 미국 일리노이대학교…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI '아스트라' 성능 포착...웹 개발부터 3D 그래픽까지 원샷 구현",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214611",
+          "summary": "오픈AI의 차세대 AI 모델 '아스트라(Astra)'의 출시가 임박했다는 정황이 포착됐다. 내부 테스트용 체크포인트와 함께 단 한 번의 명령으로 고도화된 게임 코드는 물론 3D 그래픽까지 구현해 낸 제로샷(Zero-…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "오픈AI, 일론 머스크 '커서'에 모델 공급 중단…11월 계약 종료",
+          "url": "https://zdnet.co.kr/view/?no=20260830085855",
+          "summary": "[지디넷코리아]오픈AI가 일론 머스크의 스페이스X에 인수된 인공지능(AI) 코딩 플랫폼 '커서'에 모델 공급을 중단한다. 29일(현지시간) CNBC 등 외신에 따르면 오픈AI는 커서에 공급해온 AI 모델을 오는 11…",
+          "category": "AI"
+        },
+        {
+          "title": "메타 'AI 인력 대체' 프로젝트는 어떻게 실패했나",
+          "url": "https://zdnet.co.kr/view/?no=20260830085212",
+          "summary": "[지디넷코리아]마크 저커버그 메타 최고경영자(CEO)가 인공지능(AI)으로 대규모 인력을 대체하려 기획했던 비밀 프로젝트가 내부 반발과 기술적 결함으로 좌절된 전말이 공개됐다. 로이터 등 외신은 '프로젝트 OT'로…",
+          "category": "AI"
+        },
+        {
+          "title": "시스코, 직원 9만명에 '개인 AI 에이전트' 공급…업무 자동화 지원",
+          "url": "https://zdnet.co.kr/view/?no=20260830090948",
+          "summary": "[지디넷코리아]시스코가 사내 업무 자동화를 위해 전 세계 임직원에게 인공지능(AI) 에이전트를 공급했다.20일 월스트리트저널(WSJ) 등 외신에 따르면 시스코는 이번 주 전 세계 직원 9만명에게 개인 AI 에이전트…",
+          "category": "AI"
+        },
+        {
+          "title": "4극3특 호남권 지역자율R&D 시동",
+          "url": "https://zdnet.co.kr/view/?no=20260830092837",
+          "summary": "[지디넷코리아]4극3특 과학기술혁신을 위한 '호남권 지역자율 R&D'에 시동이 걸렸다.이 사업은 과학기술정보통신부가 주관하는 ‘4극3특 과학기술혁신지원사업’의 일환으로, 지역이 필요한 연구개발 과제를 직접 기획하고…",
+          "category": "Industry"
+        },
+        {
+          "title": "KT, 서울대·KAIST와 에이전틱AI-토큰 효율화 기술 확보",
+          "url": "https://zdnet.co.kr/view/?no=20260829090208",
+          "summary": "[지디넷코리아]KT가 서울대, KAIST와 에이전틱 AI와 책임있는 AI(RAI), 대규모언어모델(LLM) 효율화 등 차세대 AI 기술을 공동 연구하고 실제 서비스 적용을 위한 기술 내재화에 들어간다.KT는 서울 서…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
