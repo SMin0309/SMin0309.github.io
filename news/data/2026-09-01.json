@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-01",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "숭실대, 클로드 기반 보안 AI '무네메' 개발…글로벌 벤치마크 91% 달성",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214661",
+          "summary": "국내 연구진이 개발한 사이버보안 특화 AI 에이전트가 세계 최고 수준의 보안 성능을 입증했다.숭실대학교 AI안전성연구센터(센터장 최대선 교수)는 자체 개발한 멀티에이전트 취약점 분석 시스템 ‘무네메(mneme)’가…",
+          "category": "Security"
+        },
+        {
+          "title": "GPT-5.6 솔, 코딩 넘어 가상 CPU 설계까지…게임 ‘둠’ 구동 성공",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214615",
+          "summary": "인공지능(AI)이 소프트웨어를 작성하는 수준을 넘어 가상 환경에서 컴퓨터의 하드웨어 구조 자체를 설계하고 실제 프로그램을 실행하는 모습을 보여줬다.AI 컴퓨팅 연구자이자 기술 인플루언서인 앙헬 보가도는 최근 X를 통…",
+          "category": "AI"
+        },
+        {
+          "title": "NC AI, 업스테이지·퓨리오사AI와 사우디서 'K-AI 기술력' 알린다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214660",
+          "summary": "NC AI(대표 이연수)는 사우디아라비아 리야드에서 열리는 글로벌 기술 전시회 'LEAP 2026'에 참가한다고 31일 밝혔다.이번 행사는 사우디아라비아 통신정보기술부(MCIT), 사우디 데이터인공지능청(SDAIA)…",
+          "category": "AI"
+        },
+        {
+          "title": "메타, AI 전용 통신 규격 ‘메타RoCE’ 공개…수십만 GPU 네트워크 병목 잡는다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214618",
+          "summary": "메타가 수십만 개의 GPU가 연결된 초대형 AI 클러스터의 네트워크 병목을 해결하기 위해 기존 RDMA(Remote Direct Memory Access) 기술을 전면 재설계한 새로운 통신 프로토콜을 공개했다. AI…",
+          "category": "AI"
+        },
+        {
+          "title": "MS·오픈AI 동시 장애 발생...클라우드 인프라 연관성에 주목",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214676",
+          "summary": "마이크로소프트(MS)의 기업용 이메일·일정 관리 서비스인 엑스체인지 온라인(Exchange Online)과 아웃룩(Outlook)에서 대규모 장애가 발생한 가운데, 비슷한 시간대에 오픈AI의 기업용 AI 에이전트 챗…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "삼성전기, AI 서버용 MLCC 1.1조 공급계약…역대 최대 규모",
+          "url": "https://zdnet.co.kr/view/?no=20260901104145",
+          "summary": "[지디넷코리아]삼성전기가 글로벌 빅테크와 1조원이 넘는 대규모 적층세라믹커패시터(MLCC) 장기공급계약(LTA)을 체결했다. 인공지능(AI) 서버 부품 시장에서 입지도 공고히 했다. 삼성전기는 글로벌 대형 고객사와…",
+          "category": "AI"
+        },
+        {
+          "title": "한국앤컴퍼니그룹, 기획부터 글로벌 협업까지…AI로 일하는 방식 바꾼다",
+          "url": "https://zdnet.co.kr/view/?no=20260901102217",
+          "summary": "[지디넷코리아]한국앤컴퍼니그룹이 그룹 공통 업무 플랫폼 '아레나(Arena)'에 생성형 인공지능(AI) 기능을 확대 적용했다. 직무별 정보 탐색과 문서 요약, 업무 항목 자동 추출 등 반복 업무를 줄이고 기획·의사결…",
+          "category": "AI"
+        },
+        {
+          "title": "\"카톡·AI 활용법 여기서 배우세요\"...카카오, 6070 위한 스마트폰 안내서 출간",
+          "url": "https://zdnet.co.kr/view/?no=20260901101204",
+          "summary": "[지디넷코리아]카카오가 6070세대의 스마트폰 활용을 돕기 위한 생활 가이드북을 선보인다. 카카오톡과 택시 호출부터 모바일 송금, 인공지능(AI) 활용까지 일상에서 자주 쓰는 기능 100가지를 한 권에 담았다.카카오…",
+          "category": "AI"
+        },
+        {
+          "title": "[AI 고속도로] 트럼프 \"데이터센터 막으면 가난해져\"…美 반대 여론 정면돌파",
+          "url": "https://zdnet.co.kr/view/?no=20260901104218",
+          "summary": "[지디넷코리아]도널드 트럼프 미국 대통령이 인공지능(AI) 데이터센터 건설을 둘러싼 자국 내 반대 여론에 직접 맞서며 인프라 확대 필요성을 강조했다. 전력요금 상승과 용수 사용 등을 둘러싼 주민 반발이 확산되는 가운…",
+          "category": "AI"
+        },
+        {
+          "title": "알스퀘어, 40만 빌딩 데이터 활용 'RA' 버티컬 확장",
+          "url": "https://zdnet.co.kr/view/?no=20260901102159",
+          "summary": "[지디넷코리아]프롭테크(부동산+테크) 기업 알스퀘어의 데이터 분석 서비스 '알스퀘어 애널리틱스(RA)'가 금융 및 투자업계를 넘어 산업 현장의 영업·전략 정보로 활용 영역을 확장한다.2일 회사에 따르면, 알스퀘어 애…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
