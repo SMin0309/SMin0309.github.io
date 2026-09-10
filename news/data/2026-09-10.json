@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-10",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글 크롬, 보안 환경 변화에 따라 업데이트 주기 2주로 단축",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215051",
+          "summary": "구글이 웹브라우저 ‘크롬(Chrome)’의 정식 버전 업데이트 주기를 기존 4주에서 2주로 단축했다. 새로운 기능과 성능 개선을 더 빠르게 제공하는 동시에 AI를 활용한 보안 위협과 급증하는 취약점에 신속하게 대응하…",
+          "category": "Security"
+        },
+        {
+          "title": "딥시크, 백엔드 엔지니어 대규모 채용...모델 개발서 '서비스 체제'로 확장",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215053",
+          "summary": "딥시크가 급증하는 사용자 수요와 AI 에이전트의 컴퓨팅 부담에 대응하기 위해 백엔드 시스템 전면 개편에 나서면서 150여명의 고급 백엔드 엔지니어를 대규모로 채용한다.사우스차이나모닝포스트에 따르면, 딥시크의 하네스…",
+          "category": "AI"
+        },
+        {
+          "title": "퀄컴, 아마존과 AI 추론 칩 공동 개발...\"스마트폰 넘어 데이터센터로\"",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215041",
+          "summary": "퀄컴이 아마존웹서비스(AWS)와 손잡고 여러 세대에 걸친 맞춤형 데이터센터용 AI 칩 개발에 나선다. 스마트폰용 칩 중심의 사업 구조에서 벗어나 데이터센터와 AI 칩을 새로운 성장동력으로 키우려는 전략으로, AI 데…",
+          "category": "AI"
+        },
+        {
+          "title": "엔비디아, GPU 커널까지 러스트로 개발하는 ‘CUDA 러스트’ 공개...안전한 AI 인프라 구축",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215062",
+          "summary": "엔비디아가 AI 시스템의 핵심 영역인 GPU 커널 개발에 프로그래밍 언어 러스트(Rust)를 본격 도입한다. 기존에는 러스트로 CUDA 커널을 호출하는 수준에 머물렀으나, 앞으로는 GPU 커널 자체를 러스트로 직접…",
+          "category": "AI"
+        },
+        {
+          "title": "KAIST 교원창업기업 파네시아, 메타와 ‘차세대 AI 데이터센터 구조’ 제시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215052",
+          "summary": "한국과학기술원(KAIST, 총장 배충식)은 정명수 전기및전자공학부 교수와 팹리스 전문 파네시아가 메타 연구진과 공동 연구한 ‘차세대 AI 데이터센터 구조 제시’ 리뷰 논문이 네이처 리뷰 일렉트리컬 엔지니어링(NREE…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "韓, 프랑스와 AI·반도체·양자기술 투자 협력 늘린다",
+          "url": "https://zdnet.co.kr/view/?no=20260909225456",
+          "summary": "[지디넷코리아]한국과 프랑스가 인공지능(AI), 반도체, 양자 등 미래 전략기술 분야에서 공동 연구개발(R&D)과 기업 프로젝트를 발굴하고 양국 기업의 시장 진출을 위한 투자 협력을 확대한다.과학기술정보통신부는 이재…",
+          "category": "AI"
+        },
+        {
+          "title": "노드VPN, 상반기 쿠키 940억 개 노출 및 440만 건 피싱 차단",
+          "url": "https://zdnet.co.kr/view/?no=20260909225006",
+          "summary": "[지디넷코리아]글로벌 보안 기업 노드VPN(NordVPN)은 상반기 사이버 위협 동향을 분석한 ‘소비자 사이버 보안 보고서’를 발표했다. 이 보고서는 최신 위협 지표와 실제 사례를 바탕으로, 생성형 AI와 고도화된…",
+          "category": "Security"
+        },
+        {
+          "title": "씨이랩, 엔비디아 'AI 시티 챌린지 2026' 1위...'ECCV 2026'서 수상",
+          "url": "https://zdnet.co.kr/view/?no=20260909214627",
+          "summary": "[지디넷코리아]피지컬AI 전문기업 씨이랩(대표 윤세혁·채정환)이 엔비디아(NVIDIA)가 주관하는 글로벌 컴퓨터 비전 경진대회 '2026 AI 시티 챌린지(2026 AI City Challenge)'의 Track 4…",
+          "category": "AI"
+        },
+        {
+          "title": "인텔리빅스, 'IFA 2026' 참가…국산 NPU 기반 재난안전 AI 소개",
+          "url": "https://zdnet.co.kr/view/?no=20260909213846",
+          "summary": "[지디넷코리아]안전 딥테크 AI기업 인텔리빅스(대표 장정훈)는 4일부터 8일까지 독일 베를린에서 열린 국제가전전시회 ‘IFA 2026’ 에 참가했다. 국산 AI반도체(NPU) 기반 산불 조기경보 및 자율형 안전관제…",
+          "category": "Hardware"
+        },
+        {
+          "title": "애플 첫 폴더블폰 '아이폰 듀오', 10월 23일 국내 출시…329만원부터",
+          "url": "https://zdnet.co.kr/view/?no=20260910062532",
+          "summary": "[지디넷코리아]애플이 첫 번째 폴더블폰을 오는 10월 23일 한국 등 전 세계 주요 시장에 출시한다. 최신형 칩셋과 혁신적 디스플레이·카메라 기술을 적용했다. 국내 출고가는 256GB 기준 329만원부터다. 애플은…",
+          "category": "Hardware"
+        }
+      ]
+    }
+  ]
+}
