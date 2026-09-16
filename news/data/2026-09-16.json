@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-16",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "애플, 시리 AI 탑재 'iOS 27' 배포 시작...차세대 아이폰 출격 채비",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215300",
+          "summary": "애플이 차세대 아이폰 출시를 앞두고 AI 기능을 강화한 최신 모바일 운영체제 ‘iOS 27’을 공개했다. 이번 업데이트의 핵심은 대형언어모델(LLM)을 기반으로 전면 재설계한 ‘시리(Siri)’다. 애플은 새로운 시…",
+          "category": "AI"
+        },
+        {
+          "title": "“AI 에이전트가 상호 거래·정산까지”...카카오페이 자율결제 실증 완료",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215311",
+          "summary": "카카오페이(대표 신원근)가 ‘에이전틱 결제(Agentic Payment)’와 관련해 ‘구매’와 ‘판매’ 양방향에서 기술 실증(PoC)을 완료했다고 15일 밝혔다.에이전틱 결제는 사용자가 AI 에이전트에게 구매 권한,…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] 뉴로퓨전,  금융 플랫폼 '밸리 AI'에 투자 리서치 에이전트 탑재 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215314",
+          "summary": "■ 뉴로퓨전(대표 최한철)은 ‘밸리 AI’에 투자 분석 및 금융 추론 특화 AI 에이전트 기능을 탑재했다고 밝혔다. 밸리 AI는 재무제표, 시세, 밸류에이션, 공시, 경제지표 등 정제된 금융 데이터를 기반으로 투자…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, '아이폰 카메라 기술' 개발한 스타트업 인수…AI 하드웨어 박차",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215285",
+          "summary": "오픈AI가 스마트폰 카메라의 화질을 AI으로 개선하는 기술을 개발해 온 스타트업 글래스 이미징(Glass Imaging)을 조용히 인수한 것으로 알려졌다. 14일(현지시간) 월스트리트저널(WSJ)에 따르면, 글래스…",
+          "category": "Industry"
+        },
+        {
+          "title": "\"뇌처럼 학습한다\"…사카나 AI, 역전파 대체 기술 'PC-ALM' 발표",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215305",
+          "summary": "사카나 AI가 딥러닝 학습의 핵심 방식인 '역전파(Backpropagation)'를 사용하지 않고도 매우 깊은 신경망을 학습할 수 있는 새로운 레이어별 학습 기법을 공개했다.사카나 AI는 최근 기존 예측 코딩(PC·…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "SK, 구성원 아이디어로 업무 AI 개발…현업 적용 검토",
+          "url": "https://zdnet.co.kr/view/?no=20260916092219",
+          "summary": "[지디넷코리아]SK가 소재 개발 실험을 설계하는 인공지능(AI) 에이전트 등 구성원들이 만든 기술을 발굴하고 실제 업무에 적용하는 방안을 검토한다.SK는 '2026 SK AI 해커톤'에서 SK이노베이션 구성원 3명으…",
+          "category": "AI"
+        },
+        {
+          "title": "허태수 GS 회장 \"스타트업 기술로 AI 데이터센터 병목 해소\"",
+          "url": "https://zdnet.co.kr/view/?no=20260916091146",
+          "summary": "[지디넷코리아]GS가 인공지능(AI) 데이터센터의 전력 공급과 데이터 처리, 발열 문제를 해결할 기술을 확보하기 위해 스타트업과 협력을 확대한다.GS벤처스는 지난 15일 서울 강남구 GS타워에서 AI 데이터센터를 주…",
+          "category": "AI"
+        },
+        {
+          "title": "엔코아 플레이데이터, KDT 해커톤 최우수상 배출…AI 실무 인재 양성 성과 잇달아",
+          "url": "https://zdnet.co.kr/view/?no=20260916092614",
+          "summary": "[지디넷코리아]엔코아가 운영하는 IT 교육기관 플레이데이터가 인공지능(AI) 인재 양성 성과를 이어가고 있다. 엔코아는 플레이데이터는 SK네트웍스 패밀리 AI 캠프 34기 교육생이 참여한 '밤마실' 팀이 '2026…",
+          "category": "AI"
+        },
+        {
+          "title": "버니 샌더스 '초지능 AI 개발 금지법' 추진…\"통제 불능 개발 막자\"",
+          "url": "https://zdnet.co.kr/view/?no=20260916090048",
+          "summary": "[지디넷코리아]버니 샌더스 미국 연방 상원의원이 인간 통제를 벗어날 수 있는 초지능 인공지능(AI) 개발을 영구 금지하는 법안 추진 계획을 발표했다. AI 기업 중심으로 진행된 기술 개발에 정치권과 시민사회가 제동을…",
+          "category": "AI"
+        },
+        {
+          "title": "AWS, 미-이란 전쟁 중 피격된 중동 데이터 일부 복구 실패",
+          "url": "https://zdnet.co.kr/view/?no=20260916085324",
+          "summary": "[지디넷코리아]아마존이 미국과 이란 간 전쟁으로 피해를 입은 페르시아만 지역 데이터센터에 저장된 일부 데이터를 복구하지 못한 것으로 나타났다.15일(현지시간) 블룸버그통신 보도에 따르면 아마존웹서비스(AWS)는 서비…",
+          "category": "Cloud"
+        }
+      ]
+    }
+  ]
+}
