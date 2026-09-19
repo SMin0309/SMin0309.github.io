@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-19",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "AI스페라, 위협 노출 관리 솔루션에 MS 에이전트 기술 적용",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215471",
+          "summary": "AI스페라(대표 강병탁)는 자체 AI 기반 위협 노출 관리(AITEM)에 마이크로소프트(MS)의 AI 에이전트 기술을 적용, 보안 운영 자동화를 구현했다고 18일 밝혔다.AITEM은 자체 사이버 위협 인텔리전스 '크…",
+          "category": "AI"
+        },
+        {
+          "title": "클로드 코드·코덱스, '스킬' 무단 업데이트에 서버 탈취 위험",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215454",
+          "summary": "주요 AI 코딩 에이전트 전반에서 '스킬'을 업데이트하는 과정에서 치명적인 구조적 보안 결함이 드러났다. 사용자가 아무런 클릭을 하지 않아도 시스템 제어권을 해커에게 완전히 빼앗기는 치명적 문제로, 현재는 모두 해결…",
+          "category": "AI"
+        },
+        {
+          "title": "[게시판] 코난테크놀로지, 경남 '피지컬AI 국책사업' 선정 등 단신",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215468",
+          "summary": "■ 코난테크놀로지(대표 김영섬)는 과학기술정보통신부 주관 '전북특별자치도·경상남도 피지컬AI 연구개발(R&D) 사업'에 착수한다고 밝혔다. 이번 사업은 총 6763억원 규모로 '인간-AI 협업형 거대행동모델(LAM)…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, AI 문제 해결에 ‘재귀적 자기개선’ 도입...탐색 비용 162배 절감",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215459",
+          "summary": "구글이 AI 에이전트의 문제 해결 과정에 재귀적 자기개선(RSI)을 적용하면서도 탐색에 필요한 실행 비용을 크게 줄이는 새로운 방법을 공개했다. 구글은 17일(현지시간) AI 코딩 및 문제 해결(탐색) 에이전트가 실…",
+          "category": "AI"
+        },
+        {
+          "title": "저커버그·젠슨 황·머스크, 트럼프 직접 설득…백악관 'AI 규제안' 무산",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215469",
+          "summary": "마크 저커버그 메타 CEO와 젠슨 황 엔비디아 CEO, 일론 머스크 CEO 등 빅테크 수장 3인이 도널드 트럼프 미국 대통령을 직접 설득해 민간 주도의 AI 규제 기구 설립 구상을 무산시킨 것으로 얼려졌다.16일(현…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "\"TSMC, 2028년까지 AI칩 패키징 독주\"",
+          "url": "https://zdnet.co.kr/view/?no=20260918221337",
+          "summary": "[지디넷코리아]TSMC의 2.D 패키징 기술 'CoWoS-L'이 최소 2028년까지 인공지능(AI) 칩 패키징 시장 주류 자리를 지킬 것이라는 전망이 나왔다. 주요 그래픽처리장치(GPU) 업체와 하이퍼스케일러의 고성…",
+          "category": "Hardware"
+        },
+        {
+          "title": "라온시큐어 \"가상 실습 환경, 사이버 보안 분야 적용\"",
+          "url": "https://zdnet.co.kr/view/?no=20260918171748",
+          "summary": "[지디넷코리아]라온시큐어가 AI와 메타버스, 확장현실(XR) 기술을 활용한 가상 훈련 환경을 사이버보안 분야에 접목해 실전형 보안 인재 양성에 기여할 수 있는 청사진을 제시했다. 기존 오프라인 중심의 사이버보안 훈련…",
+          "category": "Security"
+        },
+        {
+          "title": "화웨이, 초대형 데이터센터 AI 추론 가속 위한 OceanStor M900 Context Memory Storage 공개",
+          "url": "https://zdnet.co.kr/view/?no=20260919001003",
+          "summary": "[지디넷코리아]상하이 2026년 9월 18일 /PRNewswire/ -- 데이비드 왕(David Wang) 화웨이(Huawei) 부회장 겸 순환 회장이 화웨이 커넥트 2026(HUAWEI CONNECT 2026)에서…",
+          "category": "AI"
+        },
+        {
+          "title": "[영상] 하루 20시간·23kg 짐 계속 나르는 휴머노이드 로봇",
+          "url": "https://zdnet.co.kr/view/?no=20260918191540",
+          "summary": "[지디넷코리아]미국 로봇 개발사 애질리티 로보틱스의 휴머노이드형 이족보행 로봇이 한층 업그레이드됐다.아스테크니카, 인터레스팅엔지니어링 등 외신은 애질리티 로보틱스가 산업 현장용 휴머노이드 로봇 ‘디지트 5’를 공개했…",
+          "category": "Etc"
+        },
+        {
+          "title": "AI가 밀어올린 스마트폰 가격, 신흥국 인터넷 보급 급제동",
+          "url": "https://zdnet.co.kr/view/?no=20260919084130",
+          "summary": "[지디넷코리아]AI 인프라 투자 열풍이 스마트폰 가격까지 밀어 올리면서 전 세계 디지털 격차를 확대할 수 있다는 경고가 나왔다. AI 데이터센터를 중심으로 메모리 수요가 급증하자 부품 가격이 치솟고, 가격에 민감한…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
