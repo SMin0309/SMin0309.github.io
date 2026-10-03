@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-03",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "엔비디아, 4999달러짜리 ‘DGX 스파크’ 출시...메모리 대란에 가격 낮췄다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215937",
+          "summary": "엔비디아가 최근 메모리 수급 악화로 고성능 장비 가격이 치솟는 상황에서 개발자의 가격 부담을 낮춘 데스크톱 AI 슈퍼컴퓨터를 선보였다.엔비디아는 2일(현지시간) 데스크톱에서 대규모 AI 모델과 에이전트를 직접 실행할…",
+          "category": "AI"
+        },
+        {
+          "title": "AWS, AI 데이터센터 반발 정면 돌파…지역사회에 1.4조 추가 투입",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215939",
+          "summary": "아마존웹서비스(AWS)가 전 세계적으로 거세지는 데이터센터 건설 반발을 잠재우기 위해 5년간 10억달러(약 1조3500억원) 이상의 지역사회 추가 투자와 지자체 대상 비밀유지계약(NDA) 완전 폐지를 선언했다. 대규…",
+          "category": "AI"
+        },
+        {
+          "title": "구글 딥마인드, AI가 만든 단백질·유전체 추적하는 워터마크 기술 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215902",
+          "summary": "AI가 생명과학 연구에 활용되면서 기존에 없던 단백질과 유전체를 설계하는 기술도 빠르게 발전하고 있다. 하지만 AI가 만든 생물학적 설계가 실제 실험과 데이터베이스에 활용되면서 그 출처를 확인하고 추적하는 새로운 과…",
+          "category": "AI"
+        },
+        {
+          "title": "텐센트, 오라클서 AI 칩 10만개 임대…규제 피하려 동남아로",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215909",
+          "summary": "중국의 텐센트가 AI 개발을 가속하기 위해 미국 클라우드 기업 오라클로부터 고성능 AI 칩 10만개를 임대하기로 했다. 미국의 반도체 수출 규제가 강화되는 가운데 중국 기업들이 동남아시아 등 해외 데이터센터로 컴퓨팅…",
+          "category": "Hardware"
+        },
+        {
+          "title": "[AI카툰] Bob, Senior IT guy - 밥, AI가 못 들어가는 틈새시장 개발자",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215929",
+          "summary": "글·그림 Dr. Alf",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "[소외된 SW ㊤] 예산안에서 사라진 SW...국가 경쟁력 우려",
+          "url": "https://zdnet.co.kr/view/?no=20261003083207",
+          "summary": "[지디넷코리아]과학기술정보통신부(이하 과기정통부)가 내년 인공지능(AI) 예산을 9조4천억원 규모로 늘리는 가운데 소프트웨어(SW) 산업 지원 예산은 오히려 줄어든 것으로 나타났다.AI를 국가 핵심 전략산업으로 육성…",
+          "category": "AI"
+        },
+        {
+          "title": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트",
+          "url": "https://zdnet.co.kr/view/?no=20261002134906",
+          "summary": "[지디넷코리아]미국 메모리 반도체 기업 마이크론 테크놀로지가 글로벌 D램 시장에서 2위 SK하이닉스를 점유율 1%포인트 차이로 추격했다. 인공지능(AI) 데이터센터용 메모리 수요가 급증하면서 매출이 빠르게 늘었고,…",
+          "category": "Hardware"
+        },
+        {
+          "title": "연간 설비투자 '2배' 늘리는 마이크론…삼성·SK 압박",
+          "url": "https://zdnet.co.kr/view/?no=20261002121520",
+          "summary": "[지디넷코리아]미국 메모리 업체 마이크론이 내년에 전년비 2배에 가까운 설비투자를 계획하고 있다. 삼성전자·SK하이닉스 등에 준하는 가파른 증가세다.인공지능(AI)용 고부가 메모리 수요가 중장기적으로 견조할 것으로…",
+          "category": "Hardware"
+        },
+        {
+          "title": "은행권, AI 해킹 가시화…\"AI 위협, 국가적으로 대비해야\"",
+          "url": "https://zdnet.co.kr/view/?no=20261002205944",
+          "summary": "[지디넷코리아]최근 은행권 개인정보 유출 과정에서 중국산 오픈소스 인공지능(AI)기반 에이전트가 해킹 테스트 도구로 악용됐다는 진단이 나온 가운데, 국가적으로 AI기반 지속 위협(AiPt·AI-Powered Pers…",
+          "category": "AI"
+        },
+        {
+          "title": "'모두의 AI'가 일상을 바꾼다…어떤 변화 생길까",
+          "url": "https://zdnet.co.kr/view/?no=20261002172531",
+          "summary": "[지디넷코리아]인공지능(AI)이 기업 업무를 돕는 기술을 넘어 일상 속 문제를 해결하는 도구로 활용 범위를 넓히고 있다. 쇼핑과 여행, 돌봄, 접근성 등 생활 곳곳에서 AI를 활용한 서비스가 늘면서 관련 기술을 직접…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
