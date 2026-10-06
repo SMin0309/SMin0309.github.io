@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "AI가 쏟아낸 '엉터리 제보'에... 구글, 오픈소스 버그 바운티 일시 중단",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215972",
+          "summary": "구글이 AI가 자동으로 작성한 부정확한 버그 제보가 급증하자 오픈소스 소프트웨어 취약점 보상 프로그램의 일부를 일시 중단했다. 실제 보안 취약점을 찾는 데 투입될 인력이 무더기로 들어오는 엉터리 제보를 검증하는 데…",
+          "category": "Security"
+        },
+        {
+          "title": "GPT-6 아스트라, 217년 된 나폴레옹 암호 6시간 만에 해독",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215961",
+          "summary": "오픈AI의 'GPT-6 아스트라'가 217년 동안 풀리지 않았던 나폴레옹 시대의 군사 암호를 한 장의 이미지와 한 번의 프롬프트만으로 단 6시간 만에 해독했다. 사이버보안 기업 센티넬원의 엔지니어 카터 처치는 최근…",
+          "category": "AI"
+        },
+        {
+          "title": "\"지기 싫어서 남의 코드 복사\"…아스트라, 스타크래프트 벤치마크서 꼼수",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215970",
+          "summary": "오픈AI의 'GPT-6 아스트라'가 스타크래프트 대회 경기 도중 부정행위를 저지른 정황이 포착돼 기술 업계와 커뮤니티의 관심이 집중되고 있다.개발자 카이 맥피터스가 운영하는 스타크래프트: 브루드 워 봇 경기장 '스타…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI '에이전트 폭주'에 사면초가... 전 세계서 법적·규제 경고 폭풍",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215968",
+          "summary": "오픈AI가 자사 AI 에이전트와 관련된 사이버 보안 침해 사건으로 전 세계적인 법적 손해 배상 청구와 정부 차원의 규제 조사에 직면했다. 자율 에이전트의 무단 데이터 수집 및 시스템 침입 정황이 드러나면서 오픈AI와…",
+          "category": "Security"
+        },
+        {
+          "title": "KAIST, 데이터 변화해도 검색 정확도 유지하는 ‘CONDA’ 기술 개발",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215974",
+          "summary": "KAIST 연구진이 ‘AI가 최신 정보를 더 정확하고 빠르게 찾는 기술’을 개발했다. 서비스 적용도 진행한다는 계획이다.한국과학기술원(KAIST, 총장 배충식)은 김민수 전산학부 교수 연구팀이 데이터가 지속적으로 추…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "배경훈 \"연내 전국민 무료 AI...데이터센터 규제 신속히 푼다\"",
+          "url": "https://zdnet.co.kr/view/?no=20261006111937",
+          "summary": "[지디넷코리아]배경훈 부총리 겸 과학기술정보통신부 장관이 올해 안에 모든 국민이 비용과 이용량 제한 없이 쓸 수 있는 AI 서비스를 내놓고, AI 데이터센터 투자를 가로막는 규제는 신속하게 해소하겠다고 밝혔다. 아울…",
+          "category": "AI"
+        },
+        {
+          "title": "Applied Intuition, 혼다자동차와 차세대 소프트웨어 정의 차량(SDV) 개발 가속화를 위한 협력 발표",
+          "url": "https://zdnet.co.kr/view/?no=20261006111023",
+          "summary": "[지디넷코리아]실리콘밸리의 소프트웨어 개발 속도와 일본의 뛰어난 엔지니어링 역량을 결합하여, 혼다자동차의 다양한 차량을 지원하는 SDV 플랫폼 개발 추진 캘리포니아주 서니베일 및 도쿄, 2026년 10월 6일 /PR…",
+          "category": "Industry"
+        },
+        {
+          "title": "Applied Intuition, 닛산자동차에 AI 네이티브 개발 플랫폼을 제공하고, AI 정의 차량 개발을 위한 협력 발표",
+          "url": "https://zdnet.co.kr/view/?no=20261006111013",
+          "summary": "[지디넷코리아]Applied Intuition은 자사 소프트웨어인「Vehicle OS」와 AI 네이티브 개발 툴을 통해 닛산의 차세대 소프트웨어 정의 차량(SDV) 개발을 지원하며, 2020년 시작된 양사의 협력 관…",
+          "category": "AI"
+        },
+        {
+          "title": "에이에쓰아이, AI 서비스 비교·통합 구독 플랫폼 출시",
+          "url": "https://zdnet.co.kr/view/?no=20261006110020",
+          "summary": "[지디넷코리아]에이에쓰아이가 다양한 생성형 AI 서비스와 AI 에이전트를 한곳에서 탐색하고 비교해 구독까지 진행할 수 있는 AIaaS(AI as a Service) 플랫폼을 출시했다.6일 회사에 따르면, 이 플랫폼은…",
+          "category": "AI"
+        },
+        {
+          "title": "엑시나, 포트래이와 CXL 기반 바이오 데이터 인프라 구축 '맞손'",
+          "url": "https://zdnet.co.kr/view/?no=20261006103835",
+          "summary": "[지디넷코리아]국내 팹리스(반도체 설계전문) 엑시나(XCENA)가 공간 오믹스 기반 테크바이오 기업 포트래이(Portrai)와 업무협약(MOU)을 체결했다고 6일 밝혔다.두 회사는 이번 MOU를 통해 CXL(컴퓨트…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
