@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-08",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글, 온디바이스 ‘임베딩젬마 2’ 공개…텍스트·이미지·음성 통합 처리",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216031",
+          "summary": "구글이 기기 안에서 다양한 형태의 데이터를 연결하고 검색할 수 있는 온디바이스 AI 기술을 확장했다. 대규모 클라우드 모델에 의존하지 않고도 여러 데이터를 빠르게 처리할 수 있도록 경량화한 멀티모달 임베딩 모델을 선…",
+          "category": "AI"
+        },
+        {
+          "title": "[AI리더의 서가] SQL부터 AI까지 데이터 분석 with 클로드 코드",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215957",
+          "summary": "SQL부터 AI까지 데이터 분석 with 클로드 코드조한성 | 정보문화사2026년 9월 30일추천이유독자는 25일간 신입사원과 함께 SQL 기초부터 생성형 AI 활용, 나만의 데이터 분석 에이전트 구축까지 완주하며…",
+          "category": "AI"
+        },
+        {
+          "title": "삼성전자, 3분기 영업익 107조...애플·엔비디아도 못 넘은 '100조' 첫 달성",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216062",
+          "summary": "삼성전자는 8일 올해 3분기 연결 기준 잠정 실적으로 매출 195조원, 영업이익 107조4000억원을 기록했다고 공시했다.국내 기업이 단일 분기 영업이익 100조원을 넘어선 것은 이번이 처음이며, 글로벌 빅테크를 포…",
+          "category": "AI"
+        },
+        {
+          "title": "[AI리더의 서가] Agentic AI 구축 개발의 모든 것",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215958",
+          "summary": "Agentic AI 구축 개발의 모든 것이준·이형석 | 위키북스2026년 8월 19일추천이유이 책은 Google ADK를 기반으로 자체 판단하고 행동하는 Agentic AI의 구축 방법을 차근차근 안내합니다. 추론,…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽, API 비용 최대 90% 낮춘 '클로드 하이쿠 5.5' 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216044",
+          "summary": "앤트로픽이 가격을 대폭 내리고 성능을 최고 수준으로 끌어올린 소형 모델 '클로드 하이쿠 5.5(Claude Haiku 5.5)'를 출시했다. 기업공개(IPO)를 앞두고 AI 라인업을 대대적으로 확장하는 가운데, 경량…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "\"작은 모델도 폐쇄망서 충분히 보안 취약점 탐지\"",
+          "url": "https://zdnet.co.kr/view/?no=20261007172707",
+          "summary": "[지디넷코리아]\"미토스(Mythos)급 프론티어 모델을 독자적으로 개발 및 운영하는 것은 '기술 이슈'라기보다 초거대 GPU 인프라 '투자 이슈' 입니다. 에이전트 오케스트레이션 기반의 소형특화모델(sLLM)을 활용…",
+          "category": "AI"
+        },
+        {
+          "title": "엘리스그룹, 모듈형 AI 데이터센터 'PMDC' 상표권 확보…인프라 사업 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261008104816",
+          "summary": "[지디넷코리아]엘리스그룹이 자체 개발한 모듈형 인공지능(AI) 데이터센터 'PMDC'의 상표권을 확보하고 국내외 AI 인프라 시장 공략을 강화한다. 데이터센터 구축 기술과 자체 AI 클라우드 소프트웨어를 결합해 AI…",
+          "category": "AI"
+        },
+        {
+          "title": "이노그리드, 국책 R&D 성과 사업화 속도…AI 인프라·플랫폼 역량 결집",
+          "url": "https://zdnet.co.kr/view/?no=20261008105633",
+          "summary": "[지디넷코리아]이노그리드가 국책 연구개발(R&D)을 통해 확보한 인공지능(AI) 인프라와 플랫폼 기술을 자체 제품에 적용하며 사업화에 속도를 낸다.이노그리드는 AI 서비스형 플랫폼(PaaS)과 AI 마이크로 데이터센…",
+          "category": "AI"
+        },
+        {
+          "title": "\"클라우드 이상 징후 AI가 분석\"…스마일샤크, 관제·보안 자동화",
+          "url": "https://zdnet.co.kr/view/?no=20261008103047",
+          "summary": "[지디넷코리아]인공지능(AI) 클라우드 관리 서비스 제공사(MSP) 스마일샤크가 ‘샤크몬’과 ‘샤큐리티’로 클라우드 보안과 관제를 지원한다.스마일샤크는 8일 서울 코엑스에서 열린 ‘AI 페스타 2026’에서 부스를…",
+          "category": "AI"
+        },
+        {
+          "title": "한컴, AWS 손잡고 美 AI 시장 공략…'노마디안' 사업화 속도",
+          "url": "https://zdnet.co.kr/view/?no=20261008104052",
+          "summary": "[지디넷코리아]한컴이 아마존웹서비스(AWS)와 손잡고 인공지능(AI) 워크포스 플랫폼 '노마디안'의 미국 시장 진출에 속도를 낸다. 김연수 한컴 대표가 추진해온 AI 중심 사업 전환 전략을 글로벌 구독형 서비스 시장…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
