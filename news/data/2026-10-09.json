@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-09",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글, 기업용 '제미나이 에이전트' 출시…'아르곤'·'클로드' 동시 탑재",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216096",
+          "summary": "구글 클라우드가 기업용 AI 통합 솔루션인 '제미나이 에이전트(Gemini agent)'를 공개하며 차세대 에이전트 시장 주도권 잡기에 나섰다. 이번 발표는 단발성 질의응답을 처리하는 대화형 챗봇 단계를 넘어, 기업…",
+          "category": "AI"
+        },
+        {
+          "title": "MS, 서피스 랩톱 울트라 출시에 'MAI-코드-1.1' 온디바이스 최적화 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216071",
+          "summary": "마이크로소프트(MS)가 차세대 대표 하드웨어 출시 시점에 맞춰 자사의 최신 코딩 AI 모델을 클라우드가 아닌 사용자 PC에서 직접 실행할 수 있도록 온디바이스 환경을 대폭 강화했다.MS는 7일(현지시간) 엔비디아 R…",
+          "category": "AI"
+        },
+        {
+          "title": "MS, 온디바이스 AI '서피스 랩톱 울트라' 공개...1200억 매개변수 모델 직접 구동",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216065",
+          "summary": "마이크로소프트(MS)가 클라우드 의존 없이 PC에서 직접 AI를 실행하는 고성능 노트북을 선보였다. 엔비디아의 최신 AI 칩을 탑재한 '서피스 랩톱 울트라(Surface Laptop Ultra)'와 AI 에이전트의…",
+          "category": "AI"
+        },
+        {
+          "title": "메타 '뮤즈', 스마트폰 이어 아이패드용 앱 출시…업무용 도구 연동 강화",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216078",
+          "summary": "메타가 개인용 AI 에이전트 서비스 '뮤즈'의 아이패드 전용 앱을 출시했다. 지난달 8일 안드로이드와 아이폰 등 모바일용 앱을 선보인 지 한 달 만의 발 빠른 행보다.7일(현지시간) 메타에 따르면, 아이패드 버전은…",
+          "category": "Mobile"
+        },
+        {
+          "title": "한국 금융권 공격한 중국 26세 해커…'어설픈 신원 노출'로 덜미",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216092",
+          "summary": "국내 주요 금융기관을 겨냥해 대규모 사이버 공격을 감행한 중국 거주 26세 해커가 어설픈 보안 관리로 신원 단서를 노출했다. 이번 사건은 침투 테스트용 AI 에이전트와 대형언어모델(LLM)이 실제 사이버 범죄에 본격…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "AI 비서 '언더독' 베타 공개…데이터 외부 전송 없이 PC에서 실행",
+          "url": "https://zdnet.co.kr/view/?no=20261008210045",
+          "summary": "[지디넷코리아]독학 개발자 시길 웬(Sigil Wen)이 설립한 스타트업 콘웨이 리서치가 기기 안에서만 실행되는 AI 비서 '언더독(Underdog)'의 초대제 베타를 공개했다. 현지 시각 10월 6일 테크크런치에…",
+          "category": "AI"
+        },
+        {
+          "title": "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파",
+          "url": "https://zdnet.co.kr/view/?no=20261009094454",
+          "summary": "[지디넷코리아]챗GPT로 생성형 인공지능(AI) 바람을 일으킨 오픈AI의 연간 매출이 기대에 크게 못 미치는 것으로 나타났다. 그 여파로 S&P500, 나스닥 등 미국 주요 증시가 일제히 약세로 돌아섰다.8일(현지시…",
+          "category": "AI"
+        },
+        {
+          "title": "AI 도메인 경쟁 뜨겁다…'닷에이전트' 13개사 각축",
+          "url": "https://zdnet.co.kr/view/?no=20261008223551",
+          "summary": "[지디넷코리아]에이전트(agent)를 비롯해 인공지능(AI) 시대 핵심 키워드로 된 최상위 도메인 선점 경쟁이 치열하게 벌어지고 있다.올해 국제인터넷주소관리기구(ICANN)에 접수된 일반 최상위 도메인(gTLD) 신…",
+          "category": "AI"
+        },
+        {
+          "title": "온디바이스 AI로 투약 사고 막는다...알파팜텍·드란비 대상",
+          "url": "https://zdnet.co.kr/view/?no=20261008180228",
+          "summary": "[지디넷코리아]병원에서 의약품을 안전하게 분주하는 로봇과 기기 내부에서 AI 작동을 제어하는 기술이 올해 스마트 디바이스 공모전에서 최고상을 받았다. 외부 클라우드에 의존하지 않고 기기 자체에서 데이터를 처리하는 온…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, 수학 난제 해결 주장…학계, 신뢰성에 의문 드러내",
+          "url": "https://zdnet.co.kr/view/?no=20261009073816",
+          "summary": "[지디넷코리아]오픈AI가 인공지능(AI)으로 수학 난제를 대거 풀었다고 발표했지만 일부 연구에서 오류가 발견되면서 결과의 신뢰성을 둘러싼 논란이 일고 있다.8일(현지시간) 테크크런치에 따르면 오픈AI는 지난 6일 A…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
