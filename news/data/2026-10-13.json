@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-13",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "MS, 자체 AI 칩 대규모 배치 선언...차세대 '마이아 300' 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216182",
+          "summary": "마이크로소프트(MS)가 자체 개발한 AI 칩 '마이아(Maia)' 제품군을 내년부터 수 기가와트(GW) 규모로 확대 배치한다. 동시에 차세대 칩 '마이아 300(Maia 300)'도 공개하며 엔비디아 GPU에 대한…",
+          "category": "AI"
+        },
+        {
+          "title": "\"말 한마디로 3D 기계 그려내\"...클로드 코드용 '아나토미' 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216170",
+          "summary": "AI 코딩 도구를 활용해 기술 개념을 직접 조작할 수 있는 입체 시각화로 구현하는 '클로드 코드'용 오픈소스 스킬(Skill)이 공개됐다. 개발자 라이언(@wheresryan22)이 만든 ‘아나토미(Anatomy)’…",
+          "category": "AI"
+        },
+        {
+          "title": "삼성·LG, KES 2026서 AI 가전·데이터센터·로봇 출격...생활·산업 속 AI 기술 뽐내",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216192",
+          "summary": "삼성전자와 LG전자가 일상 가전부터 모바일, 로봇, 데이터센터를 아우르는 최신 AI 기술력으로 일반인 대상 시선잡기 경쟁에 나선다.삼성전자와 LG전자는 13일부터 나흘간 서울 강남구 코엑스에서 열리는 한국전자전(KE…",
+          "category": "AI"
+        },
+        {
+          "title": "Ai2, MoE 학습 효율 2.7배 높인 오픈소스 프레임워크 '올모 코어 3' 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216173",
+          "summary": "AI 모델의 규모가 커질수록 학습에 필요한 GPU 자원과 비용이 늘어나는 가운데, 이를 해결하기 위한 오픈소스 기술 개발이 주목받고 있다. 모델의 성능뿐 아니라 제한된 컴퓨팅 자원으로 얼마나 효율적으로 학습할 수 있…",
+          "category": "AI"
+        },
+        {
+          "title": "오르카라우터, 100만 토큰 컨텍스트 지원 사이버 보안 모델 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216167",
+          "summary": "LLM 게이트웨이 플랫폼인 오프카라우터(OrcaRouter)가 단순히 보안상 문제를 찾아내는 것을 넘어 복잡한 공격 경로를 분석하고 취약점 수정까지 지원하는 사이버 보안 모델을 공개했다. 대규모 컨텍스트 창을 기반으…",
+          "category": "Security"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "추론 전용 NPU로 AI 학습까지…비드래프트, 가속 기술 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261013120239",
+          "summary": "[지디넷코리아]비드래프트가 추론 전용 신경망처리장치(NPU)에서 인공지능(AI) 모델 학습까지 수행할 수 있는 가속 소프트웨어를 개발했다.비드래프트는 NPU용 AI 가속 소프트웨어 계층 '브이코어(VKORE)'를 개…",
+          "category": "AI"
+        },
+        {
+          "title": "IMF \"금융사, AI 공격 위협 대응…인프라·기술기업까지도 넓게 봐야\"",
+          "url": "https://zdnet.co.kr/view/?no=20261013095500",
+          "summary": "[지디넷코리아]최근 국내 금융사 등을 타깃으로 인공지능(AI) 에이전트로 추정되는 해킹이 무작위로 진행된 가운데, 국제통화기금(IMF) 주요 인사들이 AI 공격 위협에 대응하기 위해선 금융사뿐만 아니라 인프라를 갖춘…",
+          "category": "AI"
+        },
+        {
+          "title": "도면·매뉴얼도 AI 데이터로…한국딥러닝, 정부 AX 전문기업 선정",
+          "url": "https://zdnet.co.kr/view/?no=20261013112042",
+          "summary": "[지디넷코리아]한국딥러닝이 도면과 자재명세서(BOM), 공정 매뉴얼 등 제조 현장의 비정형 문서를 인공지능(AI)이 활용할 수 있는 데이터로 전환하는 기술력을 인정받았다. 문서 속 정보를 추출·구조화하고 기존 업무…",
+          "category": "AI"
+        },
+        {
+          "title": "정신아 카카오 \"말 한마디로 주문·예약까지...AI로 다음 10년 연결\"",
+          "url": "https://zdnet.co.kr/view/?no=20261013105220",
+          "summary": "[지디넷코리아]카카오가 인공지능(AI)을 앞세워 카카오톡 다음 10년을 준비한다. 이용자의 일상과 취향을 기억하고, 말 한마디로 쇼핑과 예약, 송금까지 처리하는 AI 에이전트를 통해 기존 플랫폼의 연결 경험을 확장하…",
+          "category": "AI"
+        },
+        {
+          "title": "AI 안전 평가 선도하는 영국…한국도 국제무대 나설 수 있을까",
+          "url": "https://zdnet.co.kr/view/?no=20261013110737",
+          "summary": "[지디넷코리아]마이크로소프트(MS)가 국제 인공지능(AI) 안전 기준 마련을 이끌 국가로 영국을 지목하면서 한국의 AI 안전 평가 역량을 강화해야 한다는 목소리도 나오고 있다.12일(현지시간) BBC에 따르면 브래드…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
