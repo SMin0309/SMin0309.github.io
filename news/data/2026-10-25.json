@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-25",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글 클라우드, 에이전트 전용 '컴퓨팅 엔진' 출시…마이크로VM으로 보안 격리",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216608",
+          "summary": "구글 클라우드가 AI 에이전트마다 독립적인 가상 실행 환경을 제공하는 전용 컴퓨팅 서비스 '에이전트 컴퓨트 엔진(Agent Compute Engine)'을 공개했다. 실험실을 벗어나 기업 현장으로 진입하는 AI 에이…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 터미널서 AI 에이전트 다루는 '제미나이 API CLI' 오픈소스 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216607",
+          "summary": "구글이 터미널에서 제미나이 API의 주요 기능을 사용할 수 있는 명령줄 도구(CLI) '제미나이 API CLI(Gemini API CLI)'를 공개했다. AI 에이전트가 간단한 명령어만으로 이미지와 영상, 음악을 생…",
+          "category": "AI"
+        },
+        {
+          "title": "SK “AI 데이터센터 5GW에 464조 필요”…글로벌 빅테크와 투자 협상",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216614",
+          "summary": "SK그룹이 국내에 초대형 AI 데이터센터를 구축하기 위해 글로벌 빅테크 기업과 금융투자자들을 상대로 자금 조달 협상을 진행하고 있다. 첫 단계인 5기가와트(GW) 규모 데이터센터 구축에만 3500억달러(약 464조원…",
+          "category": "AI"
+        },
+        {
+          "title": "중국 국영 통신망서 수출 금지 엔비디아 칩 또 포착…첨단 'B300' 32개 확인",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216617",
+          "summary": "중국 국영 통신회사 차이나텔레콤의 네트워크에서 대중국 수출이 금지된 엔비디아의 ‘블랙웰 울트라 B300’ GPU 32개가 포착됐다. 중국 기업의 첨단 AI 칩 확보 정황이 거듭 드러나면서 미국 수출 통제의 실효성이…",
+          "category": "AI"
+        },
+        {
+          "title": "머스크 “AI 에이전트로 통신 수요 1000배 증가”…기지국 8만곳 확보 추진",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216624",
+          "summary": "일론 머스크 CEO가 AI 에이전트의 증가로 3~5년 안에 통신 대역폭 수요가 현재의 1000배에 이를 것이라고 전망했다. 사람보다 많은 AI 에이전트가 각각 사람보다 많은 데이터를 주고받게 된다는 설명이다. 스페이…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "위험성 알려줘도 공격 지속…영국 AI보안연구소가 밝힌 AI 안전 허점",
+          "url": "https://zdnet.co.kr/view/?no=20261024144522",
+          "summary": "[지디넷코리아]영국 정부가 인공지능(AI)을 시험하던 중 실제 소프트웨어 개발자를 겨냥한 사이버 공격 시도가 발생했다. 이후 실험에서는 공격이 위험하다는 판단과 실제 행동이 일치하지 않는 문제도 확인됐다.23일(현지…",
+          "category": "AI"
+        },
+        {
+          "title": "EU, 370억원 투입 6G 연구사업 5개 선정",
+          "url": "https://zdnet.co.kr/view/?no=20261025075905",
+          "summary": "[지디넷코리아]유럽연합(EU)이 2200만 유로(약 370억원)을 지원하는 6G 연구개발 사업 5개를 확정했다. 인공지능(AI) 기반 통신망에 필요한 데이터를 확보하고 유럽 각국의 시험망을 통합해 6G 연구성과를 실…",
+          "category": "AI"
+        },
+        {
+          "title": "마이크로칩 \"헤일로 AI 가속기와 결합한 턴키 솔루션으로 승부\"",
+          "url": "https://zdnet.co.kr/view/?no=20261024184335",
+          "summary": "[지디넷코리아]\"폭넓은 솔루션을 제공하지 못하는 인공지능(AI) 반도체 스타트업은 경쟁하기 어려울 것입니다.\"마크 라이튼(Mark Reiten) 마이크로칩 테크놀로지 수석부사장은 최근 에지 AI 반도체 스타트업 '헤…",
+          "category": "AI"
+        },
+        {
+          "title": "\"GPT-6보다 코딩 잘한다\"…중국 문샷AI, '키미 K3.1 프로' 출시",
+          "url": "https://zdnet.co.kr/view/?no=20261024143929",
+          "summary": "[지디넷코리아]중국 문샷AI가 오픈AI 최신 모델보다 높은 코딩 성능을 내세운 인공지능(AI) 모델 '키미 K3.1 프로'를 출시했다.24일 문샷AI에 따르면 전날 공개한 키미 K3.1 프로는 코딩 능력 평가인 '터…",
+          "category": "AI"
+        },
+        {
+          "title": "SKT는 왜 토큰 게이트웨이로 눈길 돌렸나",
+          "url": "https://zdnet.co.kr/view/?no=20261024132650",
+          "summary": "[지디넷코리아]SK텔레콤이 2300만 가입자와 통신 네트워크, AI 서비스, AI 데이터센터(AIDC)를 연결하는 '토큰 게이트웨이'를 새로운 성장 사업으로 낙점했다. AI 모델 자체의 성능 경쟁을 넘어 고객에게 적…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
