@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-26",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "[AI리더의 서가] AI 자율학습 AI 에이전트 개발 입문",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216577",
+          "summary": "AI 자율학습 AI 에이전트 개발 입문박경민 | 길벗2026년 7월 1일추천이유이 책은 LLM의 기초부터 AI 에이전트까지 단계적으로 설명하며 OpenAI API를 활용한 실습을 통해 핵심 기술을 직접 구현합니다.…",
+          "category": "AI"
+        },
+        {
+          "title": "구글 클라우드, 에이전트 전용 '컴퓨팅 엔진' 출시…마이크로VM으로 보안 격리",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216608",
+          "summary": "구글 클라우드가 AI 에이전트마다 독립적인 가상 실행 환경을 제공하는 전용 컴퓨팅 서비스 '에이전트 컴퓨트 엔진(Agent Compute Engine)'을 공개했다. 실험실을 벗어나 기업 현장으로 진입하는 AI 에이…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 터미널서 AI 에이전트 다루는 '제미나이 API CLI' 오픈소스 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216607",
+          "summary": "구글이 터미널에서 제미나이 API의 주요 기능을 사용할 수 있는 명령줄 도구(CLI) '제미나이 API CLI(Gemini API CLI)'를 공개했다. AI 에이전트가 간단한 명령어만으로 이미지와 영상, 음악을 생…",
+          "category": "AI"
+        },
+        {
+          "title": "가상 섬에 홀로 둔 AI, 스스로 놀이 만들고 개발자도 몰랐던 기술 발견",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216631",
+          "summary": "구체적인 임무 없이 가상 섬에 놓인 AI 에이전트들이 스스로 농구와 볼링을 하고, 블록으로 조형물을 만드는 행동을 보였다. 이 과정에서 시뮬레이터 개발자도 몰랐던 물체 던지기 기술까지 발견했다. 연구진은 이런 활동이…",
+          "category": "AI"
+        },
+        {
+          "title": "엔비디아, 로컬 에이전트·로봇 겨냥 4GB 모델 '네모트론 3.5 볼트' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216625",
+          "summary": "엔비디아가 로컬에서 적은 메모리로 자연스러운 대화와 작업 수행이 가능한 경량 온디바이스 AI 모델을 선보였다. 이번 모델은 음성·비전 모델과 함께 구동되는 기기 내 AI 시스템과 게임, 로봇 분야의 개발자가 성능과…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "오픈AI, 국내 첫 '모델 마스터즈' 개최…스타트업 AI 개발 지원",
+          "url": "https://zdnet.co.kr/view/?no=20261026105927",
+          "summary": "[지디넷코리아]오픈AI가 국내 스타트업 인공지능(AI) 서비스 개발을 지원하는 프로그램을 처음 열고 11개 기업 기술 활용 성과를 공개했다.오픈AI는 지난 23일 서울사무소에서 국내 첫 '오픈AI 모델 마스터즈'를…",
+          "category": "AI"
+        },
+        {
+          "title": "대덕특구·알테오젠, 3곳 뽑아 공동 R&D·투자연계 등 동반성장 추진",
+          "url": "https://zdnet.co.kr/view/?no=20261026104350",
+          "summary": "[지디넷코리아]연구개발특구진흥재단 대덕연구개발특구본부(본부장 임문택)는 알테오젠(대표 전태연)과 ‘2026 바이오 딥테크 오픈이노베이션’에 참여할 기업과 공공연구기관을 모집한다.참가 대상은 관련 분야 혁신기술을 보유…",
+          "category": "Industry"
+        },
+        {
+          "title": "'모두의 AI' 이름 국민이 짓는다…과기정통부, 공모전 개최",
+          "url": "https://zdnet.co.kr/view/?no=20261026102730",
+          "summary": "[지디넷코리아]연내 출시를 준비 중인 인공지능(AI) 서비스 '모두의 AI' 브랜드명과 슬로건을 국민이 직접 제안하는 공모전이 열린다.과학기술정보통신부는 26일부터 다음 달 6일까지 모두의 AI 정책 브랜드 공모전을…",
+          "category": "AI"
+        },
+        {
+          "title": "LS에코에너지, 베트남서 'AIDC' 울트라캐패시터 생산 준비",
+          "url": "https://zdnet.co.kr/view/?no=20261026101827",
+          "summary": "[지디넷코리아]LS에코에너지(대표 이상호)가 AI데이터센터(AIDC)용 울트라캐패시터(UC) 생산에 나서며 고부가 신사업을 확대한다.LS에코에너지는 베트남 생산법인 LSCV가 약 650억원을 투자해 현지에 UC 생산…",
+          "category": "Industry"
+        },
+        {
+          "title": "SDT, 기존 시스템과 완벽 호환 QRNG+PQC 보안 카메라 첫선",
+          "url": "https://zdnet.co.kr/view/?no=20261026100016",
+          "summary": "[지디넷코리아]양자기술 전문기업 SDT(대표 윤지원)가 기존 보안 시스템과 호환이 완벽한 양자보안 카메라(IP 5M AI IR 불릿 카메라)를 공개했다. SDT의 양자난수생성기(QRNG)가 탑재된 보안 카메라에 최근…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
