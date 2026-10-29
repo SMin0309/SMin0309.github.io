@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-29",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "수천만달러 GPU 노린다…고속도로 화물 운송망 덮친 첨단 범죄 기승",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216760",
+          "summary": "미국에서 AI 데이터센터에 들어가는 고가의 서버와 반도체 부품을 노린 조직적인 화물 절도 범죄가 급증하고 있다. 범죄 조직들은 운송업체 계정 해킹과 피싱, GPS 신호 조작, 차량 충돌 등 첨단 기술과 물리력을 결합…",
+          "category": "Security"
+        },
+        {
+          "title": "MS, 10분기 연속 최대 매출...AI 투자 지연에 네오클라우드 주가 하락",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216773",
+          "summary": "마이크로소프트(MS)가 클라우드 사업의 성장에 힘입어 10분기 연속 사상 최대 매출을 기록했다. 애저(Azure) 매출이 전년 동기 대비 48% 증가하고 오픈AI 관련 매출도 한 분기에 100억달러(약 13조원)에…",
+          "category": "Industry"
+        },
+        {
+          "title": "MS, 비용 효율 20% 높인 차세대 보안 모델 'MAI 사이버 1.1 플래시' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216757",
+          "summary": "마이크로소프트(MS)가 사이버 보안용 AI 모델 'MAI 사이버 1.1 플래시(MAI Cyber 1.1 Flash)'를 공개했다. 기존 모델과 비슷한 취약점 탐지 성능을 유지하면서 스캔 당 비용을 18% 줄인 것이…",
+          "category": "Security"
+        },
+        {
+          "title": "메타, AI 인프라 대규모 자금 조달…엔비디아 4조·AMD 1.3조 베팅",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216736",
+          "summary": "엔비디아가 AI 인프라 투자를 확대하는 메타에 총 30억달러(약 4조원)를 투자한다. 메타가 AI 인프라 구축 자금을 마련하기 위해 추진하는 대규모 주식 공모에 참여하는 동시에, 차세대 AI 모델과 에이전트 개발을…",
+          "category": "AI"
+        },
+        {
+          "title": "오픈AI, 구글 TPU 직접 구매 추진...엔비디아 의존도 줄인다",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216771",
+          "summary": "오픈AI가 구글의 자체 개발 AI 칩인 텐서처리장치(TPU)를 직접 구매하는 방안을 추진한다. 지난해 구글 TPU를 임대해 시험적으로 사용한 데 이어, 본격적인 도입을 준비하는 움직임이다. 엔비디아 GPU에 대한 의…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "카카오, '카나나' 임베딩 모델 공개…개인화 AI 에이전트 개발 활용 가능",
+          "url": "https://zdnet.co.kr/view/?no=20261029100156",
+          "summary": "[지디넷코리아]카카오는 개인화 인공지능(AI) 에이전트 기반 기술인 임베딩 모델 '카나나-2-embedding' 2종을 허깅페이스에 오픈소스로 선보였다고 29일 밝혔다.이번에 선보인 모델은 30억 개의 파라미터를 갖…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI 투자 감당할 체력 있나\"…MS·구글, '현금흐름'이 희비 갈랐다",
+          "url": "https://zdnet.co.kr/view/?no=20261029102130",
+          "summary": "[지디넷코리아]인공지능(AI) 사업을 키우는 경쟁이 투자비를 감당하는 체력 싸움으로 이어지고 있다. 마이크로소프트(MS)와 구글은 3분기 나란히 클라우드 매출을 늘렸지만 투자 부담에서는 차이를 드러냈다. MS는 대규…",
+          "category": "Industry"
+        },
+        {
+          "title": "영업익 100조 시대 연 삼성 반도체, 내년 공급부족 대비 85조 설비투자",
+          "url": "https://zdnet.co.kr/view/?no=20261029102311",
+          "summary": "[지디넷코리아]삼성전자가 인공지능(AI) 반도체 수요 강세에 힘입어 3분기 반도체 사업에서 100조원이 넘는 영업이익을 올렸다. 역대 최대 실적이다. 올해 84조원대의 대규모 시설투자를 단행해 내년에도 이어질 AI…",
+          "category": "AI"
+        },
+        {
+          "title": "IITP, 어린이 대상 6G 미래 상상 그림 공모전 개최",
+          "url": "https://zdnet.co.kr/view/?no=20261029104009",
+          "summary": "[지디넷코리아]정보통신기획평가원(IITP)이 차세대 이동통신 기술인 6G를 주제로 어린이 그림 공모전을 개최한다.'어린이 미래 상상 그림 공모전'은 12월 8일부터 11일까지 열리는 '6G 비전페스트 2026'의 부…",
+          "category": "Etc"
+        },
+        {
+          "title": "김연수 한컴 대표 \"2030년 매출 절반 해외서\"…노마디안으로 글로벌 공략 박차",
+          "url": "https://zdnet.co.kr/view/?no=20261029111431",
+          "summary": "[지디넷코리아]한컴이 인공지능(AI) 워크포스 플랫폼 '노마디안'을 앞세워 2030년 전체 매출의 절반을 해외에서 창출하겠다는 목표를 제시했다. 미국 1인 사업자와 소기업을 시작으로 해외 고객을 확보하고, 노마디안과…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
