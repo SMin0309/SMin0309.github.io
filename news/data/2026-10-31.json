@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-31",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "AI 거품 붕괴 조짐에 미 기술주 급락…10월 시총 2조달러 증발",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216840",
+          "summary": "미국 빅테크 기업들의 AI 투자 급증에 대한 불안감이 커지면서 기술주가 급락했다. AI 수요와 클라우드 매출은 빠르게 늘고 있지만, 데이터센터와 반도체에 투입되는 막대한 자금이 실제 수익으로 이어질 수 있는지 의문이…",
+          "category": "Industry"
+        },
+        {
+          "title": "미스트랄, '라지 4' 가중치 공개로 정식 출시…유럽 사이버보안 시장 공략",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216821",
+          "summary": "미스트랄 AI가 이달 초 선보인 '미스트랄 라지 4(Mistral Large 4)'의 성능을 개선하고 모델 가중치를 공개하며 정식 출시했다. 기존에는 API를 통해서만 이용할 수 있었지만, 이제 기업과 개발자가 직접…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, AI 검색에 광고 수익성 타격…시총 5000억달러 증발",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216843",
+          "summary": "구글이 AI 검색을 앞세워 기존 검색 시장의 지배력을 유지했지만, 정작 AI 검색이 핵심 수익원인 광고 사업에 부담을 주기 시작했다. 챗GPT 등 AI 챗봇이 기존 검색을 대체할 것이라는 전망에 대응해 검색 서비스에…",
+          "category": "AI"
+        },
+        {
+          "title": "엔비디아, 네이버 3대 주주로…1.3조 다음 달 6일 납입",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216835",
+          "summary": "엔비디아가 네이버 3대 주주에 오르며 AI 팩토리 협력이 본격화된다.네이버(대표 최수연)는 엔비디아를 대상으로 한 제3자 배정 유상증자 납입일이 다음 달 6일로 확정됐다고 30일 공시했다. 투자 규모는 10억달러(약…",
+          "category": "Industry"
+        },
+        {
+          "title": "AI 신소재 나노포지에이아이, 146억 시드 투자 유치",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216829",
+          "summary": "AI 기반 신소재 개발 스타트업 나노포지에이아이(대표 김동현)가 146억원 규모의 시드 투자를 유치했다고 30일 밝혔다.이번 투자 라운드에는 기존 투자사인 퓨처플레이와 매쉬업벤처스를 비롯해 미래에셋벤처투자·DSC인베…",
+          "category": "Industry"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "깃허브 제품 부사장 \"AI 코딩 가성비 시대 이끌 것\"",
+          "url": "https://zdnet.co.kr/view/?no=20261031015613",
+          "summary": "[지디넷코리아][샌프란시스코(미국)=김미정 기자] \"웹사이트에서 글자 한 줄을 수정하는 데 가장 비싼 인공지능(AI) 모델을 사용할 필요는 없습니다. 기업이 AI 개발 도구를 효율적으로 활용하려면 작업에 적합한 모델…",
+          "category": "AI"
+        },
+        {
+          "title": "IPO 앞둔 앤트로픽, 기업 공략 고삐…성과·비용 관리까지 지원",
+          "url": "https://zdnet.co.kr/view/?no=20261031002306",
+          "summary": "[지디넷코리아]기업공개(IPO)를 앞둔 앤트로픽이 기업용 인공지능(AI) 사업 확대에 속도를 낸다. 클로드에 맡길 전문 업무를 늘리고 비용과 보안 관리까지 지원해 기업 시장 입지를 강화한다는 전략이다.31일 AI 업…",
+          "category": "AI"
+        },
+        {
+          "title": "Unleash Your Edge: 지타이, &apos;팬텀 블레이드 제로&apos;와 글로벌 전략적 파트너십 발표",
+          "url": "https://zdnet.co.kr/view/?no=20261031011002",
+          "summary": "[지디넷코리아]베이징, 2026년 10월 30일 /PRNewswire/ -- 양쯔메모리테크놀로지스(YMTC) 산하 소비자용 스토리지 브랜드 지타이(ZHITAI)가 전 세계 게이머들의 주목을 받고 있는 AAA 액션 게…",
+          "category": "AI"
+        },
+        {
+          "title": "손 안 대고 '눈짓'으로 켠다…55g 괴물 AI 안경 등장",
+          "url": "https://zdnet.co.kr/view/?no=20261031070437",
+          "summary": "[지디넷코리아]중국 스마트 안경 업체 로키드(Rokid)가 컬러 디스플레이를 탑재한 첫 스마트 안경 ‘로키드 컬러(Rokid Color)’를 공개했다고 기즈모도 등 외신이 최근 보도했다.이 제품은 메타의 디스플레이…",
+          "category": "AI"
+        },
+        {
+          "title": "2026 훙하이 테크 데이에서 AI용 토큰 팩토리를 구현하는 폭스콘 생태계 조명",
+          "url": "https://zdnet.co.kr/view/?no=20261031091024",
+          "summary": "[지디넷코리아] 7회째 맞은 대표 연례 기술 콘퍼런스에서 기술 협력 성과 조명 역대 최대인 321개 전시물로 수직 계열화와 정밀 제조 역량 입증 20m 길이 전시벽으로 차세대 AI 인프라의 부품부터 시스템 통합까지…",
+          "category": "Industry"
+        }
+      ]
+    }
+  ]
+}
