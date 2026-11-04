@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-04",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "한 번 연결한 MCP, 다른 환경에서도 그대로 쓸 수 있을까? Liner Actions 일주일 사용기",
+          "url": "https://yozm.wishket.com/magazine/detail/4023",
+          "summary": "새 프로젝트를 열면 서비스마다 다시 붙이고, 다른 컴퓨터로 가면 로그인과 키 설정을 또 하고, 웹이나 폰, 다른 에이전트에서는 아예 처음부터 해야 했죠. MCP 서버 하나를 등록하고 라이너 계정에 서비스 연결을 한…",
+          "category": "AI"
+        },
+        {
+          "title": "직접 만든 Claude 비서 3주, Duet과 뭐가 다를까",
+          "url": "https://yozm.wishket.com/magazine/detail/4022",
+          "summary": "10월 21일 Anthropic이 AI 비서 Claude Duet을 리서치 프리뷰로 공개하기 전부터, 저는 이미 Claude 예약 작업과 Chrome 확장, Jira·Notion 커넥터로 비슷한 비서를 만들어 쓰고…",
+          "category": "AI"
+        },
+        {
+          "title": "인하우스 IT 기획자가 AI로 대시보드 만들며 배운 4가지",
+          "url": "https://yozm.wishket.com/magazine/detail/4021",
+          "summary": "'솔루션 업체에 가능한지부터 확인해 봐야 한다.' 인하우스 IT 조직에서 일하다 보면 자주 듣는 말입니다. 개발 리소스를 기다리는 대신, 기획자가 VS Code와 클로드 코드로 테이블 100개 가까운 레거시 DB를…",
+          "category": "AI"
+        },
+        {
+          "title": "Next.js 모바일 웹을 일주일 만에 앱으로 바꾼 방법 ②",
+          "url": "https://yozm.wishket.com/magazine/detail/4019",
+          "summary": "지난 1편은 빠르게 앱 POC를 만드는 데는 성공했지만, 바로 출시까지 가는 데는 실패했습니다. 마크다운 문서상으로는 화면이 다 올라와 있었지만, 막상 휴대폰으로 하나씩 눌러보니 SafeArea와 키보드, 터치 영역…",
+          "category": "Mobile"
+        },
+        {
+          "title": "코드 멀쩡한데 트래픽 떨어졌다면? 배포 전 SEO 장애 막는 품질 게이트 전략",
+          "url": "https://yozm.wishket.com/magazine/detail/4018",
+          "summary": "트래픽이 갑자기 떨어졌는데, 무엇이 바뀌었는지 아무도 모릅니다. SEO 담당자라면 익숙한 장면인데, 알고 보면 원인은 엔지니어가 코어 웹 바이탈을 고치다 title 태그를 엉뚱한 곳으로 옮긴 배포 한 번인 경우가 많…",
+          "category": "Etc"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "오픈AI \"챗GPT 검색량, 구글의 20% 도달\"...주간 사용자 12억명 돌파",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216977",
+          "summary": "오픈AI가 '챗GPT'를 통한 검색량이 구글 전체 검색량의 약 20%에 도달했다고 밝혔다. 주간 활성 사용자 수도 12억명을 넘어섰다. 글쓰기와 코딩 중심이었던 챗봇 활용이 기존 검색엔진을 대체하는 정보 탐색으로 확…",
+          "category": "AI"
+        },
+        {
+          "title": "[AI리더의 서가] 원하는 대로 튜닝하는 나만의 sLLM",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216788",
+          "summary": "원하는 대로 튜닝하는 나만의 sLLM오지영 | 길벗2026년 7월 7일추천이유저자는 sLLM의 구축부터 배포까지 전 과정을 실습으로 안내하며, 개발자가 직접 맞춤형 AI를 만들고 운영하는 엔지니어로 성장하도록 돕습니…",
+          "category": "AI"
+        },
+        {
+          "title": "엔비디아, 클라우드 고객에 중국 기업 서비스 비중 49% 이하 요구",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216969",
+          "summary": "엔비디아가 전 세계 데이터센터 및 클라우드 고객사에 중국 기업 대상 서비스 비중을 49% 이하로 줄이도록 요구한 것으로 알려졌다. 미국의 반도체 수출 통제를 피해 해외 데이터센터에서 첨단 AI 칩을 이용해 온 중국…",
+          "category": "AI"
+        },
+        {
+          "title": "제네시스네스트, 1만5000명 채팅 견디는 '챗플래닛' 출시…팬덤·라이브 시장 겨냥",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216974",
+          "summary": "AI 소프트웨어 전문 제네시스네스트(대표 이동수)는 대규모 동시접속 환경에서도 실시간 메시지를 안정적으로 처리하는 채팅 솔루션 '챗플래닛(CHATPLANET)'을 개발하고 팬덤 플랫폼과 라이브 서비스 등 대규모 고부…",
+          "category": "Industry"
+        },
+        {
+          "title": "정부 주도 ‘휴머노이드 데이터 팩토리’ 개소…로봇 12대 가동",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216973",
+          "summary": "과학기술정보통신부(장관 배경훈)는 한국기계연구원·한국전자통신연구원(ETRI)과 ‘AI 휴머노이드 데이터 팩토리’를 개소했다고 4일 밝혔다.데이터 팩토리는 국내 최초의 이족보행 휴머노이드 전용 데이터 생산시설로 기계연…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "과기정통부, SW마이스터고 연합해커톤 개최…실리콘밸리 취업 성과 잇는다",
+          "url": "https://zdnet.co.kr/view/?no=20261104112950",
+          "summary": "[지디넷코리아]미국 실리콘밸리 취업자를 4년 연속 배출한 소프트웨어마이스터고 학생들이 한자리에 모여 인공지능(AI)과 소프트웨어(SW) 개발 실력을 겨룬다.과학기술정보통신부는 4일부터 6일까지 전남 여수 히든베이호텔…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI에 돈 쏟아붓는데\"…韓 기업, 투자 늘려도 확장에 '발목' 잡힌 이유는",
+          "url": "https://zdnet.co.kr/view/?no=20261104111351",
+          "summary": "[지디넷코리아]국내 기업들이 인공지능(AI) 투자를 빠르게 확대하고 있지만 거버넌스와 데이터 주권 문제가 AI 확산의 걸림돌로 작용하고 있는 것으로 나타났다. AI 도입이 본격화되면서 기업들이 투자 규모를 늘리는 동…",
+          "category": "AI"
+        },
+        {
+          "title": "빅밸류, 공공 AI 전환 속도 낸다…AX 전담조직 신설",
+          "url": "https://zdnet.co.kr/view/?no=20261104113853",
+          "summary": "[지디넷코리아]빅밸류가 데이터 준비부터 인공지능(AI) 적용과 운영까지 지원하는 전담조직을 신설하고 공공시장 공략에 나선다.빅밸류는 데이터·AI 전문 역량을 결집한 AX본부를 신설하고 'AI 레디 데이터' 기반 AI…",
+          "category": "AI"
+        },
+        {
+          "title": "유니티, 지스타 2026 BTC관에 '유니티 월드' 조성…인디 생태계 육성 총력",
+          "url": "https://zdnet.co.kr/view/?no=20261104112148",
+          "summary": "[지디넷코리아]글로벌 게임 엔진 기업 유니티가 국내 최대 게임 전시회 지스타 2026에서 인디 개발자의 제작과 전시, 기술 컨설팅을 아우르는 종합 지원에 나선다.유니티(NYSE: U)는 '지스타 2026' 기간 동안…",
+          "category": "Etc"
+        },
+        {
+          "title": "디에스엠 9.81파크 제주, 데이터로 레이싱 콘텐츠 고도화",
+          "url": "https://zdnet.co.kr/view/?no=20261104112303",
+          "summary": "[지디넷코리아]디에스엠(DSM)이 운영하는 ‘9.81파크 제주’가 이용자 주행 데이터와 인공지능(AI)을 활용해 레이싱 콘텐츠를 고도화하고 있다. 기존 시설에 새로운 게임 요소를 추가하는 방식으로 방문객에게 다양한…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
