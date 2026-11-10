@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-10",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "구글, AI 에이전트·보안 특화 TPU 2종 공개…엔비디아 추격",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217211",
+          "summary": "구글이 AI 칩 시장에서 엔비디아에 맞서기 위해 자체 개발한 텐서처리장치(TPU) 제품군을 확대했다. 대규모 정보를 처리하는 AI 에이전트와 민감한 데이터를 다루는 기업용 보안 시스템에 특화한 신제품 2종을 추가하며…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽, 93조 IPO 계획 전달 직후 철회…빅테크 35조 투자도 포함",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217213",
+          "summary": "앤트로픽이 최대 693억달러(약 93조원)를 조달하는 기업공개(IPO) 계획을 투자은행들에 전달했다가 공모가격 정보가 부정확하다며 철회한 것으로 알려졌다. 해당 자료에는 구글과 엔비디아, 마이크로소프트 등 주요 기술…",
+          "category": "Industry"
+        },
+        {
+          "title": "오픈메이드컨설팅, AI 기반 SQL 자동 튜닝 솔루션 '쿼리메딕 2.0' 출시",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217212",
+          "summary": "오픈메이드컨설팅(대표 최영철)이 AI를 활용해 데이터베이스(DB)의 SQL을 자동으로 분석하고 성능을 개선하는 '쿼리메딕(Query Medic) 2.0'을 오는 16일 출시한다고 밝혔다.쿼리메딕은 대형언어모델(LLM…",
+          "category": "AI"
+        },
+        {
+          "title": "엔비디아, 국내 AI 스타트업 3곳 투자 낙점...리얼월드·업스테이지·모티프",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217188",
+          "summary": "엔비디아가 리얼월드·업스테이지·모티프테크놀로지스 등 국내 AI 스타트업 3곳에 투자한다.엔비디아는 9일 서울 코엑스에서 국내 AI 스타트업 20여개 사가 참석한 가운데 열린 ‘AI 스타트업 파트너십 포럼'에서 이 같…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 코딩 전 설계 오류 잡는 '코끼리-금붕어' 플러그인 공개",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217179",
+          "summary": "구글이 AI 코딩 에이전트의 설계와 검토 과정을 개선하기 위한 '코끼리-금붕어 모델(EGM)' 플러그인을 오픈소스로 공개했다. 코드를 작성하기 전에 상세한 설계 명세서를 만들고, 대화 맥락이 없는 별도의 AI 에이전…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "AI 에이전트 시대 본격화…앤트로픽 손잡은 시스코, 네트워크·보안 사업 재편 속도",
+          "url": "https://zdnet.co.kr/view/?no=20261110130127",
+          "summary": "[지디넷코리아][멜버른(호주)=장유미 기자] 인공지능(AI) 에이전트가 기업의 새로운 디지털 노동력으로 자리 잡으면서 네트워크와 데이터센터, 보안 인프라를 통합하려는 시스코의 전략에도 속도가 붙고 있다. AI가 사람…",
+          "category": "AI"
+        },
+        {
+          "title": "\"日 아사히도 택했다\"…시스코, 기업 네트워크 혁신으로 AI 주도권 노려",
+          "url": "https://zdnet.co.kr/view/?no=20261110115359",
+          "summary": "[지디넷코리아][멜버른(호주)=장유미 기자] 시스코가 인공지능(AI) 에이전트 확산에 맞춰 기업 네트워크와 보안 인프라 혁신에 속도를 낸다. AI가 사람을 대신해 24시간 업무를 수행하면서 데이터 트래픽과 보안 위협…",
+          "category": "AI"
+        },
+        {
+          "title": "팬듀이트, AI-Ready 데이터센터 위한 Net-Verse™ 캐비닛 출시",
+          "url": "https://zdnet.co.kr/view/?no=20261110121002",
+          "summary": "[지디넷코리아] 78% 에어플로우로 냉각 효율 높이고 최대 2,000kg 정하중 지원… 고밀도 IT 인프라 구축 및 운영 편의성 강화 싱가포르, 2026년 11월 10일 /PRNewswire/ --전기 및 네트워크…",
+          "category": "AI"
+        },
+        {
+          "title": "\"AI 실험만 하다 뒤처진다\"…시스코, 기업 혁신 가로막는 '신뢰 부족' 경고",
+          "url": "https://zdnet.co.kr/view/?no=20261110112953",
+          "summary": "[지디넷코리아][멜버른(호주)=장유미 기자] 시스코가 인공지능(AI) 도입에 속도를 내는 글로벌 기업들을 겨냥해 네트워크와 보안을 통합한 인프라 전략을 강화한다. 기업들이 AI 에이전트 활용을 확대하고 있지만 보안과…",
+          "category": "AI"
+        },
+        {
+          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
+          "url": "https://zdnet.co.kr/view/?no=20261110122552",
+          "summary": "[지디넷코리아]삼성디스플레이가 '자동차 사이버 보안 엔지니어링 국제표준'(ISO/SAE 21434)과 '자동차 사이버 보안 관리체계 평가'(ENX Vehicle Cyber Security Audit) 심사를 동시에…",
+          "category": "Security"
+        }
+      ]
+    }
+  ]
+}
