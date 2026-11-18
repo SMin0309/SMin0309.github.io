@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-18",
+  "label": "오늘의 브리프",
+  "pick": "",
+  "sources": [
+    {
+      "name": "GeekNews 인기글",
+      "items": []
+    },
+    {
+      "name": "요즘IT",
+      "items": [
+        {
+          "title": "국내 FDE 공고 117건 분석: 누가 뽑고, 무엇을 요구할까",
+          "url": "https://yozm.wishket.com/magazine/detail/4046",
+          "summary": "FDE 공고에는 무엇이 적혀 있을까요? 요즘IT가 국내 FDE 채용 공고 117건의 본문을 읽고, 어떤 회사가 FDE를 뽑는지, 어떤 일을 맡기는지, 어떤 경력과 기술을 요구하는지, 고객사에는 얼마나 나가는지, 면접…",
+          "category": "Etc"
+        },
+        {
+          "title": "진짜 기업 앞에 서는 FDE 해커톤 ‘포워드톤’ 참가 모집",
+          "url": "https://yozm.wishket.com/magazine/detail/4044",
+          "summary": "FDE(Forward Deployed Engineer)라는 직무, 들어 보셨나요? 팔란티어(Palantir)가 만든 이 직무는 엔지니어가 고객사 현장에서 문제를 찾아 고치는 일입니다. 회사가 데이터를 열어 주고, 담…",
+          "category": "Etc"
+        },
+        {
+          "title": "피곤한 1인 보안 담당자를 살린 통합 점검 프레임워크",
+          "url": "https://yozm.wishket.com/magazine/detail/4042",
+          "summary": "\"저번 달에 위수탁 점검표 다 썼는데, 오늘은 영문 제3자 보안 평가를 또 쓰라고요?\" 두 서식의 알맹이를 들여다보면 80% 이상이 똑같은데, 법적 근거와 제출 시스템이 다르다는 이유만으로 같은 외주사에 점검표를 두…",
+          "category": "Security"
+        },
+        {
+          "title": "2인 팀이 AI로 만든 서비스, 유료 사용자 1,600명까지",
+          "url": "https://yozm.wishket.com/magazine/detail/4041",
+          "summary": "스레드라는 SNS에서 처음 만난 두 창업자가 1년도 되지 않아 가입자 1만 6,000명이 쓰는 글로벌 미팅용 실시간 AI 제품을 만들었습니다. “500명을 모았을 때 50명이 결제하지 않으면 이 사업은 하지 말자”던…",
+          "category": "AI"
+        },
+        {
+          "title": "팀 작업 흐름에 하네스 연결하기: UI 개발부터 검증·리뷰까지",
+          "url": "https://yozm.wishket.com/magazine/detail/4040",
+          "summary": "AI에 쿠폰 등록 화면을 맡기면 금세 시안과 꼭 닮은 화면이 나오지만, 저장 버튼을 눌러도 확인창 하나 뜨지 않는다면 시안을 옆에 펴놓고 버튼을 눌러보게 됩니다. AI 덕분에 구현은 빨라졌는데 퇴근은 빨라지지 않는…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "AI타임스",
+      "items": [
+        {
+          "title": "스마일샤크, AWS와 스타트업 AI 세미나 개최…에이전트 적용 사례 공유",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217494",
+          "summary": "AI 클라우드 관리 전문 스마일샤크(대표 장진환)가 아마존웹서비스(AWS)와 공동으로 스타트업의 AI 사업화 전략과 에이전트 구축 사례를 공유하는 세미나를 개최했다. AI 투자 동향부터 실제 기업 업무에 적용한 기술…",
+          "category": "Industry"
+        },
+        {
+          "title": "MS, 'MAI 코드 2' 출시…앤트로픽급 코딩 성능에 비용은 5%",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217511",
+          "summary": "마이크로소프트(MS)가 오픈AI와 앤트로픽의 첨단 모델에 근접한 코딩 성능을 훨씬 낮은 비용으로 구현한 자체 AI 모델 'MAI 코드 2(MAI Code 2)'를 공개했다. 사이버 보안과 AI 에이전트의 판단 작업에…",
+          "category": "AI"
+        },
+        {
+          "title": "구글, 보안 패치 분석·공격코드 생성 자동화한 AI 해킹 도구 발견",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217493",
+          "summary": "구글이 공개된 보안 패치를 분석해 취약점을 찾아내고 공격 코드 생성과 실행까지 자동화하도록 설계된 AI 해킹 도구를 실제 공격자의 서버에서 발견했다. 이러한 기술은 이미 연구에서 입증된 바 있으나, 이번 보고서는 실…",
+          "category": "Security"
+        },
+        {
+          "title": "중국, 미국 반도체 원격 접근 규제에 반발…“강행하면 보복 조치”",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217521",
+          "summary": "중국이 미국의 첨단 AI 칩 원격 접근 제한 조치에 강하게 반발하며 보복을 경고했다. 엔비디아 등 미국 기업의 고성능 칩을 해외 데이터센터를 통해 빌려 쓰는 방식까지 규제하려는 움직임에 기술 갈등이 다시 고조되고 있…",
+          "category": "AI"
+        },
+        {
+          "title": "앤트로픽, IPO 공모가 80달러 이상으로 인상 검토…기관투자자 수요 몰려",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217526",
+          "summary": "앤트로픽이 기업공개(IPO)를 앞두고 투자자들의 높은 관심을 반영해 공모가를 당초 제시한 범위보다 높이는 방안을 검토하고 있다. AI 관련주 변동성이 커지고 엔비디아의 경영진 교체로 시장 불확실성이 확대됐지만, '클…",
+          "category": "AI"
+        }
+      ]
+    },
+    {
+      "name": "ZDNet Korea",
+      "items": [
+        {
+          "title": "AI스페라, 위협 노출 관리 '에이아이템' 출시…모의해킹·섀도AI 탐지",
+          "url": "https://zdnet.co.kr/view/?no=20261118115003",
+          "summary": "[지디넷코리아]AI스페라(대표 강병탁)가 인공지능(AI) 활용 사이버 위협이 횡행하는 '인터넷 무법천지 시즌 3'에 맞서 서버 주인을 AI로 찾고 모의해킹을 매일 자동으로 돌리는 보안 솔루션 '에이아이템(AITEM)…",
+          "category": "Security"
+        },
+        {
+          "title": "AWS, AI 에이전트가 코드 전부 작성한 'AWS 에뮬레이터' 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261118115448",
+          "summary": "[지디넷코리아]아마존웹서비스(AWS)가 수천 개 인공지능(AI) 에이전트로 전체 코드를 작성한 개발 도구를 선보였다. AI 에이전트가 코드 작성부터 테스트, 오류 수정까지 수행하며 소프트웨어 개발 자동화 가능성을 보…",
+          "category": "AI"
+        },
+        {
+          "title": "MS, 실시간 위험 분석·격리 기능 공개…\"폭주하는 AI 에이전트 막는다\"",
+          "url": "https://zdnet.co.kr/view/?no=20261118105406",
+          "summary": "[지디넷코리아]마이크로소프트가 기업 내부에서 활동하는 인공지능(AI) 에이전트의 접근 권한과 행동을 실시간으로 감시하고 통제하는 보안 체계를 강화한다.에이전트가 업무 수행 도중 악성 명령에 노출되거나 허가되지 않은…",
+          "category": "AI"
+        },
+        {
+          "title": "NHN KCP, AI 에이전트 결제부터 블록체인 정산 구현",
+          "url": "https://zdnet.co.kr/view/?no=20261118104428",
+          "summary": "[지디넷코리아]국내 결제기업 NHN KCP가 스테이블코인 기반 인공지능(AI) 에이전트 결제·정산 기술 검증을 완료했다.NHN KCP는 구글 AI 에이전트 결제 프로토콜 ‘AP2’와 웹 기반 결제 프로토콜 ‘x402…",
+          "category": "AI"
+        },
+        {
+          "title": "커닝 잡는 AI, 억울한 의심도 막아야…수능 활용 조건은",
+          "url": "https://zdnet.co.kr/view/?no=20261118105248",
+          "summary": "[지디넷코리아]인공지능(AI)으로 답을 구하는 부정행위에 시험 감독도 기술로 대응하고 있다. 온라인 시험에서는 AI가 의심 행동을 찾고 보안 프로그램이 챗GPT 접속을 막는다. 전문가들은 수능에도 기술을 활용할 여지…",
+          "category": "AI"
+        }
+      ]
+    }
+  ]
+}
